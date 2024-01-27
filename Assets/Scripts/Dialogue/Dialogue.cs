@@ -10,6 +10,7 @@ public class Dialogue : ScriptableObject
     [Serializable]
     public struct Line
     {
+        public bool isPause;
         public float duration;
         public string subtitle;
         public GameObjectLocator speaker;

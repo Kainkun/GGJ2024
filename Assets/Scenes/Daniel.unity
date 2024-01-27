@@ -1507,13 +1507,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 952ef4e3db434ba8942cd29097140ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cashierEncounterState:
-    clicksToPutDownMilk: 5
-    maxMilkShakeIntensity: 2
-    milkShake: {fileID: 522026304}
-    encounterCamera: {fileID: 702073652}
-    timelineAnimation: {fileID: 1766145735}
-    epilogueAnimator: {fileID: 0}
+  clicksToPutDownMilk: 3
+  maxMilkShakeIntensity: 2
+  milkShake: {fileID: 522026304}
+  encounterCamera: {fileID: 702073652}
+  timelineAnimation: {fileID: 1766145735}
+  epilogueAnimator: {fileID: 0}
 --- !u!95 &1766145733
 Animator:
   serializedVersion: 5

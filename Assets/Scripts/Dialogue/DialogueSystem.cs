@@ -11,7 +11,7 @@ public class DialogueSystem : MonoBehaviour
 
     [SerializeField] 
     private SubtitleRunner subtitleRunner;
-
+    
     public event Action<DialogueEventData> OnRunDialogue;
 
     private void Awake()
@@ -19,31 +19,40 @@ public class DialogueSystem : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
-    public void RunDialogue(string id)
+    
+    public Coroutine RunDialogue(string id)
     {
-        StartCoroutine(RunDialogueCoroutine(id));
+        Dialogue dialogue = GetDialogue(id);
+
+        ActiveDialogue activeDialogue = new ActiveDialogue {
+            Coroutine = StartCoroutine(RunDialogueCoroutine(dialogue)),
+            Dialogue = dialogue,
+        };
+        
+        return activeDialogue.Coroutine;
     }
 
-    public IEnumerator RunDialogueCoroutine(string id)
+    private IEnumerator RunDialogueCoroutine(Dialogue dialogue)
     {
-        print($"[DIALOGUE SYSTEM] Playing dialogue with id \"{id}\".");
-        Dialogue dialogue = GetDialogue(id);
+        print($"[DIALOGUE SYSTEM] Playing dialogue with id \"{dialogue.id}\".");
 
         foreach (Dialogue.Line dialogueLine in dialogue.lines)
         {
-            if (!dialogueLine.speaker.TryFindCharacter(out GameObject speaker))
-                throw new Exception($"[DIALOGUE SYSTEM] Tried to run dialogue for {dialogue.id}, but was missing speaker!");
+            if (!dialogueLine.isPause)
+            {
+                if (!dialogueLine.speaker.TryFindCharacter(out GameObject speaker))
+                    throw new Exception($"[DIALOGUE SYSTEM] Tried to run dialogue for {dialogue.id}, but was missing speaker!");
             
-            dialogueLine.audioEvent.Post(speaker);
-            subtitleRunner.DisplaySubtitle(dialogueLine.subtitle, dialogueLine.duration);
+                dialogueLine.audioEvent.Post(speaker);
+                subtitleRunner.DisplaySubtitle(dialogueLine.subtitle, dialogueLine.duration);
             
-            DialogueEventData eventData = new DialogueEventData {
-                Duration = dialogueLine.duration,
-                Speaker = speaker,
-            };
+                DialogueEventData eventData = new DialogueEventData {
+                    Duration = dialogueLine.duration,
+                    Speaker = speaker,
+                };
             
-            OnRunDialogue?.Invoke(eventData);
+                OnRunDialogue?.Invoke(eventData);
+            }
             yield return new WaitForSeconds(dialogueLine.duration);
         }
     }
@@ -57,5 +66,11 @@ public class DialogueSystem : MonoBehaviour
         }
 
         throw new Exception($"[DIALOGUE SYSTEM] No dialogue with id \"{id}\" was found!");
+    }
+
+    private struct ActiveDialogue
+    {
+        public Coroutine Coroutine;
+        public Dialogue Dialogue;
     }
 }
