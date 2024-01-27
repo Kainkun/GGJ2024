@@ -2,27 +2,6 @@
 using System.Collections;
 using UnityEngine;
 
-public struct DialogueEventData
-{
-    public GameObject Speaker;
-    public float Duration;
-}
-
-[CreateAssetMenu]
-public class Dialogue : ScriptableObject
-{
-    public string id;
-    public Line[] lines;
-
-    [Serializable]
-    public struct Line
-    {
-        public string speakerName;
-        public float duration;
-        public AK.Wwise.Event audioEvent;
-    }
-}
-
 public class DialogueSystem : MonoBehaviour
 {
     public static DialogueSystem Instance { get; private set; }
@@ -50,12 +29,14 @@ public class DialogueSystem : MonoBehaviour
 
         foreach (Dialogue.Line dialogueLine in dialogue.lines)
         {
-            GameObject targetObject = GameObject.Find(dialogueLine.speakerName);
-            dialogueLine.audioEvent.Post(targetObject);
+            if (!dialogueLine.speaker.TryFindCharacter(out GameObject speaker))
+                throw new Exception($"[DIALOGUE SYSTEM] Tried to run dialogue for {dialogue.id}, but was missing speaker!");
+            
+            dialogueLine.audioEvent.Post(speaker);
             
             DialogueEventData eventData = new DialogueEventData {
                 Duration = dialogueLine.duration,
-                Speaker = targetObject,
+                Speaker = speaker,
             };
             
             OnRunDialogue?.Invoke(eventData);
