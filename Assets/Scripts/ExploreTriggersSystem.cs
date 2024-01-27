@@ -9,26 +9,26 @@ public class ExploreTriggersSystem : MonoBehaviour
 {
     public UnityEvent allTriggersTriggered;
 
-    private List<ExploreTrigger> triggers = new List<ExploreTrigger>();
-    private HashSet<ExploreTrigger> triggered = new HashSet<ExploreTrigger>();
+    private List<PlayerTrigger> triggers = new List<PlayerTrigger>();
+    private HashSet<PlayerTrigger> triggeredTriggers = new HashSet<PlayerTrigger>();
 
 
     private void Start()
     {
-        triggers = GetComponentsInChildren<ExploreTrigger>().ToList();
-        foreach (ExploreTrigger exploreTrigger in triggers)
+        triggers = GetComponentsInChildren<PlayerTrigger>().ToList();
+        foreach (PlayerTrigger exploreTrigger in triggers)
         {
-            exploreTrigger.triggered += () => onTrigger(exploreTrigger);
+            exploreTrigger.triggered.AddListener(() => onTrigger(exploreTrigger));
         }
     }
 
-    private void onTrigger(ExploreTrigger exploreTrigger)
+    private void onTrigger(PlayerTrigger playerTrigger)
     {
-        triggered.Add(exploreTrigger);
-        if (triggered.Count >= triggers.Count)
+        triggeredTriggers.Add(playerTrigger);
+        if (triggeredTriggers.Count >= triggers.Count)
         {
             allTriggersTriggered?.Invoke();
-            print("DONE");
+            print("all triggers triggered");
         }
     }
 }
