@@ -7,6 +7,7 @@ public struct InteractEventData
     public GameObject Source;
 }
 
+// note: we could make canInteract and interact virtual in the future, if we need more control
 public class Interactable : MonoBehaviour
 {
     [SerializeField]
@@ -15,14 +16,14 @@ public class Interactable : MonoBehaviour
     [SerializeField] 
     private UnityEvent<InteractEventData> onInteract;
     
-    public virtual bool CanInteract(GameObject source)
+    public bool CanInteract(GameObject source)
     {
         float distanceSqr = (source.transform.position - transform.position).sqrMagnitude;
         bool isInRange = distanceSqr < maxInteractDistance * maxInteractDistance;
         return isInRange && enabled && gameObject.activeInHierarchy;
     }
 
-    public virtual void Interact(GameObject source)
+    public void Interact(GameObject source)
     {
         print($"Interacted with {name}");
         
