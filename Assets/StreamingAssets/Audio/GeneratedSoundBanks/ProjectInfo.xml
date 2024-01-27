@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="GGJ2024_WwiseProject" GUID="{06BA929E-93DA-40AE-8646-0F59683FE1A7}" Generator="2023.1.0.8367"/>
+	<CacheRoot>../../../../GGJ2024_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{B0FFC666-FBE5-4AB0-9EA5-029ACE3A2935}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{421A73CB-77F4-4955-8193-7FF3901F4009}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{0F480940-6062-4E56-87EA-F7D00D6A12A9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{05AE45D3-6158-A140-49C7-292B5FC7F77C}</FileHash>
+</ProjectInfo>
