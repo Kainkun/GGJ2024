@@ -491,18 +491,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   black: {fileID: 2064553568}
-  curve:
+  fadeToGame:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 5.0212708
-      outSlope: 5.0212708
+      inSlope: 2.3329248
+      outSlope: 2.3329248
       tangentMode: 0
       weightedMode: 3
       inWeight: 0
-      outWeight: 0.057939906
+      outWeight: 0.15303373
+    - serializedVersion: 3
+      time: 2
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fadeToEpilogue:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.3329248
+      outSlope: 2.3329248
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.15303373
     - serializedVersion: 3
       time: 2
       value: 1
@@ -972,7 +996,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1253,8 +1277,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 437323838}
         m_TargetAssemblyTypeName: Fade, Assembly-CSharp
-        m_MethodName: FadeToScene
-        m_Mode: 3
+        m_MethodName: FadeToGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
