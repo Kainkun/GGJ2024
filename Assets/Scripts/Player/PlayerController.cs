@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using Cinemachine;
+using UnityEngine;
 
 public abstract class PlayerState : State
 {
@@ -12,11 +14,13 @@ public abstract class PlayerState : State
     
     public virtual void OnUpdate() {}
     protected virtual void OnInitialize() {}
+    protected Coroutine StartCoroutine(IEnumerator enumerator) => Controller.StartCoroutine(enumerator);
 }
 
 public class PlayerController : MonoBehaviour
 {
     public PlayerFreeMovementState freeMovementState;
+    public CinemachineVirtualCamera playerCamera;
 
     public StateMachine<PlayerState> StateMachine { get; private set; }
 
