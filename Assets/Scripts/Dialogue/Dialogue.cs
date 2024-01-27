@@ -11,7 +11,7 @@ public class Dialogue : ScriptableObject
     public struct Line
     {
         public float duration;
-        public GameCharacterLocator speaker;
+        public GameObjectLocator speaker;
         public AK.Wwise.Event audioEvent;
     }
 }

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public abstract class GameCharacterLocator : ScriptableObject
+public abstract class GameObjectLocator : ScriptableObject
 {
     public abstract bool TryFindCharacter(out GameObject gameObject);
 }

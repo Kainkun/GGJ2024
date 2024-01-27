@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu]
-public class GameCharacterNameLocator : GameCharacterLocator
+public class GameObjectLocatorByName : GameObjectLocator
 {
     [SerializeField]
     private string gameObjectName;
