@@ -206,17 +206,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d040244c04db4960adf3563c605ed381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yawTransform: {fileID: 7026093082576657682}
-  pitchTransform: {fileID: 4975546205000860247}
-  characterController: {fileID: 8570057859562781716}
-  movementSettings:
-    moveSpeed: 5
-    moveAcceleration: 50
-    moveDeceleration: 15
-    gravity: 9
-  rotationSettings:
-    sensitivity: 1
-    invertY: 0
+  freeMovementState:
+    yawTransform: {fileID: 7026093082576657682}
+    pitchTransform: {fileID: 4975546205000860247}
+    interactionSource: {fileID: 6096852371326623729}
+    characterController: {fileID: 8570057859562781716}
+    movementSettings:
+      moveSpeed: 5
+      moveAcceleration: 50
+      moveDeceleration: 15
+      gravity: 9
+    rotationSettings:
+      sensitivity: 1
+      invertY: 0
 --- !u!143 &8570057859562781716
 CharacterController:
   m_ObjectHideFlags: 0
