@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Female_Voice_Hello" ID="{13D08E70-B872-4283-A1BE-CB4A36EF6B92}">
+					<ChildrenList>
+						<Action Name="" ID="{2E461A6F-C71E-424A-940B-34683291183A}" ShortID="363516399">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="213284__aderumoro__hello-2-female-friendly" ID="{6EF5D0EC-8384-44DD-85D0-74ED5D809352}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Female_Voice_HaveANiceDay" ID="{43581C88-8BC8-4134-9614-6C98F833BA08}">
+					<ChildrenList>
+						<Action Name="" ID="{74BBC1E2-F18C-444D-9DE3-D9B32F417200}" ShortID="22476406">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="213285__aderumoro__have-a-nice-day-female-professional" ID="{655E8F88-916E-4126-86B4-FE9CDC25DBF1}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Female_Voice_Goodbye" ID="{56A5ED8B-5A4E-45DF-972E-1935BBD26A6B}">
+					<ChildrenList>
+						<Action Name="" ID="{EB5E6B63-8841-417E-BFEC-369B6B683980}" ShortID="735990918">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="213286__aderumoro__goodbye-female-friendly" ID="{630EB113-44B1-48F0-B071-33A0B0789E2E}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sequence_Welcome_WhatcanIDo" ID="{CC3F22CD-359F-49D7-AA16-171FFA237AEF}">
+					<ChildrenList>
+						<Action Name="" ID="{944F94A8-3645-4F6D-B992-12992ECDA392}" ShortID="8910439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Welcome_WhatcanIDo" ID="{A30FD764-B5AC-4FD7-9270-21FCF3CF3EBF}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

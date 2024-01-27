@@ -1,6 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{110EA830-C59F-4B3C-8035-A55C98549B65}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{110EA830-C59F-4B3C-8035-A55C98549B65}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{110EA830-C59F-4B3C-8035-A55C98549B65}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Female Voice Test" ID="{C57AB073-3CF6-4AAD-A294-77FC65546535}" ShortID="518920025">
+					<ChildrenList>
+						<Sound Name="213284__aderumoro__hello-2-female-friendly" ID="{6EF5D0EC-8384-44DD-85D0-74ED5D809352}" ShortID="1042875132">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="213284__aderumoro__hello-2-female-friendly" ID="{16F653B6-9562-4F25-A5F5-8E8623197A76}">
+									<Language>SFX</Language>
+									<AudioFile>213284__aderumoro__hello-2-female-friendly.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249524521"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="213284__aderumoro__hello-2-female-friendly" ID="{16F653B6-9562-4F25-A5F5-8E8623197A76}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="213285__aderumoro__have-a-nice-day-female-professional" ID="{655E8F88-916E-4126-86B4-FE9CDC25DBF1}" ShortID="596699082">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="213285__aderumoro__have-a-nice-day-female-professional" ID="{C9C26DFA-8BEB-44F4-B807-4DB921E28D37}">
+									<Language>SFX</Language>
+									<AudioFile>213285__aderumoro__have-a-nice-day-female-professional.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="916665401"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="213285__aderumoro__have-a-nice-day-female-professional" ID="{C9C26DFA-8BEB-44F4-B807-4DB921E28D37}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="213286__aderumoro__goodbye-female-friendly" ID="{630EB113-44B1-48F0-B071-33A0B0789E2E}" ShortID="351115105">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="213286__aderumoro__goodbye-female-friendly" ID="{F99C567E-9978-45A8-B3CB-993EFC7164A5}">
+									<Language>SFX</Language>
+									<AudioFile>213286__aderumoro__goodbye-female-friendly.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="334641649"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="213286__aderumoro__goodbye-female-friendly" ID="{F99C567E-9978-45A8-B3CB-993EFC7164A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Welcome_WhatcanIDo" ID="{A30FD764-B5AC-4FD7-9270-21FCF3CF3EBF}" ShortID="900953168">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional" ID="{422A7CA2-6022-4DFD-8087-D7A86C4A8A16}" ShortID="712203567">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional" ID="{44425E9B-0670-49CF-83B3-FFF812EA8C79}">
+											<Language>SFX</Language>
+											<AudioFile>213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587830811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional" ID="{44425E9B-0670-49CF-83B3-FFF812EA8C79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="213288__aderumoro__welcome-female-friendly" ID="{5464A421-4B04-4947-912C-761D4D5E0744}" ShortID="1072214837">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="213288__aderumoro__welcome-female-friendly" ID="{57FA8054-540E-459B-8F3E-B595CF67383A}">
+											<Language>SFX</Language>
+											<AudioFile>213288__aderumoro__welcome-female-friendly.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="207482798"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="213288__aderumoro__welcome-female-friendly" ID="{57FA8054-540E-459B-8F3E-B595CF67383A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="213288__aderumoro__welcome-female-friendly" ID="{5464A421-4B04-4947-912C-761D4D5E0744}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional" ID="{422A7CA2-6022-4DFD-8087-D7A86C4A8A16}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
