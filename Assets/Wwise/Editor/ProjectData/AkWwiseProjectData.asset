@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
-    m_lastTime: -8584952625735159637
-    List: []
+    m_lastTime: -8584952219403320936
+    List:
+    - name: Default
+      guid: d99b2c6ee9ccd743bda5edb66a25cef7
+      id: 782826392
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51838cfc0252c7478d420cd2933c7d4e
+      - ElementName: Default
+        ObjectType: 7
+        guid: d99b2c6ee9ccd743bda5edb66a25cef7
+      Path: SoundBanks\Default Work Unit\Default
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,76 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
-    m_lastTime: -8584952625735219652
-    List: []
+    m_lastTime: -8584952226102229982
+    List:
+    - name: Play_Female_Voice_Goodbye
+      guid: 8beda5564e5adf45972e1935bbd26a6b
+      id: 3876234301
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Female_Voice_Goodbye
+        ObjectType: 3
+        guid: 8beda5564e5adf45972e1935bbd26a6b
+      Path: Events\Default Work Unit\Play_Female_Voice_Goodbye
+      maxAttenuation: 0
+      maxDuration: 0.777875
+      minDuration: 0.777875
+    - name: Play_Female_Voice_HaveANiceDay
+      guid: 881c5843c88b344196146c98f833ba08
+      id: 738920550
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Female_Voice_HaveANiceDay
+        ObjectType: 3
+        guid: 881c5843c88b344196146c98f833ba08
+      Path: Events\Default Work Unit\Play_Female_Voice_HaveANiceDay
+      maxAttenuation: 0
+      maxDuration: 1.4164166
+      minDuration: 1.4164166
+    - name: Play_Female_Voice_Hello
+      guid: 708ed01372b88342a1becb4a36ef6b92
+      id: 37077532
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Female_Voice_Hello
+        ObjectType: 3
+        guid: 708ed01372b88342a1becb4a36ef6b92
+      Path: Events\Default Work Unit\Play_Female_Voice_Hello
+      maxAttenuation: 0
+      maxDuration: 0.92877084
+      minDuration: 0.92877084
+    - name: Play_Sequence_Welcome_WhatcanIDo
+      guid: cd223fcc9f35d749aa16171ffa237aef
+      id: 4123174421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Sequence_Welcome_WhatcanIDo
+        ObjectType: 3
+        guid: cd223fcc9f35d749aa16171ffa237aef
+      Path: Events\Default Work Unit\Play_Sequence_Welcome_WhatcanIDo
+      maxAttenuation: 0
+      maxDuration: 1.5325209
+      minDuration: 1.068125
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +221,7 @@ MonoBehaviour:
     m_lastTime: -8584952625735149637
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000006000000070000000e0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

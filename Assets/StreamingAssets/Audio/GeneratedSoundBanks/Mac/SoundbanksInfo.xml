@@ -5,26 +5,13 @@
 		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../GGJ2024_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-			<Plugins>
-				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
-					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
-				</AudioDevices>
-			</Plugins>
-			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
-			</Busses>
-		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{41AEC582-1FCC-676C-8E70-DAEB4A58164D}">
-			<ShortName>SoundBank</ShortName>
-			<Path>SoundBank.bnk</Path>
+		<SoundBank Id="782826392" Type="User" Language="SFX" Hash="{10CE712C-C0BB-7445-3187-C708F2A1A016}">
+			<ShortName>Default</ShortName>
+			<Path>Default.bnk</Path>
 			<Media>
 				<File Id="207482798" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213288__aderumoro__welcome-female-friendly.wav</ShortName>
@@ -48,22 +35,22 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
+				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
 					<MediaRefs>
 						<MediaRef Id="334641649"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166">
+				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166">
 					<MediaRefs>
 						<MediaRef Id="916665401"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="37077532" Name="Play_Female_Voice_Hello" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084">
+				<Event Id="37077532" Name="Play_Female_Voice_Hello" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084">
 					<MediaRefs>
 						<MediaRef Id="249524521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209">
+				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209">
 					<MediaRefs>
 						<MediaRef Id="207482798"/>
 						<MediaRef Id="587830811"/>
@@ -71,6 +58,19 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AF85206C-7053-D2EE-D72A-94EFA6DBC8F7}</FileHash>
+	<FileHash>{B5D92FFE-B812-6190-6AEC-F1F3AE725077}</FileHash>
 </SoundBanksInfo>

@@ -2,8 +2,8 @@
 <PlatformInfo>
 	<Platform Name="Mac" BasePlatform="Mac" Generator="2023.1.0.8367"/>
 	<RootPaths>
-		<ProjectRoot>../../../../../GGJ2024_WwiseProject</ProjectRoot>
-		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{DFDE16CA-890A-889B-A4B8-4C433787739C}</FileHash>
+	<FileHash>{4AC18D8E-51B6-FEE0-5850-418BC7234F49}</FileHash>
 </PlatformInfo>

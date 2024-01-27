@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
-		<ProjectRoot>../../../../../GGJ2024_WwiseProject</ProjectRoot>
-		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
@@ -13,7 +13,7 @@
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -27,5 +27,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0136062E-C279-E659-858F-04FEFEBFD001}</FileHash>
+	<FileHash>{E76485B4-208A-777C-A83A-F018D185C78C}</FileHash>
 </SoundBanksInfo>

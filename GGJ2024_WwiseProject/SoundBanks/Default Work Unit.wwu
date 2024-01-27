@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FC8C8351-5202-47C7-8D42-0CD2933C7D4E}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{FC8C8351-5202-47C7-8D42-0CD2933C7D4E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FC8C8351-5202-47C7-8D42-0CD2933C7D4E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Default" ID="{6E2C9BD9-CCE9-43D7-BDA5-EDB66A25CEF7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="213285__aderumoro__have-a-nice-day-female-professional" ID="{655E8F88-916E-4126-86B4-FE9CDC25DBF1}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="213284__aderumoro__hello-2-female-friendly" ID="{6EF5D0EC-8384-44DD-85D0-74ED5D809352}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="213286__aderumoro__goodbye-female-friendly" ID="{630EB113-44B1-48F0-B071-33A0B0789E2E}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Welcome_WhatcanIDo" ID="{A30FD764-B5AC-4FD7-9270-21FCF3CF3EBF}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

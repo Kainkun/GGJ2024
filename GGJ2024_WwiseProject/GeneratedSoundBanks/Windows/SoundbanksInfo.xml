@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
-		<ProjectRoot>../../../../../GGJ2024_WwiseProject</ProjectRoot>
-		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
@@ -27,5 +27,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0136062E-C279-E659-858F-04FEFEBFD001}</FileHash>
+	<FileHash>{C7F01A70-8FB4-6CB3-E04B-5AD884DAC6BB}</FileHash>
 </SoundBanksInfo>
