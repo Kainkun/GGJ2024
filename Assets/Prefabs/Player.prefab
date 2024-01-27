@@ -105,7 +105,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,9 +206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d040244c04db4960adf3563c605ed381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yawTransform: {fileID: 0}
-  pitchTransform: {fileID: 0}
-  characterController: {fileID: 0}
+  yawTransform: {fileID: 7026093082576657682}
+  pitchTransform: {fileID: 4975546205000860247}
+  characterController: {fileID: 8570057859562781716}
   movementSettings:
     moveSpeed: 5
     moveAcceleration: 50
