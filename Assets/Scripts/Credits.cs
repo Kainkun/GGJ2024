@@ -3,20 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class Fade : MonoBehaviour
+public class Credits : MonoBehaviour
 {
     Animator animator;
 
-    private void Awake()
+    private void Start()
     {
-        DontDestroyOnLoad(gameObject);
         animator = GetComponent<Animator>();
     }
 
-    public void LoadGame()
+    public void StartCredits()
     {
-        SceneManager.LoadScene(1);
+        animator.Play("Credits");
     }
 }
