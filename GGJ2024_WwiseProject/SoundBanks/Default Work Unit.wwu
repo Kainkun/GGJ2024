@@ -6,15 +6,20 @@
 				<SoundBank Name="SoundBank" ID="{BA71D38C-F7CC-434F-8C29-72FC329213CD}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Female_Voice_HaveANiceDay" ID="{43581C88-8BC8-4134-9614-6C98F833BA08}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PA_Man_ClosingIn30" ID="{83FCD484-6CF7-4175-8E7A-A0E2C9C4EC30}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Random_Calling" ID="{71C9A146-481E-41E3-9B08-EA55C07A9AC0}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PA_Man_DairyInTheBack" ID="{55044419-D9C4-4256-B212-302E68CD42C9}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Female_Voice_Hello" ID="{13D08E70-B872-4283-A1BE-CB4A36EF6B92}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Sequence_Instructions" ID="{5C435E7F-1C8F-42F6-9367-156CDA822930}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_PleaseSet" ID="{FA80A7B1-287F-437C-9D30-B3F7F647B034}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier" ID="{70C24D3D-C97C-437D-BB3C-A8ECF4DBD8C7}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Female_Voice_Goodbye" ID="{56A5ED8B-5A4E-45DF-972E-1935BBD26A6B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PA_Man_HalfOff" ID="{C448AF6A-B654-45E2-A5E0-1A06DBCCC3C0}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_ThereYouAre" ID="{65ABCDA3-4CA2-4641-9A58-DD5E137555BC}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Coupon" ID="{647D4876-5D83-46A6-95FB-182A5B5D1342}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PA_Man_Closingin10" ID="{BCE7B52C-FC54-46F1-A3BB-C53233AE95E5}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Vitimin_D" ID="{819F757D-AFB3-487B-A246-AAFF2E8FC2FB}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PA Man Events" ID="{B88F71A0-D504-4986-B1DB-4459BC51BCD8}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sequence_Welcome_WhatcanIDo" ID="{CC3F22CD-359F-49D7-AA16-171FFA237AEF}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Meat_Log" ID="{CE34B51F-F72C-4B27-BB56-9EFAE0484C60}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Random_GdMorning" ID="{91978FDB-62C5-4B32-A81E-DAA7C394F25B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>

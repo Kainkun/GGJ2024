@@ -234,7 +234,12 @@
 						</Sound>
 						<Sound Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" ShortID="663190557">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>37</Value>
@@ -246,6 +251,8 @@
 										<Value>5</Value>
 									</ValueList>
 								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -276,6 +283,13 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{649A0E0F-C650-408E-85E0-38507A1D7E80}">
+									<PropertyList>
+										<Property Name="PanY" Type="Real64" Value="8.88178419700125E-16"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -1279,6 +1293,143 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
+				<ActorMixer Name="PA_Man" ID="{B38A0064-8348-4152-A7C6-F425CC7759D6}" ShortID="382854801">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>33</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Music_Atten" ID="{F92BDAF1-ED87-482E-B0C3-0CFBB78B69D5}" WorkUnitID="{FE91155A-F276-49B4-8799-B817E46D2EC0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PA_Man_HalfOff" ID="{D828E321-851D-472B-BEDB-6CC869EF8FA5}" ShortID="702927049">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Series_Attention_Customers" ID="{77655C5A-BF3C-49B6-A5DC-D693C840F73E}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.4297199312715"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Series_Attention_Customers.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="620687934"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Series_Attention_Customers" ID="{77655C5A-BF3C-49B6-A5DC-D693C840F73E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PA_Man_ClosingIn30" ID="{9EAB5BA7-89EF-4576-A151-C57D304311CD}" ShortID="482859697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Series_Attention_Customers" ID="{075D4391-9E01-48E7-B939-912209DB621B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.104073084015699"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="12.2711214537285"/>
+										<Property Name="TrimEnd" Type="Real64" Value="21.7825877620368"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Series_Attention_Customers.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="943646738"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Series_Attention_Customers" ID="{075D4391-9E01-48E7-B939-912209DB621B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PA_Man_Closingin10" ID="{F5A85BA1-EABE-48A5-B1FD-D916E6F136D4}" ShortID="683067036">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Series_Attention_Customers" ID="{DD8AA37F-CCEA-421F-92EB-BB824928207F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="23.5238986790138"/>
+										<Property Name="TrimEnd" Type="Real64" Value="26.9508149364871"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Series_Attention_Customers.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="107684846"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Series_Attention_Customers" ID="{DD8AA37F-CCEA-421F-92EB-BB824928207F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PA_Man_DairyInTheBack" ID="{81EADA86-F791-4396-9ECE-EFBA90425DAD}" ShortID="736073892">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Series_Attention_Customers" ID="{CC234C83-41C3-41F8-ACF0-CC9B9D83BD68}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.120855672360925"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="28.7032221857205"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Series_Attention_Customers.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="586637315"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Series_Attention_Customers" ID="{CC234C83-41C3-41F8-ACF0-CC9B9D83BD68}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

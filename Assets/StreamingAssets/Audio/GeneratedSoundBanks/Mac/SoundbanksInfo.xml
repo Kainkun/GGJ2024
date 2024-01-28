@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{B689EC30-46D5-1121-ADE0-7A292C386132}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{12709A50-D3F0-AA2B-0769-84E993E4C1CC}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -308,7 +308,7 @@
 						<MediaRef Id="249524521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="19" DurationType="Infinite">
+				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="359667351"/>
 					</MediaRefs>
@@ -318,22 +318,22 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3619978204" Name="Play_PA_Man_Closingin10" MaxAttenuation="19" DurationType="OneShot" DurationMin="3.4269164" DurationMax="3.4269164">
+				<Event Id="3619978204" Name="Play_PA_Man_Closingin10" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.4269164" DurationMax="3.4269164">
 					<MediaRefs>
 						<MediaRef Id="107684846"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3653533474" Name="Play_PA_Man_ClosingIn30" MaxAttenuation="19" DurationType="OneShot" DurationMin="9.511466" DurationMax="9.511466">
+				<Event Id="3653533474" Name="Play_PA_Man_ClosingIn30" MaxAttenuation="15" DurationType="OneShot" DurationMin="9.511466" DurationMax="9.511466">
 					<MediaRefs>
 						<MediaRef Id="943646738"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4052274365" Name="Play_PA_Man_DairyInTheBack" MaxAttenuation="19" DurationType="OneShot" DurationMin="17.282362" DurationMax="17.282362">
+				<Event Id="4052274365" Name="Play_PA_Man_DairyInTheBack" MaxAttenuation="15" DurationType="OneShot" DurationMin="17.282362" DurationMax="17.282362">
 					<MediaRefs>
 						<MediaRef Id="586637315"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2102180961" Name="Play_PA_Man_HalfOff" MaxAttenuation="19" DurationType="OneShot" DurationMin="10.42972" DurationMax="10.42972">
+				<Event Id="2102180961" Name="Play_PA_Man_HalfOff" MaxAttenuation="15" DurationType="OneShot" DurationMin="10.42972" DurationMax="10.42972">
 					<MediaRefs>
 						<MediaRef Id="620687934"/>
 					</MediaRefs>
@@ -347,5 +347,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4302A924-56B6-8CA5-016E-BAAFAB1BA0D8}</FileHash>
+	<FileHash>{0B84E3E4-884B-4A1E-D0CD-26560420DE07}</FileHash>
 </SoundBanksInfo>
