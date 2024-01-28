@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{36089996-48F7-480F-7B32-EC8715DDFE15}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{435D8DC8-4115-FAF2-E9CD-355FE28C3999}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -415,9 +415,6 @@
 						<MediaRef Id="819302777"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875"/>
-				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166"/>
-				<Event Id="37077532" Name="Play_Female_Voice_Hello" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084"/>
 				<Event Id="1756293666" Name="Play_Flourecent_Loop" MaxAttenuation="13" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1043483779"/>
@@ -517,7 +514,6 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209"/>
 				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="0.55218834" DurationMax="0.86623347">
 					<MediaRefs>
 						<MediaRef Id="93776339"/>
@@ -536,5 +532,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F9A024A9-5A90-2976-A5BC-C64328C38EA7}</FileHash>
+	<FileHash>{396AD01F-1155-509C-2528-55EAA75F5A45}</FileHash>
 </SoundBanksInfo>

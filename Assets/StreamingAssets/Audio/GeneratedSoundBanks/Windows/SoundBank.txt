@@ -1,24 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
 	4867526	Play_2D_Roomtone			\Default Work Unit\Store Events\Play_2D_Roomtone	
 	32387144	Play_Cashier_Random_Calling			\Default Work Unit\Cashier Events\Play_Cashier_Random_Calling	
-	35188282	Play_Cereal			\Default Work Unit\Play_Cereal	
-	37077532	Play_Female_Voice_Hello			\Default Work Unit\Play_Female_Voice_Hello	
+	35188282	Play_Cereal			\Default Work Unit\Interactable\Play_Cereal	
 	98439365	Play_Player_Footsteps			\Default Work Unit\Play_Player_Footsteps	
 	159572298	Play_Cashier_PleaseSet			\Default Work Unit\Cashier Events\Play_Cashier_PleaseSet	
-	441377128	Play_Paper			\Default Work Unit\Play_Paper	
+	441377128	Play_Paper			\Default Work Unit\Interactable\Play_Paper	
 	582311066	Play_Cashier_Meat_Log			\Default Work Unit\Cashier Events\Play_Cashier_Meat_Log	
 	589123702	Play_Cashier_Strong_Silent_Type			\Default Work Unit\Cashier Events\Play_Cashier_Strong_Silent_Type	
 	615435047	Play_Cashier_Vitimin_D			\Default Work Unit\Cashier Events\Play_Cashier_Vitimin_D	
-	738920550	Play_Female_Voice_HaveANiceDay			\Default Work Unit\Play_Female_Voice_HaveANiceDay	
 	1705887329	Play_AC_Ambience			\Default Work Unit\Store Events\Play_AC_Ambience	
 	1756293666	Play_Flourecent_Loop			\Default Work Unit\Play_Flourecent_Loop	
-	1782398807	Play_Milk			\Default Work Unit\Play_Milk	
+	1782398807	Play_Milk			\Default Work Unit\Interactable\Play_Milk	
 	2045132466	Play_Cashier_PlanningToPay			\Default Work Unit\Cashier Events\Play_Cashier_PlanningToPay	
 	2053453196	Play_Cashier_Random_Afternoon			\Default Work Unit\Cashier Events\Play_Cashier_Random_Afternoon	
 	2102180961	Play_PA_Man_HalfOff			\Default Work Unit\PA Man Events\Play_PA_Man_HalfOff	
 	2258330001	Play_Cashier_Sequence_Instructions			\Default Work Unit\Cashier Events\Play_Cashier_Sequence_Instructions	
 	2633745870	Play_Freezer_Ambience			\Default Work Unit\Store Events\Play_Freezer_Ambience	
-	2690797124	Play_Can			\Default Work Unit\Play_Can	
+	2690797124	Play_Can			\Default Work Unit\Interactable\Play_Can	
 	2809485985	Play_GasStationDingDong			\Default Work Unit\Store Events\Play_GasStationDingDong	
 	2848777120	Play_Cashier_Sequence_JustTheMilk			\Default Work Unit\Cashier Events\Play_Cashier_Sequence_JustTheMilk	
 	2873879151	Play_Cashier_Random_GdMorning			\Default Work Unit\Cashier Events\Play_Cashier_Random_GdMorning	
@@ -29,9 +27,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3457820653	Play_Cashier_Strong_Bones			\Default Work Unit\Cashier Events\Play_Cashier_Strong_Bones	
 	3619978204	Play_PA_Man_Closingin10			\Default Work Unit\PA Man Events\Play_PA_Man_Closingin10	
 	3653533474	Play_PA_Man_ClosingIn30			\Default Work Unit\PA Man Events\Play_PA_Man_ClosingIn30	
-	3876234301	Play_Female_Voice_Goodbye			\Default Work Unit\Play_Female_Voice_Goodbye	
 	4052274365	Play_PA_Man_DairyInTheBack			\Default Work Unit\PA Man Events\Play_PA_Man_DairyInTheBack	
-	4123174421	Play_Sequence_Welcome_WhatcanIDo			\Default Work Unit\Play_Sequence_Welcome_WhatcanIDo	
 	4170577199	Play_Cashier_END			\Default Work Unit\Cashier Events\Play_Cashier_END	
 	4243000246	Play_Cashier_Coupon			\Default Work Unit\Cashier Events\Play_Cashier_Coupon	
 

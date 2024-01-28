@@ -32,9 +32,6 @@ namespace AK
         static const AkUniqueID PLAY_CASHIER_THEREYOUARE = 3298164935U;
         static const AkUniqueID PLAY_CASHIER_VITIMIN_D = 615435047U;
         static const AkUniqueID PLAY_CEREAL = 35188282U;
-        static const AkUniqueID PLAY_FEMALE_VOICE_GOODBYE = 3876234301U;
-        static const AkUniqueID PLAY_FEMALE_VOICE_HAVEANICEDAY = 738920550U;
-        static const AkUniqueID PLAY_FEMALE_VOICE_HELLO = 37077532U;
         static const AkUniqueID PLAY_FLOURECENT_LOOP = 1756293666U;
         static const AkUniqueID PLAY_FREEZER_AMBIENCE = 2633745870U;
         static const AkUniqueID PLAY_GASSTATIONDINGDONG = 2809485985U;
@@ -46,7 +43,6 @@ namespace AK
         static const AkUniqueID PLAY_PA_MAN_HALFOFF = 2102180961U;
         static const AkUniqueID PLAY_PAPER = 441377128U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
-        static const AkUniqueID PLAY_SEQUENCE_WELCOME_WHATCANIDO = 4123174421U;
         static const AkUniqueID PLAY_SHELF = 3126524178U;
     } // namespace EVENTS
 
