@@ -1286,7 +1286,7 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: fcf3877ac718f0043abc8693e7652fea, type: 3}
     state: 2
   spriteRenderer: {fileID: 7370445570434686958}
-  randomChance: 0.5
+  randomChance: 0.8
   initialDelay: 1
 --- !u!1 &6283507693887973700
 GameObject:

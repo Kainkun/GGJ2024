@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 013e3f2b28d00947acbc02708e299061
     GuidInternal: 
-    m_lastTime: -8584952690499171838
+    m_lastTime: -8584951288213071617
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: ReverbAux
+      guid: e73b43cbe0e55f4ab0cc834aad77e668
+      id: 4012807925
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 013e3f2b28d00947acbc02708e299061
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: ReverbAux
+        ObjectType: 1
+        guid: e73b43cbe0e55f4ab0cc834aad77e668
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbAux
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
-    m_lastTime: -8584951334147679431
+    m_lastTime: -8584951279230663496
     List:
     - name: SoundBank
       guid: 8cd371baccf74f438c2972fc329213cd
@@ -94,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
-    m_lastTime: -8584951334151473823
+    m_lastTime: -8584951279235113706
     List:
     - name: Cashier Events
       guid: 57928b10f69dfc4b8106617ad0357570
@@ -618,6 +635,40 @@ MonoBehaviour:
       maxAttenuation: 13
       maxDuration: -1
       minDuration: -1
+    - name: Play_GAMESTART
+      guid: 92d15d4b5c30c847895f5132e5799717
+      id: 1497459184
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_GAMESTART
+        ObjectType: 3
+        guid: 92d15d4b5c30c847895f5132e5799717
+      Path: Events\Default Work Unit\Play_GAMESTART
+      maxAttenuation: 0
+      maxDuration: 12.199667
+      minDuration: 12.199667
+    - name: Play_GAMESTART_REPRISE
+      guid: 4cabf74d0d372f4aa9e5c7abc4b4340b
+      id: 675447719
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_GAMESTART_REPRISE
+        ObjectType: 3
+        guid: 4cabf74d0d372f4aa9e5c7abc4b4340b
+      Path: Events\Default Work Unit\Play_GAMESTART_REPRISE
+      maxAttenuation: 0
+      maxDuration: 12.699667
+      minDuration: 12.699667
     - name: Play_GasStationDingDong
       guid: a8b186ebe9d2cf46951e7f82a2479a66
       id: 2809485985
@@ -792,6 +843,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.40160644
       minDuration: 0.26476508
+    - name: Play_Register_beep
+      guid: b3c6d074a7a3bf4ab11d9e875f7a9ec4
+      id: 331999908
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Register_beep
+        ObjectType: 3
+        guid: b3c6d074a7a3bf4ab11d9e875f7a9ec4
+      Path: Events\Default Work Unit\Play_Register_beep
+      maxAttenuation: 0
+      maxDuration: 0.44117913
+      minDuration: 0.44117913
     - name: Play_Sequence_Welcome_WhatcanIDo
       guid: cd223fcc9f35d749aa16171ffa237aef
       id: 4123174421
@@ -826,6 +894,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.86623347
       minDuration: 0.55218834
+    - name: Play_Solo_Whistling
+      guid: 0d2b9fc7f7720e4883befff68590e444
+      id: 145970281
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Solo_Whistling
+        ObjectType: 3
+        guid: 0d2b9fc7f7720e4883befff68590e444
+      Path: Events\Default Work Unit\Play_Solo_Whistling
+      maxAttenuation: 15
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Spoopy_Ambience
+      guid: 5a9e57e50d8d57458df3710d4865c570
+      id: 2022546367
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Spoopy_Ambience
+        ObjectType: 3
+        guid: 5a9e57e50d8d57458df3710d4865c570
+      Path: Events\Default Work Unit\Play_Spoopy_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Wife_BackSoSoon
       guid: cd4bf394142e424e8398e8f4deb2f6b7
       id: 2225884798
@@ -997,7 +1099,7 @@ MonoBehaviour:
     m_lastTime: -8584952690498219148
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 060000000700000009000000
+  ExpandedWaapiItemIds: 0600000007000000090000001100000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
