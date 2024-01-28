@@ -6,7 +6,7 @@
 		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../GGJ2024_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{66EEFF37-1760-5F95-4FBE-B2FF7BE104D8}</FileHash>
+	<FileHash>{E0D0DE37-2070-A062-5845-5DF66484C934}</FileHash>
 </PlatformInfo>

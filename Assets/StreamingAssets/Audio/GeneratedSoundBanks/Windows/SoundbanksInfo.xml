@@ -5,15 +5,11 @@
 		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../GGJ2024_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Type="User" Language="SFX" Hash="{595BA1A4-E67A-AAE4-5CAA-D6A9E704EE89}">
-			<ShortName>Default</ShortName>
-			<Path>Default.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EC5666DA-93D8-AEB4-6DDA-40C57D341504}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -26,6 +22,74 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{15BE5B7C-45F4-E933-FE04-4449715E9CB1}">
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<Media>
+				<File Id="207482798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>213288__aderumoro__welcome-female-friendly.wav</ShortName>
+					<CachePath>SFX/213288__aderumoro__welcome-female-friendly_818F3B66.wem</CachePath>
+				</File>
+				<File Id="249524521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>213284__aderumoro__hello-2-female-friendly.wav</ShortName>
+					<CachePath>SFX/213284__aderumoro__hello-2-female-friendly_818F3B66.wem</CachePath>
+				</File>
+				<File Id="334641649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>213286__aderumoro__goodbye-female-friendly.wav</ShortName>
+					<CachePath>SFX/213286__aderumoro__goodbye-female-friendly_818F3B66.wem</CachePath>
+				</File>
+				<File Id="587830811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional.wav</ShortName>
+					<CachePath>SFX/213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional_818F3B66.wem</CachePath>
+				</File>
+				<File Id="916089115" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Muzak_Guitar.wav</ShortName>
+					<CachePath>SFX/Muzak_Guitar_988C39A2.wem</CachePath>
+				</File>
+				<File Id="916665401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>213285__aderumoro__have-a-nice-day-female-professional.wav</ShortName>
+					<CachePath>SFX/213285__aderumoro__have-a-nice-day-female-professional_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
+					<MediaRefs>
+						<MediaRef Id="334641649"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166">
+					<MediaRefs>
+						<MediaRef Id="916665401"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="37077532" Name="Play_Female_Voice_Hello" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084">
+					<MediaRefs>
+						<MediaRef Id="249524521"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="1200" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="916089115"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209">
+					<MediaRefs>
+						<MediaRef Id="207482798"/>
+						<MediaRef Id="587830811"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0136062E-C279-E659-858F-04FEFEBFD001}</FileHash>
+	<FileHash>{C67449FB-413C-4DB3-EF92-72CDE30F3123}</FileHash>
 </SoundBanksInfo>

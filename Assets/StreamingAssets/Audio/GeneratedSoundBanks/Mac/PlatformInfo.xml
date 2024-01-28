@@ -6,7 +6,7 @@
 		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../GGJ2024_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{DFDE16CA-890A-889B-A4B8-4C433787739C}</FileHash>
+	<FileHash>{CA8530BE-4F53-CD7B-EBE4-195C2B39DDA8}</FileHash>
 </PlatformInfo>
