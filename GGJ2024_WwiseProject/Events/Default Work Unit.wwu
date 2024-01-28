@@ -367,6 +367,76 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Store Events" ID="{2EADACAA-DEE7-49E8-80F6-46A812CC3EFC}" ShortID="254983046">
+					<ChildrenList>
+						<Event Name="Play_2D_Roomtone" ID="{4D0B3E14-B960-4380-A308-CA9AA6A238B2}">
+							<ChildrenList>
+								<Action Name="" ID="{D6AAEF9C-ED4E-48D0-85D2-21F7BCB43EC3}" ShortID="346095093">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soda_Machine" ID="{E668756A-67C6-4A02-94BA-40ADEE3515BB}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AC_Ambience" ID="{42CB66B5-10F6-4E57-9DA5-BB5C9B9DCC64}">
+							<ChildrenList>
+								<Action Name="" ID="{DBD0A541-BD69-434B-A450-19284D8B8ABF}" ShortID="243600896">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AC_Loop" ID="{96BF4702-1654-41E3-BCCC-16389BE5362A}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Freezer_Ambience" ID="{95D73B7F-DFC1-4C6D-A81E-71CACAB22074}">
+							<ChildrenList>
+								<Action Name="" ID="{810F2BC0-E524-49D8-ADCD-F3B8D00126B2}" ShortID="731282401">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Freezer_Loop" ID="{F4D371F4-5B08-48A7-A4E1-2FAFEDD199F0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GasStationDingDong" ID="{EB86B1A8-D2E9-46CF-951E-7F82A2479A66}">
+							<ChildrenList>
+								<Action Name="" ID="{790086A0-DF21-4CDD-B2D6-094E9F5D0BD9}" ShortID="33945027">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GasStationDingDong" ID="{27628F04-3FE0-4350-B6C1-D905B6367C75}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Player_Footsteps" ID="{4B41CBF9-83AA-4311-8E74-9CF28F9153E5}">
+					<ChildrenList>
+						<Action Name="" ID="{FD3DBF66-947F-48CD-B96E-8CE04AC3B08A}" ShortID="38317956">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player Footsteps" ID="{A791A6ED-EA18-4DD2-935E-BEF51BD79FB2}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shelf" ID="{C66E6932-FDD9-4146-A5B1-4932844BA443}">
+					<ChildrenList>
+						<Action Name="" ID="{4C0861EB-AEDE-49AF-9513-5610853B214A}" ShortID="298644668">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shelf" ID="{BD98F52A-7D26-4AF0-BA44-59C1D8527BE0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

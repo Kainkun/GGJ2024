@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EC5666DA-93D8-AEB4-6DDA-40C57D341504}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{716EAB61-52DA-0E1A-1C6B-2E7A269ABFDF}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{E08CEDCF-4D66-8036-1B53-BEA555F27355}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{EF1B4F76-40B2-6030-F7CE-8594B87D39D9}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -34,13 +34,17 @@
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Morning_A78196E7.wem</CachePath>
 				</File>
+				<File Id="93776339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>106647-Banging_a_refrigerator_shelf-AOS02977.wav</ShortName>
+					<CachePath>SFX/106647-Banging_a_refrigerator_shelf-AOS02977_47EB0537.wem</CachePath>
+				</File>
 				<File Id="107684846" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_D3ABA304.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_912F01C7.wem</CachePath>
 				</File>
 				<File Id="126492990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GasStationDingDong.wav</ShortName>
-					<CachePath>SFX/GasStationDingDong_B6CBF3DC.wem</CachePath>
+					<CachePath>SFX/GasStationDingDong_FA02BFF4.wem</CachePath>
 				</File>
 				<File Id="129614257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -62,29 +66,29 @@
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Morning_D66897AA.wem</CachePath>
 				</File>
-				<File Id="207482798" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>213288__aderumoro__welcome-female-friendly.wav</ShortName>
-					<CachePath>SFX/213288__aderumoro__welcome-female-friendly_818F3B66.wem</CachePath>
+				<File Id="232370685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Series.wav</ShortName>
+					<CachePath>SFX/Footsteps_Series_0ED46CD2.wem</CachePath>
 				</File>
 				<File Id="241421801" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
 					<CachePath>SFX/Cashier_Calling_8D3D032D.wem</CachePath>
 				</File>
-				<File Id="249524521" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>213284__aderumoro__hello-2-female-friendly.wav</ShortName>
-					<CachePath>SFX/213284__aderumoro__hello-2-female-friendly_818F3B66.wem</CachePath>
-				</File>
 				<File Id="264521104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_8DAF802F.wem</CachePath>
+				</File>
+				<File Id="277029858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Series.wav</ShortName>
+					<CachePath>SFX/Footsteps_Series_AF01AE4A.wem</CachePath>
 				</File>
 				<File Id="307164417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
 					<CachePath>SFX/Cashier_Calling_07AA9BB6.wem</CachePath>
 				</File>
-				<File Id="334641649" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>213286__aderumoro__goodbye-female-friendly.wav</ShortName>
-					<CachePath>SFX/213286__aderumoro__goodbye-female-friendly_818F3B66.wem</CachePath>
+				<File Id="325516985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Series.wav</ShortName>
+					<CachePath>SFX/Footsteps_Series_ACC0661F.wem</CachePath>
 				</File>
 				<File Id="349635030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Coupon.wav</ShortName>
@@ -96,7 +100,7 @@
 				</File>
 				<File Id="359915242" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soda_Machine.wav</ShortName>
-					<CachePath>SFX/Soda_Machine_A3DCC629.wem</CachePath>
+					<CachePath>SFX/Soda_Machine_B9099600.wem</CachePath>
 				</File>
 				<File Id="375619510" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -108,15 +112,15 @@
 				</File>
 				<File Id="496928318" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Freezer_Loop.wav</ShortName>
-					<CachePath>SFX/Freezer_Loop_B0D03414.wem</CachePath>
+					<CachePath>SFX/Freezer_Loop_AF2026C5.wem</CachePath>
+				</File>
+				<File Id="534556017" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>107998-Banging_a_refrigerator_shelf-AOS02976.wav</ShortName>
+					<CachePath>SFX/107998-Banging_a_refrigerator_shelf-AOS02976_A7610379.wem</CachePath>
 				</File>
 				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_CDD654E5.wem</CachePath>
-				</File>
-				<File Id="587830811" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional.wav</ShortName>
-					<CachePath>SFX/213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional_818F3B66.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_8671E91E.wem</CachePath>
 				</File>
 				<File Id="599990231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_PullingYourLeg.wav</ShortName>
@@ -124,7 +128,7 @@
 				</File>
 				<File Id="620687934" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_A17E382D.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_15B107D6.wem</CachePath>
 				</File>
 				<File Id="624752260" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
@@ -132,7 +136,7 @@
 				</File>
 				<File Id="679843875" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Strong_Silent_Type.wav</ShortName>
-					<CachePath>SFX/Cashier_Strong_Silent_Type_D5FC928A.wem</CachePath>
+					<CachePath>SFX/Cashier_Strong_Silent_Type_B9CD9BCD.wem</CachePath>
 				</File>
 				<File Id="682176323" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_JustTheMilk.wav</ShortName>
@@ -140,7 +144,7 @@
 				</File>
 				<File Id="686673804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Vitimin_D.wav</ShortName>
-					<CachePath>SFX/Cashier_Vitimin_D_74C73503.wem</CachePath>
+					<CachePath>SFX/Cashier_Vitimin_D_D527622B.wem</CachePath>
 				</File>
 				<File Id="717609223" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_PleaseSet.wav</ShortName>
@@ -153,6 +157,10 @@
 				<File Id="725438702" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Morning_18C0DEE1.wem</CachePath>
+				</File>
+				<File Id="729189548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Series.wav</ShortName>
+					<CachePath>SFX/Footsteps_Series_C9281DAB.wem</CachePath>
 				</File>
 				<File Id="733388073" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -170,17 +178,25 @@
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_0A654014.wem</CachePath>
 				</File>
+				<File Id="779758610" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>106209-Banging_a_refrigerator_shelf-AOS02975.wav</ShortName>
+					<CachePath>SFX/106209-Banging_a_refrigerator_shelf-AOS02975_869FE83B.wem</CachePath>
+				</File>
 				<File Id="787705611" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_D621E257.wem</CachePath>
 				</File>
 				<File Id="788903558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AC_Loop.wav</ShortName>
-					<CachePath>SFX/AC_Loop_B7788A03.wem</CachePath>
+					<CachePath>SFX/AC_Loop_4B744DE4.wem</CachePath>
 				</File>
 				<File Id="823389448" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_CanIHelpYouFindAnythingElse.wav</ShortName>
 					<CachePath>SFX/Cashier_CanIHelpYouFindAnythingElse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="864326664" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Series.wav</ShortName>
+					<CachePath>SFX/Footsteps_Series_AE486055.wem</CachePath>
 				</File>
 				<File Id="901044226" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_SeeYouSoon.wav</ShortName>
@@ -190,13 +206,13 @@
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_1C64DEA2.wem</CachePath>
 				</File>
-				<File Id="916665401" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>213285__aderumoro__have-a-nice-day-female-professional.wav</ShortName>
-					<CachePath>SFX/213285__aderumoro__have-a-nice-day-female-professional_818F3B66.wem</CachePath>
+				<File Id="915841267" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps_Series.wav</ShortName>
+					<CachePath>SFX/Footsteps_Series_7F539B3C.wem</CachePath>
 				</File>
 				<File Id="943646738" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_FDA836A8.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_2787A36F.wem</CachePath>
 				</File>
 				<File Id="970742367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -212,7 +228,12 @@
 				</File>
 			</Media>
 			<Plugins>
+				<Custom>
+					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</Custom>
 				<ShareSets>
+					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="1074933567" Name="Footstep_Limit" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
 			</Plugins>
@@ -314,26 +335,14 @@
 						<MediaRef Id="1002442733"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="615435047" Name="Play_Cashier_Vitimin_D" DurationType="OneShot" DurationMin="3.0571203" DurationMax="3.0571203">
+				<Event Id="615435047" Name="Play_Cashier_Vitimin_D" DurationType="OneShot" DurationMin="2.6491153" DurationMax="2.6491153">
 					<MediaRefs>
 						<MediaRef Id="686673804"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
-					<MediaRefs>
-						<MediaRef Id="334641649"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166">
-					<MediaRefs>
-						<MediaRef Id="916665401"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="37077532" Name="Play_Female_Voice_Hello" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084">
-					<MediaRefs>
-						<MediaRef Id="249524521"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875"/>
+				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166"/>
+				<Event Id="37077532" Name="Play_Female_Voice_Hello" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084"/>
 				<Event Id="2633745870" Name="Play_Freezer_Ambience" MaxAttenuation="13" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="496928318"/>
@@ -357,31 +366,80 @@
 				<Event Id="3619978204" Name="Play_PA_Man_Closingin10" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.4269164" DurationMax="3.4269164">
 					<MediaRefs>
 						<MediaRef Id="107684846"/>
+						<MediaRef Id="359667351"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3653533474" Name="Play_PA_Man_ClosingIn30" MaxAttenuation="15" DurationType="OneShot" DurationMin="9.511466" DurationMax="9.511466">
 					<MediaRefs>
+						<MediaRef Id="359667351"/>
 						<MediaRef Id="943646738"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="4052274365" Name="Play_PA_Man_DairyInTheBack" MaxAttenuation="15" DurationType="OneShot" DurationMin="17.282362" DurationMax="17.282362">
 					<MediaRefs>
+						<MediaRef Id="359667351"/>
 						<MediaRef Id="586637315"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="2102180961" Name="Play_PA_Man_HalfOff" MaxAttenuation="15" DurationType="OneShot" DurationMin="10.42972" DurationMax="10.42972">
 					<MediaRefs>
+						<MediaRef Id="359667351"/>
 						<MediaRef Id="620687934"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
-				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209">
+				<Event Id="98439365" Name="Play_Player_Footsteps" DurationType="OneShot" DurationMin="0.26476508" DurationMax="0.40160644">
 					<MediaRefs>
-						<MediaRef Id="207482798"/>
-						<MediaRef Id="587830811"/>
+						<MediaRef Id="232370685"/>
+						<MediaRef Id="277029858"/>
+						<MediaRef Id="325516985"/>
+						<MediaRef Id="729189548"/>
+						<MediaRef Id="864326664"/>
+						<MediaRef Id="915841267"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1074933567"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209"/>
+				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="0.55218834" DurationMax="0.86623347">
+					<MediaRefs>
+						<MediaRef Id="93776339"/>
+						<MediaRef Id="534556017"/>
+						<MediaRef Id="779758610"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="425319014"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="418265525"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C0FDFC53-3332-8C8D-6340-BD57C1FFA970}</FileHash>
+	<FileHash>{C296E80A-5BD7-B38D-81D2-03E657FAEDCC}</FileHash>
 </SoundBanksInfo>

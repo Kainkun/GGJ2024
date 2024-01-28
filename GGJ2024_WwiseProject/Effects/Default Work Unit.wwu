@@ -9,6 +9,12 @@
 						<Property Name="Threshold" Type="Real32" Value="-18"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="Footstep_Limit" ID="{32D57F21-F468-47E4-A7C3-03869E12ED45}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+					<PropertyList>
+						<Property Name="Ratio" Type="Real32" Value="50"/>
+						<Property Name="Threshold" Type="Real32" Value="-15"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
