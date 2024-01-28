@@ -1899,7 +1899,7 @@
 					<PropertyList>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>33</Value>
+								<Value>34</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -1926,7 +1926,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -3440,6 +3440,28 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Park Residential, Birds, Wind, Crows _STEREO" ID="{1F1FBE2B-FABF-4223-A9C8-B21768251D82}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Milk_Acquired" ID="{4EB69D32-1794-4A15-B5E9-673F4968C3B3}" ShortID="548675688">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Milk_Acquired" ID="{19E805D1-40FF-4501-BFFC-5DC8CF64BF40}">
+							<Language>SFX</Language>
+							<AudioFile>Milk_Acquired.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="12546953"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Milk_Acquired" ID="{19E805D1-40FF-4501-BFFC-5DC8CF64BF40}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
