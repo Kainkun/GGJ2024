@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{FB370658-4297-E0E6-EAEB-EF1C1A5EDA0C}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{49F40A36-F997-0DD2-09E0-F9F4E685493B}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -385,10 +385,12 @@
 					<Plugin Id="80734065" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="553994197" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="601803084" Name="Compressor (Custom)" LibName="Wwise Compressor" LibId="7077891"/>
 				</Custom>
 				<ShareSets>
 					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
 					<Plugin Id="1074933567" Name="Footstep_Limit" LibName="Wwise Peak Limiter" LibId="7208963"/>
+					<Plugin Id="2288007518" Name="DeEsser" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
 			</Plugins>
@@ -427,7 +429,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -440,7 +446,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -453,7 +463,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -466,7 +480,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -479,7 +497,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -492,7 +514,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -508,7 +534,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -527,7 +557,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -543,7 +577,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -560,7 +598,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -574,7 +616,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -589,7 +635,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -602,7 +652,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -615,7 +669,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -628,7 +686,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -641,7 +703,11 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="80734065"/>
+							<PluginRef Id="601803084"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2288007518"/>
+						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -911,5 +977,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1F0BB819-B54C-5FC0-916C-20115264A331}</FileHash>
+	<FileHash>{6193A644-DEC3-1FB2-0EB6-CA52800FCC3E}</FileHash>
 </SoundBanksInfo>
