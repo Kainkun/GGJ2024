@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: dread_where_are_you_going
   lines:
-  - duration: 1
-    subtitle: Where are you going
+  - isPause: 0
+    duration: 2
     speaker: {fileID: 11400000, guid: 93d5aa573616bcc4a92c57a408bd3de8, type: 2}
     audioEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: 9a44e81045bec9742acdc3ed9c44ca72, type: 2}

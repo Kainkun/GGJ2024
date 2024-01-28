@@ -58,6 +58,175 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Cashier Events" ID="{108B9257-9DF6-4BFC-8106-617AD0357570}" ShortID="82323654">
+					<ChildrenList>
+						<Event Name="Play_Cashier_Coupon" ID="{647D4876-5D83-46A6-95FB-182A5B5D1342}">
+							<ChildrenList>
+								<Action Name="" ID="{BA21DE60-254A-4E7C-B3E1-527FA47E0E3C}" ShortID="1000548398">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Coupon" ID="{939CCBED-5E15-487A-BF57-882826D89F24}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Meat_Log" ID="{CE34B51F-F72C-4B27-BB56-9EFAE0484C60}">
+							<ChildrenList>
+								<Action Name="" ID="{DF691A7F-A5C6-4896-9839-6FEAC58B3605}" ShortID="111431985">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Meat_Log" ID="{873496AD-E98F-4C6F-9685-46D301CCA99E}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_PlanningToPay" ID="{BEDCB524-1899-4D2A-A1DB-1DA75CA5EC4F}">
+							<ChildrenList>
+								<Action Name="" ID="{FC09CB2D-B652-40D9-B824-0100EE76B673}" ShortID="989980013">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_PlanningToPay" ID="{F99C4E82-D0DF-41E2-87DC-B2AD0F546369}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_PleaseSet" ID="{FA80A7B1-287F-437C-9D30-B3F7F647B034}">
+							<ChildrenList>
+								<Action Name="" ID="{E644A8D6-0500-4183-ABB7-11E666241EE9}" ShortID="167035749">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_PleaseSet" ID="{E9057A46-BE4B-4C02-BB50-A8CB25B80855}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_END_RINGUP" ID="{57E177D1-F67E-4C62-A14C-9233882DEB9C}">
+							<ChildrenList>
+								<Action Name="" ID="{2B49AC76-B17A-4514-9855-A56D8DEDFCE2}" ShortID="850328386">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_PullingYourLeg" ID="{78BFC0FD-293E-46B0-BAF4-837FE6DBD01D}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Random_Afternoon" ID="{8BB3C38D-54C1-4F41-B0A3-ED964CA01F0D}">
+							<ChildrenList>
+								<Action Name="" ID="{3807B5FC-B61F-4359-A906-12EFFB366A54}" ShortID="49454287">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Random_Afternoon" ID="{A5AEBEE0-0553-4E19-B85B-C12612C7357C}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Random_Calling" ID="{71C9A146-481E-41E3-9B08-EA55C07A9AC0}">
+							<ChildrenList>
+								<Action Name="" ID="{44DDE75A-F1CC-49A0-8A71-F86F8099AE47}" ShortID="270262990">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Random_Calling" ID="{62478F27-A7E9-43CD-BD21-73F81555E19A}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Random_GdMorning" ID="{91978FDB-62C5-4B32-A81E-DAA7C394F25B}">
+							<ChildrenList>
+								<Action Name="" ID="{EEFFE2B3-53EE-4E28-9CB1-1F1F5E65EAD5}" ShortID="354929331">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Random_GdMorning" ID="{E5833561-9F05-4C3D-A8F4-BD944A43FD42}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_END" ID="{ABD585CD-AC9D-4C1D-8C77-6E0AFBBF02D7}">
+							<ChildrenList>
+								<Action Name="" ID="{CF28AD30-35FE-4C21-8FDE-EA479F90B3C4}" ShortID="775309423">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_SeeYouSoon" ID="{81DEDC8E-79E6-4F51-A0BF-9897C0CD270B}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Sequence_Instructions" ID="{5C435E7F-1C8F-42F6-9367-156CDA822930}">
+							<ChildrenList>
+								<Action Name="" ID="{3FE6A974-54B0-482B-99F0-7CD3FB5AE551}" ShortID="687247888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Sequence_Instructions" ID="{EFF9CC7D-CC9B-4424-B1BE-1909A423D375}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Sequence_JustTheMilk" ID="{05849697-07CC-4BEF-9C73-083BDB5B7256}">
+							<ChildrenList>
+								<Action Name="" ID="{20E801E1-5FD3-4CD6-BAF8-049D9EA977F6}" ShortID="999736284">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Sequence_JustTheMilk" ID="{16278448-CE37-4E6F-BCE4-3905D354F237}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Strong_Bones" ID="{F301B117-B1DB-4EE2-ADAA-2B3286AFB299}">
+							<ChildrenList>
+								<Action Name="" ID="{21706ABB-4ABE-432D-84CA-AE37843772A1}" ShortID="950033426">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Strong_Bones" ID="{D6CA76A0-B249-490A-AFC1-125642F03EE4}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Strong_Silent_Type" ID="{DBD75136-13D4-4ED8-93CE-7FD2E49E32C3}">
+							<ChildrenList>
+								<Action Name="" ID="{8371F77C-2A02-4742-B59A-49B0A3A26959}" ShortID="588843641">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Strong_Silent_Type" ID="{50B17929-3BEA-471E-A85B-416605F32691}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_ThereYouAre" ID="{65ABCDA3-4CA2-4641-9A58-DD5E137555BC}">
+							<ChildrenList>
+								<Action Name="" ID="{00D4F718-D355-4A09-8746-E7DD6C5BD2AA}" ShortID="701683656">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_ThereYouAre" ID="{9F862853-3687-4F87-B38F-5719D52C638A}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cashier_Vitimin_D" ID="{819F757D-AFB3-487B-A246-AAFF2E8FC2FB}">
+							<ChildrenList>
+								<Action Name="" ID="{847FF476-CE49-4BB4-9052-3F87ED40CA39}" ShortID="1050793597">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_Vitimin_D" ID="{4AC6372A-5498-433A-B143-F9440BFD6467}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

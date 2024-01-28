@@ -312,7 +312,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 228542279}
-  - component: {fileID: 228542280}
   - component: {fileID: 228542281}
   m_Layer: 0
   m_Name: Dialogue Tester
@@ -336,19 +335,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &228542280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 228542278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1846d258e7874c838115e3cdfad5aa99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueIdToTest: test
 --- !u!114 &228542281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,6 +352,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2a8bea050e7ba9f48a3e1cdd0c50933d, type: 2}
   - {fileID: 11400000, guid: a1690b2918164f14a94ec8fc5fdbd1a0, type: 2}
   - {fileID: 11400000, guid: 2cc99d6c672b7c6449535adbee721b74, type: 2}
+  - {fileID: 11400000, guid: d23c72ffe70cc4f499f121a26d69fe10, type: 2}
+  - {fileID: 11400000, guid: 10e8eb7615c0f5146b58e1c37730421f, type: 2}
 --- !u!1 &254028385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1427,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a16a7c0691a7ff498fbf41197e9356f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2121651471}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a16a7c0691a7ff498fbf41197e9356f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2121651474}
   m_SourcePrefab: {fileID: 100100000, guid: 4a16a7c0691a7ff498fbf41197e9356f, type: 3}
 --- !u!1 &2121651469 stripped
 GameObject:
@@ -1466,6 +1457,28 @@ MonoBehaviour:
   mouthClosedMaterial: {fileID: 2100000, guid: 7e224df4135d9a144b44149ef9d6415d, type: 2}
   targetRenderer: {fileID: 2121651470}
   mouthMoveDelay: 0.1
+--- !u!114 &2121651474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121651469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2881cfdd2b6daa4d915cee630a4a805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &2124315792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1648,18 @@ PrefabInstance:
       propertyPath: timelineAnimation
       value: 
       objectReference: {fileID: 1766145733}
+    - target: {fileID: 8467800054581733389, guid: 5371e3cdc775d6d4792ed84dd7480943, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467800054581733389, guid: 5371e3cdc775d6d4792ed84dd7480943, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].key
+      value: 
+      objectReference: {fileID: -3325707795116166778, guid: 6260e996d5660c74382ac4bb85b0b349, type: 2}
+    - target: {fileID: 8467800054581733389, guid: 5371e3cdc775d6d4792ed84dd7480943, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].value
+      value: 
+      objectReference: {fileID: 2121651469}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
