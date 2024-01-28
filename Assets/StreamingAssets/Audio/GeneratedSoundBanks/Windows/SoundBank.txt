@@ -1,0 +1,90 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4867526	Play_2D_Roomtone			\Default Work Unit\Store Events\Play_2D_Roomtone	
+	32387144	Play_Cashier_Random_Calling			\Default Work Unit\Cashier Events\Play_Cashier_Random_Calling	
+	37077532	Play_Female_Voice_Hello			\Default Work Unit\Play_Female_Voice_Hello	
+	98439365	Play_Player_Footsteps			\Default Work Unit\Play_Player_Footsteps	
+	159572298	Play_Cashier_PleaseSet			\Default Work Unit\Cashier Events\Play_Cashier_PleaseSet	
+	582311066	Play_Cashier_Meat_Log			\Default Work Unit\Cashier Events\Play_Cashier_Meat_Log	
+	589123702	Play_Cashier_Strong_Silent_Type			\Default Work Unit\Cashier Events\Play_Cashier_Strong_Silent_Type	
+	615435047	Play_Cashier_Vitimin_D			\Default Work Unit\Cashier Events\Play_Cashier_Vitimin_D	
+	738920550	Play_Female_Voice_HaveANiceDay			\Default Work Unit\Play_Female_Voice_HaveANiceDay	
+	1705887329	Play_AC_Ambience			\Default Work Unit\Store Events\Play_AC_Ambience	
+	2045132466	Play_Cashier_PlanningToPay			\Default Work Unit\Cashier Events\Play_Cashier_PlanningToPay	
+	2053453196	Play_Cashier_Random_Afternoon			\Default Work Unit\Cashier Events\Play_Cashier_Random_Afternoon	
+	2102180961	Play_PA_Man_HalfOff			\Default Work Unit\PA Man Events\Play_PA_Man_HalfOff	
+	2258330001	Play_Cashier_Sequence_Instructions			\Default Work Unit\Cashier Events\Play_Cashier_Sequence_Instructions	
+	2633745870	Play_Freezer_Ambience			\Default Work Unit\Store Events\Play_Freezer_Ambience	
+	2809485985	Play_GasStationDingDong			\Default Work Unit\Store Events\Play_GasStationDingDong	
+	2848777120	Play_Cashier_Sequence_JustTheMilk			\Default Work Unit\Cashier Events\Play_Cashier_Sequence_JustTheMilk	
+	2873879151	Play_Cashier_Random_GdMorning			\Default Work Unit\Cashier Events\Play_Cashier_Random_GdMorning	
+	2931435471	Play_Muzak_Guitar			\Default Work Unit\Play_Muzak_Guitar	
+	3126524178	Play_Shelf			\Default Work Unit\Play_Shelf	
+	3143524091	Play_Cashier_END_RINGUP			\Default Work Unit\Cashier Events\Play_Cashier_END_RINGUP	
+	3298164935	Play_Cashier_ThereYouAre			\Default Work Unit\Cashier Events\Play_Cashier_ThereYouAre	
+	3457820653	Play_Cashier_Strong_Bones			\Default Work Unit\Cashier Events\Play_Cashier_Strong_Bones	
+	3619978204	Play_PA_Man_Closingin10			\Default Work Unit\PA Man Events\Play_PA_Man_Closingin10	
+	3653533474	Play_PA_Man_ClosingIn30			\Default Work Unit\PA Man Events\Play_PA_Man_ClosingIn30	
+	3876234301	Play_Female_Voice_Goodbye			\Default Work Unit\Play_Female_Voice_Goodbye	
+	4052274365	Play_PA_Man_DairyInTheBack			\Default Work Unit\PA Man Events\Play_PA_Man_DairyInTheBack	
+	4123174421	Play_Sequence_Welcome_WhatcanIDo			\Default Work Unit\Play_Sequence_Welcome_WhatcanIDo	
+	4170577199	Play_Cashier_END			\Default Work Unit\Cashier Events\Play_Cashier_END	
+	4243000246	Play_Cashier_Coupon			\Default Work Unit\Cashier Events\Play_Cashier_Coupon	
+
+Effect plug-ins	ID	Name	Type				Notes
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+	425319014	Peak Limiter (Custom)	Wwise Peak Limiter			
+	1074933567	Footstep_Limit	Wwise Peak Limiter			
+	2675251108	New_Peak_Limiter	Wwise Peak Limiter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31538099	Cashier_Calling_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Calling_80BA08B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_02		190208
+	72556111	Cashier_Good_Morning_03	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Morning_A78196E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_GdMorning\Cashier_Good_Morning_03		185788
+	93776339	106647-Banging_a_refrigerator_shelf-AOS02977	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\106647-Banging_a_refrigerator_shelf-AOS02977_5FD855D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shelf\106647-Banging_a_refrigerator_shelf-AOS02977		147692
+	107684846	PA_Man_Closingin10	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Series_Attention_Customers_912F01C7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PA_Man\PA_Man_Closingin10		658064
+	126492990	GasStationDingDong	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\GasStationDingDong_FA02BFF4.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\GasStationDingDong		336440
+	129614257	Cashier_Instructions_04	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Instructions_D78B247C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_Instructions\Cashier_Instructions_04		916828
+	134163744	Cashier_Instructions_01	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Instructions_B04B8D65.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_Instructions\Cashier_Instructions_01		641808
+	134277528	Cashier_PlanningToPay	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_PlanningToPay_8493C882.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_PlanningToPay		344488
+	149286383	Cashier_Calling_01	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Calling_A2B08B74.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_01		216616
+	170909130	Cashier_Good_Morning	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Morning_D66897AA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_GdMorning\Cashier_Good_Morning		174360
+	232370685	Footsteps_Series_03	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Footsteps_Series_0ED46CD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Footsteps\Footsteps_Series_03		77204
+	241421801	Cashier_Calling_05	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Calling_8D3D032D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_05		237736
+	264521104	Cashier_Good_Afternoon_01	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Afternoon_8DAF802F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Afternoon\Cashier_Good_Afternoon_01		166772
+	277029858	Footsteps_Series_05	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Footsteps_Series_AF01AE4A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Footsteps\Footsteps_Series_05		57156
+	307164417	Cashier_Calling_06	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Calling_07AA9BB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_06		359200
+	325516985	Footsteps_Series	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Footsteps_Series_ACC0661F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Footsteps\Footsteps_Series		60240
+	349635030	Cashier_Coupon	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Coupon_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Coupon		576096
+	359667351	Muzak_Guitar_1	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Muzak_Guitar_1_66B93D96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Muzak_Guitar_1		21072096
+	359915242	Soda_Machine	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Soda_Machine_B9099600.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\Soda_Machine		2032144
+	375619510	Cashier_Instructions_03	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Instructions_0778BED6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_Instructions\Cashier_Instructions_03		669308
+	408982861	Cashier_Meat_Log	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Meat_Log_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Meat_Log		345572
+	496928318	Freezer_Loop	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Freezer_Loop_AF2026C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\Freezer_Loop		3072144
+	534556017	107998-Banging_a_refrigerator_shelf-AOS02976	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\107998-Banging_a_refrigerator_shelf-AOS02976_9BCAB186.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shelf\107998-Banging_a_refrigerator_shelf-AOS02976		129092
+	586637315	PA_Man_DairyInTheBack	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Series_Attention_Customers_8671E91E.wem		\Actor-Mixer Hierarchy\Default Work Unit\PA_Man\PA_Man_DairyInTheBack		3318308
+	599990231	Cashier_PullingYourLeg	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_PullingYourLeg_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_PullingYourLeg		2304096
+	620687934	PA_Man_HalfOff	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Series_Attention_Customers_15B107D6.wem		\Actor-Mixer Hierarchy\Default Work Unit\PA_Man\PA_Man_HalfOff		2002604
+	624752260	Cashier_Good_Morning_01	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Morning_08FC5A01.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_GdMorning\Cashier_Good_Morning_01		177216
+	679843875	Cashier_Strong_Silent_Type	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Strong_Silent_Type_B9CD9BCD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Strong_Silent_Type		761028
+	682176323	Cashier_JustTheMilk	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_JustTheMilk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_JustTheMilk\Cashier_JustTheMilk		627568
+	686673804	Cashier_Vitimin_D	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Vitimin_D_D527622B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Vitimin_D		508728
+	717609223	Cashier_PleaseSet	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_PleaseSet_86005768.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_PleaseSet		631168
+	719345768	Cashier_Calling	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Calling_910DD0CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling		285268
+	725438702	Cashier_Good_Morning_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Morning_18C0DEE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_GdMorning\Cashier_Good_Morning_02		165788
+	729189548	Footsteps_Series_01	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Footsteps_Series_C9281DAB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Footsteps\Footsteps_Series_01		71036
+	733388073	Cashier_Calling_04	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Calling_947E2074.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_04		343356
+	734227481	Cashier_Instructions	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Instructions_C1F52844.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_Instructions\Cashier_Instructions		623472
+	744120344	Cashier_Instructions_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Instructions_30477FE8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_Instructions\Cashier_Instructions_02		449292
+	760783512	Cashier_Good_Afternoon_03	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Afternoon_0A654014.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Afternoon\Cashier_Good_Afternoon_03		251812
+	779758610	106209-Banging_a_refrigerator_shelf-AOS02975	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\106209-Banging_a_refrigerator_shelf-AOS02975_6C943DBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shelf\106209-Banging_a_refrigerator_shelf-AOS02975		100936
+	787705611	Cashier_Good_Afternoon	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Afternoon_D621E257.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Afternoon\Cashier_Good_Afternoon		197388
+	788903558	AC_Loop	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\AC_Loop_4B744DE4.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\AC_Loop		3072144
+	823389448	Cashier_CanIHelpYouFindAnythingElse	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_CanIHelpYouFindAnythingElse_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_JustTheMilk\Cashier_CanIHelpYouFindAnythingElse		1344096
+	864326664	Footsteps_Series_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Footsteps_Series_AE486055.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Footsteps\Footsteps_Series_02		63324
+	901044226	Cashier_SeeYouSoon	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_SeeYouSoon_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_SeeYouSoon		197480
+	912887833	Cashier_Good_Afternoon_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Good_Afternoon_1C64DEA2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Afternoon\Cashier_Good_Afternoon_02		170172
+	915841267	Footsteps_Series_04	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Footsteps_Series_7F539B3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Footsteps\Footsteps_Series_04		64868
+	943646738	PA_Man_ClosingIn30	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Series_Attention_Customers_2787A36F.wem		\Actor-Mixer Hierarchy\Default Work Unit\PA_Man\PA_Man_ClosingIn30		1826296
+	970742367	Cashier_Calling_03	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Calling_EEE29C2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_03		332796
+	1002442733	Cashier_ThereYouAre	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_ThereYouAre_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_ThereYouAre		480096
+	1007722943	Cashier_Strong_Bones	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Cashier_Strong_Bones_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Strong_Bones		647768
+
