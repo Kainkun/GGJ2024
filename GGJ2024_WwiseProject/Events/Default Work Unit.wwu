@@ -556,6 +556,132 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_GAMESTART" ID="{4B5DD192-305C-47C8-895F-5132E5799717}">
+					<ChildrenList>
+						<Action Name="" ID="{CF612E01-E8A2-48AC-A84D-A9AB5F9509D1}" ShortID="1008678785">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_GoGetMilk" ID="{4EFDD8C1-CC60-4151-8F23-4669FD2A6BDD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D8FBA097-F65F-4368-8F6A-36F74BD26B3E}" ShortID="922812899">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wife_Soon" ID="{C3E0B3F5-DFA5-49E5-A634-A8E14A2D9C94}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{79582DEF-F453-42A0-8C1A-7F7F19F79573}" ShortID="36916414">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Car Drive Away" ID="{8BCAFD00-5ACC-4DB6-AD6E-9CCE15B8F675}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BB5FF078-E50F-4E72-99A9-7DE7B867EABB}" ShortID="79785662">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GasStationDingDong" ID="{27628F04-3FE0-4350-B6C1-D905B6367C75}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Register_beep" ID="{74D0C6B3-A3A7-4ABF-B11D-9E875F7A9EC4}">
+					<ChildrenList>
+						<Action Name="" ID="{A252FCFB-725A-4B33-8391-0E0B1B83CD6F}" ShortID="542124958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Register_beep" ID="{525072CD-B03D-43E3-9BB3-B0AD5AAEA2AA}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GAMESTART_REPRISE" ID="{4DF7AB4C-370D-4A2F-A9E5-C7ABC4B4340B}">
+					<ChildrenList>
+						<Action Name="" ID="{528088F9-D1FE-4E3B-A38E-9CCEDFC57EC4}" ShortID="856479485">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_GoGetMilk_Reprise" ID="{D39C076B-2236-4E62-A30F-49AB3577C8A2}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BF70D60E-379B-434F-8D76-8AC10C3021A8}" ShortID="1020046166">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wife_Soon_02" ID="{2C5DEA5D-9CA0-4135-9073-91E4C986D23F}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F5F82D9C-87C5-4DFC-B65F-C144474865EB}" ShortID="971788669">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Car Drive Away" ID="{8BCAFD00-5ACC-4DB6-AD6E-9CCE15B8F675}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9A369F3B-E1F1-48AA-BD9C-B0B7A71FCAE5}" ShortID="936992160">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GasStationDingDong" ID="{27628F04-3FE0-4350-B6C1-D905B6367C75}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Spoopy_Ambience" ID="{E5579E5A-8D0D-4557-8DF3-710D4865C570}">
+					<ChildrenList>
+						<Action Name="" ID="{CF826932-B2EE-4AB1-9602-8677A8F754E3}" ShortID="594060302">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spoopy Ambience" ID="{1FFA701B-9FD2-412D-B851-519B49F4AE18}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Solo_Whistling" ID="{C79F2B0D-72F7-480E-83BE-FFF68590E444}">
+					<ChildrenList>
+						<Action Name="" ID="{25E05C24-66BE-436E-A295-42823FAF32F7}" ShortID="529675929">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{90DEBCD0-393F-402C-903F-E0046FFE435C}" ShortID="594248057">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Solo_Whistling" ID="{3BA3E579-DE72-4988-889C-3C1F2F0A9858}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
