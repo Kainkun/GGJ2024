@@ -1,4 +1,5 @@
 ﻿using System;
+using Player;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -8,10 +9,14 @@ public class PlayerCheckPaperState : PlayerState
     [SerializeField] 
     private PlayableDirector timeline;
 
+    [SerializeField] 
+    private PaperRandomizer paperRandomizer;
+
     public override void OnEnter()
     {
         base.OnEnter();
         timeline.Play();
+        paperRandomizer.Randomize();
     }
 
     public override void OnUpdate()
