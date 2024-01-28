@@ -34,7 +34,7 @@ namespace ScriptedEvents
             eventCamera.Priority = 5;
 
             yield return DialogueSystem.Instance.RunDialogue("explore_direct_to_milk");
-            FindAnyObjectByType<TeleportSystem>().Teleport();
+            FindAnyObjectByType<TeleportNext>().Teleport();
         }
     }
 }
