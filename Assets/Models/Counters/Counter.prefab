@@ -41,6 +41,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1163975092891354532}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -93,8 +105,37 @@ PrefabInstance:
     - {fileID: 65702495048144492, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
     - {fileID: -8700617353114198275, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 276760550223117367}
   m_SourcePrefab: {fileID: 100100000, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
+--- !u!1 &2696210362539850773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}
+  m_PrefabInstance: {fileID: 3379598053784161905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &276760550223117367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2696210362539850773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3.9999995, z: 3.9999995}
+  m_Center: {x: -0.5, y: 0, z: 0}
 --- !u!4 &2984769429165140378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c7df5f6d26b7f740818ebb2664f142c, type: 3}

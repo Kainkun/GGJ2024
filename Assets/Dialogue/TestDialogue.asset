@@ -15,30 +15,30 @@ MonoBehaviour:
   id: test
   lines:
   - duration: 1
-    subtitle: 'Player: hey, whats going on?'
+    subtitle: '???: Hello'
     speaker: {fileID: 11400000, guid: d53201154ff16244a8e20038cd7d000b, type: 2}
     audioEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: ef5a0c80fd0c9074e99e3759c5780f34, type: 2}
   - duration: 1
-    subtitle: 'Cube: nothing...'
+    subtitle: '???: Welcome'
     speaker: {fileID: 11400000, guid: 6ee2bfb4d035c024ab02d8411dbd3ca7, type: 2}
     audioEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: f99289abd549dc548b148df7e9b854fb, type: 2}
   - duration: 1
-    subtitle: 'Player: really...'
+    subtitle: '???: What can I do for you'
     speaker: {fileID: 11400000, guid: d53201154ff16244a8e20038cd7d000b, type: 2}
     audioEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: f99289abd549dc548b148df7e9b854fb, type: 2}
   - duration: 1
-    subtitle: 'Cube: yep!'
+    subtitle: '???: Goodbye'
     speaker: {fileID: 11400000, guid: 6ee2bfb4d035c024ab02d8411dbd3ca7, type: 2}
     audioEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: d3417cc818d390840b827ea2a34596b6, type: 2}
