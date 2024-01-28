@@ -8029,13 +8029,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -15.099976
       objectReference: {fileID: 0}
+    - target: {fileID: 8250323103305938965, guid: 6ff7d230c15eeaa468495e3d5d9e4037, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.81
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2252937070701464854, guid: 6ff7d230c15eeaa468495e3d5d9e4037, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ff7d230c15eeaa468495e3d5d9e4037, type: 3}
 --- !u!43 &1118697084
 Mesh:

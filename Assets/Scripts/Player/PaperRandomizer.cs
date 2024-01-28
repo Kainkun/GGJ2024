@@ -1,23 +1,42 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Player
-{
+{ 
     public class PaperRandomizer : MonoBehaviour
     {
         [SerializeField] 
-        private Sprite[] paperMessages;
+        private MessageGroup[] paperMessages;
 
         [SerializeField] 
         private SpriteRenderer spriteRenderer;
-
-        [SerializeField] 
-        private Sprite defaultSprite;
 
         [SerializeField] 
         private float randomChance = 0.5f;
 
         [SerializeField] 
         private int initialDelay = 3;
+
+        public State CurrentState { get; set; } = State.Explore;
+
+        [Serializable]
+        public class MessageGroup
+        {
+            public Sprite[] messageOptions;
+            public Sprite defaultSprite;
+            public State state;
+            
+            [NonSerialized]
+            public int CurrentIndex;
+        }
+
+        public enum State
+        {
+            Explore, 
+            Chaos,
+            Success,
+        }
         
         public void Randomize()
         {
@@ -27,15 +46,23 @@ namespace Player
                 return;
             }
 
-            if (Random.value < randomChance)
+            foreach (MessageGroup messageGroup in paperMessages)
             {
-                int randomIndex = Random.Range(0, paperMessages.Length);
-                spriteRenderer.sprite = paperMessages[randomIndex];
+                if (messageGroup.state == CurrentState)
+                {
+                    if (Random.value < randomChance)
+                    {
+                        spriteRenderer.sprite = messageGroup.messageOptions[messageGroup.CurrentIndex];
+                        messageGroup.CurrentIndex = (messageGroup.CurrentIndex + 1) % messageGroup.messageOptions.Length;
+                    }
+                    else
+                    {
+                        spriteRenderer.sprite = messageGroup.defaultSprite;
+                    }
+                    return;
+                }
             }
-            else
-            {
-                spriteRenderer.sprite = defaultSprite;
-            }
+
         }
     }
 }
