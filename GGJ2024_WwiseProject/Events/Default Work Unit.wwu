@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Play_Female_Voice_Hello" ID="{13D08E70-B872-4283-A1BE-CB4A36EF6B92}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2E461A6F-C71E-424A-940B-34683291183A}" ShortID="363516399">
 							<ReferenceList>
@@ -15,6 +18,9 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Female_Voice_HaveANiceDay" ID="{43581C88-8BC8-4134-9614-6C98F833BA08}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{74BBC1E2-F18C-444D-9DE3-D9B32F417200}" ShortID="22476406">
 							<ReferenceList>
@@ -26,6 +32,9 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Female_Voice_Goodbye" ID="{56A5ED8B-5A4E-45DF-972E-1935BBD26A6B}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{EB5E6B63-8841-417E-BFEC-369B6B683980}" ShortID="735990918">
 							<ReferenceList>
@@ -37,6 +46,9 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Sequence_Welcome_WhatcanIDo" ID="{CC3F22CD-359F-49D7-AA16-171FFA237AEF}">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool" Value="False"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{944F94A8-3645-4F6D-B992-12992ECDA392}" ShortID="8910439">
 							<ReferenceList>
@@ -413,6 +425,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Flourecent_Loop" ID="{579C8BC5-AA6C-4574-B7E5-53712CE3070C}">
+							<ChildrenList>
+								<Action Name="" ID="{97164710-3527-477E-A3D6-1CE548E95FB6}" ShortID="618284521">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flourecent_Loop" ID="{1EDE6000-175B-4784-86BF-CAD1DABF1473}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Player_Footsteps" ID="{4B41CBF9-83AA-4311-8E74-9CF28F9153E5}">
@@ -437,6 +460,102 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Interactable" ID="{E9D4718D-39EC-4439-BD5B-534EC8B9C71D}" ShortID="278733556">
+					<ChildrenList>
+						<Event Name="Play_Can" ID="{49A92052-2C59-4F01-8561-FCDB093A1BBF}">
+							<ChildrenList>
+								<Action Name="" ID="{B66AF8A5-3B30-47BC-A604-D9D5973A40AC}" ShortID="948958315">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Can" ID="{B31EC311-2601-4BA0-A520-FA63349939EE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cereal" ID="{592715A3-0768-429C-8547-22D7FF3AF6F3}">
+							<ChildrenList>
+								<Action Name="" ID="{727A87A8-AD54-40B5-8309-D1C09EAFB885}" ShortID="917641663">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cereal" ID="{A65F12EE-4C6C-4C4F-B2C5-21F601CCDE47}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Milk" ID="{9E723F1F-4E4B-4380-AF5A-488DE4240D41}">
+							<ChildrenList>
+								<Action Name="" ID="{6BC7EA6D-C0E1-4375-BF88-BBAB9BEEAB13}" ShortID="225200489">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Milk" ID="{C65EFCB9-582B-4196-8825-321A9B3465B4}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Paper" ID="{E3DB92CF-A668-46F7-A5A7-6D6E66A6EBF0}">
+							<ChildrenList>
+								<Action Name="" ID="{B88EA03A-E382-4A2C-8224-804E2DD46D3D}" ShortID="380391737">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Paper" ID="{FA25DB5B-4EC5-46D2-A103-BC2408F2E4BA}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Wife" ID="{E20B45D3-4F08-4D40-B049-4F31D99B35B6}" ShortID="846381550">
+					<ChildrenList>
+						<Event Name="Play_Wife_BackSoSoon" ID="{94F34BCD-2E14-4E42-8398-E8F4DEB2F6B7}">
+							<ChildrenList>
+								<Action Name="" ID="{264BE6D2-838E-4963-8A8F-47CA0B2B2624}" ShortID="159326446">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wife_BackSoSoon" ID="{D0C58A9A-213F-48FC-ADAE-3D726B311CAD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wife_Soon" ID="{5A56E5C7-BC29-47F5-8923-616E9CC82058}">
+							<ChildrenList>
+								<Action Name="" ID="{CEA854BE-15B2-442E-92A6-B32414EF792E}" ShortID="616481732">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wife_Soon" ID="{C3E0B3F5-DFA5-49E5-A634-A8E14A2D9C94}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wife_Soon_2" ID="{80DE6B9C-B375-4212-92F4-A90A96B4075D}">
+							<ChildrenList>
+								<Action Name="" ID="{8DC82BB9-1647-4CD2-84B2-4CDCB6085628}" ShortID="890191996">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wife_BackSoSoon" ID="{D0C58A9A-213F-48FC-ADAE-3D726B311CAD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wife_Trippy" ID="{95E5C9BF-0059-4F59-A494-BA0E0FC5847E}">
+							<ChildrenList>
+								<Action Name="" ID="{8CE857CD-8C91-4003-8DDD-C0BF9A677E22}" ShortID="236915649">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wife_Trippy" ID="{000CB772-1782-47A7-9E31-F2AADE103EA7}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
