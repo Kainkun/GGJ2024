@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1067123684538257435}
   - component: {fileID: 3139636908965837977}
   - component: {fileID: 3269363753245482875}
+  - component: {fileID: 8810945383690963283}
   m_Layer: 0
   m_Name: PlayerTrigger
   m_TagString: Untagged
@@ -72,6 +73,18 @@ MonoBehaviour:
           m_StringArgument: MilkMove2
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: RenderSettings, Assembly-CSharp
+        m_MethodName: SetFog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MilkMove2
+          m_BoolArgument: 0
+        m_CallState: 2
   repeatTrigger: 0
 --- !u!65 &3269363753245482875
 BoxCollider:
@@ -94,6 +107,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8810945383690963283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2844897498422301877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab418c3ab78300f42b416d41a50c11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  urp: {fileID: 0}
+  fogDensity: 0.04
+  fogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!1001 &1592284391291685430
 PrefabInstance:
   m_ObjectHideFlags: 0
