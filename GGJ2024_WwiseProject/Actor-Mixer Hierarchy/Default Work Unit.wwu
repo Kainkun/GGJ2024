@@ -20,6 +20,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="213284__aderumoro__hello-2-female-friendly" ID="{16F653B6-9562-4F25-A5F5-8E8623197A76}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.251153558679161"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.325753625613565"/>
+										<Property Name="LoopEnd" Type="Real64" Value="0.682590612449799"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>213284__aderumoro__hello-2-female-friendly.wav</AudioFile>
 									<MediaIDList>
@@ -255,7 +261,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1164,7 +1170,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Cashier_Strong_Silent_Type" ID="{16D90A9A-F684-4970-88FD-2CEF4CDAFF16}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0787640562248995"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="3.96318271119843"/>
 											</PropertyList>
@@ -1212,6 +1218,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Cashier_Vitimin_D" ID="{D6097FBA-F6CF-44ED-9E6E-062FF092DE4C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0385756513026052"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.197560352521196"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.15108796760187"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.80020325747434"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Cashier_Vitimin_D.wav</AudioFile>
 											<MediaIDList>
@@ -1430,6 +1443,439 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Folder Name="7_11_Ambient Sounds" ID="{FC79C230-A664-4BB5-ADE9-321C80B3D5A7}" ShortID="269871437">
+					<ChildrenList>
+						<Sound Name="AC_Loop" ID="{96BF4702-1654-41E3-BCCC-16389BE5362A}" ShortID="557900947">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Generator" ID="{3CFBB0BC-DA2B-4495-A027-5459ED9DB0DF}" WorkUnitID="{FE91155A-F276-49B4-8799-B817E46D2EC0}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AC_Loop" ID="{560BFD51-3A7D-4B90-8101-5DA5AE5BD6E6}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="215"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.385542168674699"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.16557161629435"/>
+										<Property Name="LoopEnd" Type="Real64" Value="15.6257949523157"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AC_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="788903558"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AC_Loop" ID="{560BFD51-3A7D-4B90-8101-5DA5AE5BD6E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Freezer_Loop" ID="{F4D371F4-5B08-48A7-A4E1-2FAFEDD199F0}" ShortID="151328908">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Generator" ID="{3CFBB0BC-DA2B-4495-A027-5459ED9DB0DF}" WorkUnitID="{FE91155A-F276-49B4-8799-B817E46D2EC0}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Freezer_Loop" ID="{DBBFD25F-7B8A-4F9B-A56E-47C66E2BC62C}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="150"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.235609103078983"/>
+										<Property Name="LoopEnd" Type="Real64" Value="15.8714859437751"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Freezer_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="496928318"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Freezer_Loop" ID="{DBBFD25F-7B8A-4F9B-A56E-47C66E2BC62C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GasStationDingDong" ID="{27628F04-3FE0-4350-B6C1-D905B6367C75}" ShortID="210021095">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Generator" ID="{3CFBB0BC-DA2B-4495-A027-5459ED9DB0DF}" WorkUnitID="{FE91155A-F276-49B4-8799-B817E46D2EC0}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GasStationDingDong" ID="{19B6D11C-C05E-4C03-89BB-6FED4E535F89}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0274431057563588"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.18920124944221"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.608322177599286"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.594600624721106"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.34638554216867"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>GasStationDingDong.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="126492990"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GasStationDingDong" ID="{19B6D11C-C05E-4C03-89BB-6FED4E535F89}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Soda_Machine" ID="{E668756A-67C6-4A02-94BA-40ADEE3515BB}" ShortID="192359415">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Soda_Machine" ID="{05F446BD-D626-439D-899A-B71DCE40FD84}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1600"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.60095939312807"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.66242748772869"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Soda_Machine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="359915242"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Soda_Machine" ID="{05F446BD-D626-439D-899A-B71DCE40FD84}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="Player Footsteps" ID="{A791A6ED-EA18-4DD2-935E-BEF51BD79FB2}" ShortID="580862386">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{72F56871-3060-44C4-AF33-7A9C3D0DB30E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footsteps_Series" ID="{5A02B80C-61C7-4098-9ECD-C3621357AD72}" ShortID="981208513">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{036B5131-D365-425F-BF8D-17EFB10957C0}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Series" ID="{6AFDCD43-E6EE-4214-AF21-797216AE70C6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0562248995983936"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.313253012048192"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Series.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="325516985"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Series" ID="{6AFDCD43-E6EE-4214-AF21-797216AE70C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Series_01" ID="{CD1AC33B-7875-4CAB-8048-0A0C3C89B9A5}" ShortID="777238704">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{24DBD3C9-8E5A-4C85-A610-27B113BAA54E}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Series" ID="{2CE14AB8-3360-4310-89F5-CB91A98CAB62}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.144578313253012"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.01204819277108"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.38152610441767"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Series.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="729189548"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Series" ID="{2CE14AB8-3360-4310-89F5-CB91A98CAB62}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Series_02" ID="{E5ADCFAB-F8A0-4617-8257-FAE43DAFF68A}" ShortID="590267295">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{291F2357-1E06-4324-B9D7-36555BD06AA4}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Series" ID="{A12AF8B3-92DC-4D9D-8A4D-70864C8B8ED5}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.072289156626506"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.98393574297189"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.31325301204819"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Series.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="864326664"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Series" ID="{A12AF8B3-92DC-4D9D-8A4D-70864C8B8ED5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Series_03" ID="{B27B6A02-0FC3-4B6D-B3B9-B78CCC9F101A}" ShortID="604803602">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DF65820E-AACD-44BC-A726-9885ABD3FDC9}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Series" ID="{B5A814A1-7DC1-4B11-B577-62A540AE081D}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0562248995983934"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.01204819277108"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.4136546184739"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Series.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="232370685"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Series" ID="{B5A814A1-7DC1-4B11-B577-62A540AE081D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Series_04" ID="{D22D8307-E9FB-4D0C-B03D-1921C89C5740}" ShortID="756348115">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BA6BBA3A-B1BA-485A-AAA3-B236353D470E}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Series" ID="{1809C3D8-F3C8-45DF-910A-59A595AD3FFE}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.112449799196787"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.33734939759036"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Series.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="915841267"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Series" ID="{1809C3D8-F3C8-45DF-910A-59A595AD3FFE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps_Series_05" ID="{1F8FC852-5192-49FC-BCA0-DD08BFB3E261}" ShortID="644045287">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{89C1FC58-A251-40F0-8B32-1958956A6DD4}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps_Series" ID="{76554FC6-7268-4FCC-A117-40117DFB09D6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.128514056224899"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="5.06024096385542"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.3574297188755"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Series.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="277029858"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps_Series" ID="{76554FC6-7268-4FCC-A117-40117DFB09D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C87B3E62-60B9-45F8-AE7C-594C1114B1AA}" ShortID="764842027">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+												<ObjectRef Name="Footstep_Limit" ID="{32D57F21-F468-47E4-A7C3-03869E12ED45}" WorkUnitID="{565CAC7B-0992-4304-81AE-805238CE179A}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
