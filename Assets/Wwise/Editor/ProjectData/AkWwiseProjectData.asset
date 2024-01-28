@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 0dd286dc9f77a34bb8159fb91ae77aaf
     GuidInternal: 
-    m_lastTime: -8584952690497946875
+    m_lastTime: -8584952625735149637
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 013e3f2b28d00947acbc02708e299061
     GuidInternal: 
-    m_lastTime: -8584951288213071617
+    m_lastTime: -8584951284953308058
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
-    m_lastTime: -8584951279230663496
+    m_lastTime: -8584951281300516875
     List:
     - name: SoundBank
       guid: 8cd371baccf74f438c2972fc329213cd
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
-    m_lastTime: -8584951279235113706
+    m_lastTime: -8584951281303954212
     List:
     - name: Cashier Events
       guid: 57928b10f69dfc4b8106617ad0357570
@@ -650,8 +650,8 @@ MonoBehaviour:
         guid: 92d15d4b5c30c847895f5132e5799717
       Path: Events\Default Work Unit\Play_GAMESTART
       maxAttenuation: 0
-      maxDuration: 12.199667
-      minDuration: 12.199667
+      maxDuration: -1
+      minDuration: -1
     - name: Play_GAMESTART_REPRISE
       guid: 4cabf74d0d372f4aa9e5c7abc4b4340b
       id: 675447719
@@ -667,8 +667,8 @@ MonoBehaviour:
         guid: 4cabf74d0d372f4aa9e5c7abc4b4340b
       Path: Events\Default Work Unit\Play_GAMESTART_REPRISE
       maxAttenuation: 0
-      maxDuration: 12.699667
-      minDuration: 12.699667
+      maxDuration: -1
+      minDuration: -1
     - name: Play_GasStationDingDong
       guid: a8b186ebe9d2cf46951e7f82a2479a66
       id: 2809485985
@@ -858,8 +858,8 @@ MonoBehaviour:
         guid: b3c6d074a7a3bf4ab11d9e875f7a9ec4
       Path: Events\Default Work Unit\Play_Register_beep
       maxAttenuation: 0
-      maxDuration: 0.44117913
-      minDuration: 0.44117913
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Sequence_Welcome_WhatcanIDo
       guid: cd223fcc9f35d749aa16171ffa237aef
       id: 4123174421
@@ -908,7 +908,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0d2b9fc7f7720e4883befff68590e444
       Path: Events\Default Work Unit\Play_Solo_Whistling
-      maxAttenuation: 15
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Spoopy_Ambience
@@ -1054,7 +1054,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d54a140e1e3d5e4eb40465470c89b070
     GuidInternal: 
-    m_lastTime: -8584952690499301693
+    m_lastTime: -8584952625735199637
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1068,7 +1068,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 43a2b741fff2d64daa4ef995c4bb84a5
     GuidInternal: 
-    m_lastTime: -8584952690499572146
+    m_lastTime: -8584952625735159637
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1082,7 +1082,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 6db6c00f92cfd94d99c93a94916aeaf7
     GuidInternal: 
-    m_lastTime: -8584952690499982177
+    m_lastTime: -8584952625735159637
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1096,11 +1096,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c48bc04af46f884f983bca714ff3e3c0
     GuidInternal: 
-    m_lastTime: -8584952690498219148
+    m_lastTime: -8584952625735149637
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000090000001100000012000000
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000
+  ExpandedWaapiItemIds: 0200000003000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

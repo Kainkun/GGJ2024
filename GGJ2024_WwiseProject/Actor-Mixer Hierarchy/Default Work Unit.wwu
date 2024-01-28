@@ -428,7 +428,7 @@
 								</Property>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
@@ -1227,28 +1227,6 @@
 										<ActiveSource Name="Cashier_PlanningToPay" ID="{F9D714E6-9F04-4E91-9455-C4035CC83D5F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cashier_Meat_Log" ID="{873496AD-E98F-4C6F-9685-46D301CCA99E}" ShortID="567782494">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}">
-											<Language>SFX</Language>
-											<AudioFile>Cashier_Meat_Log.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="408982861"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Cashier_PleaseSet" ID="{E9057A46-BE4B-4C02-BB50-A8CB25B80855}" ShortID="182865012">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1276,33 +1254,6 @@
 										<ActiveSource Name="Cashier_PleaseSet" ID="{7F8A6B28-5171-410A-B588-15A1495BE455}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cashier_Strong_Silent_Type" ID="{50B17929-3BEA-471E-A85B-416605F32691}" ShortID="995669891">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cashier_Strong_Silent_Type" ID="{16D90A9A-F684-4970-88FD-2CEF4CDAFF16}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0787640562248995"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="3.96318271119843"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Cashier_Strong_Silent_Type.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="679843875"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Cashier_Strong_Silent_Type" ID="{16D90A9A-F684-4970-88FD-2CEF4CDAFF16}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Cashier_ThereYouAre" ID="{9F862853-3687-4F87-B38F-5719D52C638A}" ShortID="173149935">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1323,35 +1274,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Cashier_ThereYouAre" ID="{41B13F7A-610F-411C-9AA2-664E564F6678}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Cashier_Vitimin_D" ID="{4AC6372A-5498-433A-B143-F9440BFD6467}" ShortID="604849261">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Cashier_Vitimin_D" ID="{D6097FBA-F6CF-44ED-9E6E-062FF092DE4C}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0385756513026052"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.197560352521196"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.15108796760187"/>
-												<Property Name="TrimEnd" Type="Real64" Value="2.80020325747434"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Cashier_Vitimin_D.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="686673804"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Cashier_Vitimin_D" ID="{D6097FBA-F6CF-44ED-9E6E-062FF092DE4C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Cashier_PullingYourLeg" ID="{78BFC0FD-293E-46B0-BAF4-837FE6DBD01D}" ShortID="472631380">
@@ -1398,7 +1320,10 @@
 										<ActiveSource Name="Cashier_SeeYouSoon" ID="{329CF41B-B4D6-4BBD-8BE3-6503E42503B8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Cashier_Strong_Bones" ID="{D6CA76A0-B249-490A-AFC1-125642F03EE4}" ShortID="824428657">
+								<RandomSequenceContainer Name="Cashier_SmallTalk" ID="{F8D3B34A-8875-4E37-8AE2-49291F4EECC0}" ShortID="16608676">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
@@ -1408,18 +1333,168 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Cashier_Strong_Bones" ID="{03CD3DFD-59DE-4B74-BD0F-49D3D916253D}">
-											<Language>SFX</Language>
-											<AudioFile>Cashier_Strong_Bones.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1007722943"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Cashier_Meat_Log" ID="{873496AD-E98F-4C6F-9685-46D301CCA99E}" ShortID="567782494">
+											<PropertyList>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}">
+													<Language>SFX</Language>
+													<AudioFile>Cashier_Meat_Log.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="408982861"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cashier_Strong_Bones" ID="{D6CA76A0-B249-490A-AFC1-125642F03EE4}" ShortID="824428657">
+											<PropertyList>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cashier_Strong_Bones" ID="{03CD3DFD-59DE-4B74-BD0F-49D3D916253D}">
+													<Language>SFX</Language>
+													<AudioFile>Cashier_Strong_Bones.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1007722943"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cashier_Strong_Bones" ID="{03CD3DFD-59DE-4B74-BD0F-49D3D916253D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cashier_Strong_Silent_Type" ID="{50B17929-3BEA-471E-A85B-416605F32691}" ShortID="995669891">
+											<PropertyList>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cashier_Strong_Silent_Type" ID="{16D90A9A-F684-4970-88FD-2CEF4CDAFF16}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0787640562248995"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.96318271119843"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Cashier_Strong_Silent_Type.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="679843875"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cashier_Strong_Silent_Type" ID="{16D90A9A-F684-4970-88FD-2CEF4CDAFF16}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cashier_Vitimin_D" ID="{4AC6372A-5498-433A-B143-F9440BFD6467}" ShortID="604849261">
+											<PropertyList>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cashier_Vitimin_D" ID="{D6097FBA-F6CF-44ED-9E6E-062FF092DE4C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0385756513026052"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.197560352521196"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.15108796760187"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.80020325747434"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Cashier_Vitimin_D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="686673804"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cashier_Vitimin_D" ID="{D6097FBA-F6CF-44ED-9E6E-062FF092DE4C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Cashier_Strong_Bones" ID="{03CD3DFD-59DE-4B74-BD0F-49D3D916253D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -1841,7 +1916,7 @@
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-1</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
@@ -2115,6 +2190,8 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -2245,6 +2322,11 @@
 										</ReferenceList>
 									</EffectSlot>
 								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="106647-Banging_a_refrigerator_shelf-AOS02977" ID="{8B6F2271-20FE-4FCB-B864-14420F4DB848}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
 							</Reference>
 						</ObjectList>
 					</ObjectLists>
@@ -2451,6 +2533,11 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Cereal" ID="{A65F12EE-4C6C-4C4F-B2C5-21F601CCDE47}" ShortID="343452128">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -2473,7 +2560,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3.5</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2749,7 +2836,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
