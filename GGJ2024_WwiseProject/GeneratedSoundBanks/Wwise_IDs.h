@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_2D_ROOMTONE = 4867526U;
+        static const AkUniqueID PLAY_AC_AMBIENCE = 1705887329U;
         static const AkUniqueID PLAY_CASHIER_COUPON = 4243000246U;
         static const AkUniqueID PLAY_CASHIER_END = 4170577199U;
         static const AkUniqueID PLAY_CASHIER_END_RINGUP = 3143524091U;
@@ -31,6 +33,8 @@ namespace AK
         static const AkUniqueID PLAY_FEMALE_VOICE_GOODBYE = 3876234301U;
         static const AkUniqueID PLAY_FEMALE_VOICE_HAVEANICEDAY = 738920550U;
         static const AkUniqueID PLAY_FEMALE_VOICE_HELLO = 37077532U;
+        static const AkUniqueID PLAY_FREEZER_AMBIENCE = 2633745870U;
+        static const AkUniqueID PLAY_GASSTATIONDINGDONG = 2809485985U;
         static const AkUniqueID PLAY_MUZAK_GUITAR = 2931435471U;
         static const AkUniqueID PLAY_PA_MAN_CLOSINGIN10 = 3619978204U;
         static const AkUniqueID PLAY_PA_MAN_CLOSINGIN30 = 3653533474U;

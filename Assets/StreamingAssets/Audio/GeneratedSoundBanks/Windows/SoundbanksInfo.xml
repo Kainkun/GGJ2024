@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{12709A50-D3F0-AA2B-0769-84E993E4C1CC}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{E08CEDCF-4D66-8036-1B53-BEA555F27355}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -37,6 +37,10 @@
 				<File Id="107684846" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
 					<CachePath>SFX/Series_Attention_Customers_D3ABA304.wem</CachePath>
+				</File>
+				<File Id="126492990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GasStationDingDong.wav</ShortName>
+					<CachePath>SFX/GasStationDingDong_B6CBF3DC.wem</CachePath>
 				</File>
 				<File Id="129614257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -90,6 +94,10 @@
 					<ShortName>Muzak_Guitar_1.wav</ShortName>
 					<CachePath>SFX/Muzak_Guitar_1_66B93D96.wem</CachePath>
 				</File>
+				<File Id="359915242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soda_Machine.wav</ShortName>
+					<CachePath>SFX/Soda_Machine_A3DCC629.wem</CachePath>
+				</File>
 				<File Id="375619510" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
 					<CachePath>SFX/Cashier_Instructions_0778BED6.wem</CachePath>
@@ -97,6 +105,10 @@
 				<File Id="408982861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Meat_Log.wav</ShortName>
 					<CachePath>SFX/Cashier_Meat_Log_818F3B66.wem</CachePath>
+				</File>
+				<File Id="496928318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Freezer_Loop.wav</ShortName>
+					<CachePath>SFX/Freezer_Loop_B0D03414.wem</CachePath>
 				</File>
 				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
@@ -128,7 +140,7 @@
 				</File>
 				<File Id="686673804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Vitimin_D.wav</ShortName>
-					<CachePath>SFX/Cashier_Vitimin_D_818F3B66.wem</CachePath>
+					<CachePath>SFX/Cashier_Vitimin_D_74C73503.wem</CachePath>
 				</File>
 				<File Id="717609223" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_PleaseSet.wav</ShortName>
@@ -161,6 +173,10 @@
 				<File Id="787705611" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_D621E257.wem</CachePath>
+				</File>
+				<File Id="788903558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AC_Loop.wav</ShortName>
+					<CachePath>SFX/AC_Loop_B7788A03.wem</CachePath>
 				</File>
 				<File Id="823389448" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_CanIHelpYouFindAnythingElse.wav</ShortName>
@@ -201,6 +217,16 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
+				<Event Id="4867526" Name="Play_2D_Roomtone" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="359915242"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1705887329" Name="Play_AC_Ambience" MaxAttenuation="13" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="788903558"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4243000246" Name="Play_Cashier_Coupon" DurationType="OneShot" DurationMin="3" DurationMax="3">
 					<MediaRefs>
 						<MediaRef Id="349635030"/>
@@ -288,7 +314,7 @@
 						<MediaRef Id="1002442733"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="615435047" Name="Play_Cashier_Vitimin_D" DurationType="OneShot" DurationMin="3.2082083" DurationMax="3.2082083">
+				<Event Id="615435047" Name="Play_Cashier_Vitimin_D" DurationType="OneShot" DurationMin="3.0571203" DurationMax="3.0571203">
 					<MediaRefs>
 						<MediaRef Id="686673804"/>
 					</MediaRefs>
@@ -306,6 +332,16 @@
 				<Event Id="37077532" Name="Play_Female_Voice_Hello" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084">
 					<MediaRefs>
 						<MediaRef Id="249524521"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2633745870" Name="Play_Freezer_Ambience" MaxAttenuation="13" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="496928318"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2809485985" Name="Play_GasStationDingDong" MaxAttenuation="13" DurationType="OneShot" DurationMin="1.7517849" DurationMax="1.7517849">
+					<MediaRefs>
+						<MediaRef Id="126492990"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="15" DurationType="Infinite">
@@ -347,5 +383,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4C6ED4C7-9971-0FEE-358C-560F374D2C7E}</FileHash>
+	<FileHash>{C0FDFC53-3332-8C8D-6340-BD57C1FFA970}</FileHash>
 </SoundBanksInfo>
