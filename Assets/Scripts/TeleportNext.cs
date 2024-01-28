@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,15 @@ public class TeleportNext : MonoBehaviour
     public Transform teleportTarget;
     public UnityEvent onTeleport;
     public Transform[] teleportWith;
+    public bool startLightOn;
+
+    private void Awake()
+    {
+        foreach (Light light in GetComponentsInChildren<Light>())
+        {
+            light.enabled = startLightOn;
+        }
+    }
 
     public void Teleport()
     {
@@ -20,6 +30,17 @@ public class TeleportNext : MonoBehaviour
         {
             t.position += teleportTarget.position - transform.position;
         }
+
         onTeleport?.Invoke();
+
+        foreach (Light light in GetComponentsInChildren<Light>())
+        {
+            light.enabled = false;
+        }
+
+        foreach (Light light in teleportTarget.GetComponentsInChildren<Light>())
+        {
+            light.enabled = true;
+        }
     }
 }
