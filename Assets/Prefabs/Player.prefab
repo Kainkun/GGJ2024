@@ -1276,17 +1276,20 @@ MonoBehaviour:
   - messageOptions:
     - {fileID: 21300000, guid: aad41670fb94a614bac99533b0d210b3, type: 3}
     - {fileID: 21300000, guid: fba8587f92f1ecf40a6605f99faff89c, type: 3}
-    - {fileID: 21300000, guid: 0337819e3b55f944bb5fdfd9a7a7f8cc, type: 3}
-    - {fileID: 21300000, guid: 3224a1090234cf343a825ccd4bcee919, type: 3}
-    - {fileID: 21300000, guid: dbe17ebb96ad7ca4584fd0b55bf481d8, type: 3}
+    - {fileID: 21300000, guid: 74dee331296895e4e98b604136dc569e, type: 3}
     defaultSprite: {fileID: 21300000, guid: fcf3877ac718f0043abc8693e7652fea, type: 3}
     state: 1
   - messageOptions:
-    - {fileID: 21300000, guid: fcf3877ac718f0043abc8693e7652fea, type: 3}
-    defaultSprite: {fileID: 21300000, guid: fcf3877ac718f0043abc8693e7652fea, type: 3}
+    - {fileID: 21300000, guid: 3224a1090234cf343a825ccd4bcee919, type: 3}
+    - {fileID: 21300000, guid: 0337819e3b55f944bb5fdfd9a7a7f8cc, type: 3}
+    defaultSprite: {fileID: 21300000, guid: dbe17ebb96ad7ca4584fd0b55bf481d8, type: 3}
     state: 2
+  - messageOptions:
+    - {fileID: 21300000, guid: d3ed06d0e9a83e546badd618c784371d, type: 3}
+    defaultSprite: {fileID: 21300000, guid: d3ed06d0e9a83e546badd618c784371d, type: 3}
+    state: 3
   spriteRenderer: {fileID: 7370445570434686958}
-  randomChance: 0.8
+  randomChance: 1
   initialDelay: 1
 --- !u!1 &6283507693887973700
 GameObject:

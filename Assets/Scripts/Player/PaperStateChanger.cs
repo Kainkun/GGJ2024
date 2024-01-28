@@ -4,7 +4,9 @@ namespace Player
 {
     public class PaperStateChanger : MonoBehaviour
     {
-        public void ChangeState(PaperRandomizer.State state)
+        public PaperRandomizer.State state;
+        
+        public void ChangeState()
         {
             FindAnyObjectByType<PaperRandomizer>().CurrentState = state;
         }

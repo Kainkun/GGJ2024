@@ -35,6 +35,7 @@ namespace Player
         {
             Explore, 
             Chaos,
+            Maze,
             Success,
         }
         
