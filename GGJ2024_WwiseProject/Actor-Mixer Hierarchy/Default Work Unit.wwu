@@ -1319,11 +1319,6 @@
 								<Value>33</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-9</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -2564,6 +2559,348 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Wife" ID="{7DDD5873-4FAE-4F3E-8163-CA0FDB413CB6}" ShortID="611455521">
+					<ChildrenList>
+						<Sound Name="Wife_Soon" ID="{C3E0B3F5-DFA5-49E5-A634-A8E14A2D9C94}" ShortID="18951392">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wife_Soon" ID="{CE729348-7A14-4BFE-8201-CEEE082F7BA9}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0390879478827361"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.755700325732899"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Wife_Soon.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="729504005"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wife_Soon" ID="{CE729348-7A14-4BFE-8201-CEEE082F7BA9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wife_Super_Trippy_Sheet" ID="{C16F5AD1-E332-4971-8B0D-DF65FF7121B7}" ShortID="429367900">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wife_Super_Trippy_Sheet" ID="{1A9F0421-7817-4C25-A9CF-F5E53065B68D}">
+									<Language>SFX</Language>
+									<AudioFile>Wife_Super_Trippy_Sheet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="367859804"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wife_Super_Trippy_Sheet" ID="{1A9F0421-7817-4C25-A9CF-F5E53065B68D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wife_BackSoSoon" ID="{D0C58A9A-213F-48FC-ADAE-3D726B311CAD}" ShortID="846694222">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wife_Soon" ID="{C1DEF6AD-5A58-4D5A-B77C-31DA8FD574F7}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0521172638436482"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.7557003257329"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.56351791530945"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Wife_Soon.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="808508575"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wife_Soon" ID="{C1DEF6AD-5A58-4D5A-B77C-31DA8FD574F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wife_Soon_02" ID="{2C5DEA5D-9CA0-4135-9073-91E4C986D23F}" ShortID="1037754516">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wife_Soon" ID="{884D2374-E359-4B3C-AA34-F1C7BF59A40B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.130293159609121"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.57654723127036"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.4885993485342"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Wife_Soon.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="158938096"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wife_Soon" ID="{884D2374-E359-4B3C-AA34-F1C7BF59A40B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Wife_Trippy" ID="{000CB772-1782-47A7-9E31-F2AADE103EA7}" ShortID="619180809">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wife_Trippy_Sheet" ID="{E0218805-9BDB-40FA-8B94-140F17EA45A1}" ShortID="614313673">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wife_Trippy_Sheet" ID="{AEFEE044-FA79-46F0-BA3C-F1BF1B749F67}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.76526872964169"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="8.53460912052117"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wife_Trippy_Sheet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="795075753"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wife_Trippy_Sheet" ID="{AEFEE044-FA79-46F0-BA3C-F1BF1B749F67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wife_Trippy_Sheet_01" ID="{17DAD2A6-C143-4580-AEBC-6A3B018395BD}" ShortID="793441707">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wife_Trippy_Sheet" ID="{A61EC6DC-6445-4506-B292-60A13B4118F1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.17141693811075"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.76526872964169"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.27951954397394"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16.5671824104235"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wife_Trippy_Sheet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="348452577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wife_Trippy_Sheet" ID="{A61EC6DC-6445-4506-B292-60A13B4118F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wife_Trippy_Sheet_02" ID="{BFF14D16-474F-42A7-B6E8-4B18AFF88CD2}" ShortID="762083624">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wife_Trippy_Sheet" ID="{F8B80F1A-28A2-4DA9-85FD-0AD200958DAB}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.502035830618894"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.76119706840391"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="16.0651465798046"/>
+												<Property Name="TrimEnd" Type="Real64" Value="23.428338762215"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wife_Trippy_Sheet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="531224561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wife_Trippy_Sheet" ID="{F8B80F1A-28A2-4DA9-85FD-0AD200958DAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wife_Trippy_Sheet_03" ID="{ED55CFC8-6198-47D1-91A0-E2A1F829D654}" ShortID="468481065">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wife_Trippy_Sheet" ID="{B12B74DA-3DF7-48B6-9E08-4E8184E78A61}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.33876221498371"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.76526872964169"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="23.7630293159609"/>
+												<Property Name="TrimEnd" Type="Real64" Value="30.4568403908795"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wife_Trippy_Sheet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="604441989"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wife_Trippy_Sheet" ID="{B12B74DA-3DF7-48B6-9E08-4E8184E78A61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wife_Trippy_Sheet_04" ID="{2CC46D40-2D78-434A-AF33-03A5ECDF43BD}" ShortID="294188469">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>60</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wife_Trippy_Sheet" ID="{FC7E06B0-C914-4440-8754-41CE1393CB7F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.00407166123778"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.76526872964169"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="31.0425488599349"/>
+												<Property Name="TrimEnd" Type="Real64" Value="39.744503257329"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wife_Trippy_Sheet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733786221"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wife_Trippy_Sheet" ID="{FC7E06B0-C914-4440-8754-41CE1393CB7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wife_Trippy_Sheet_05" ID="{538BBE84-4ACF-45FB-A51A-5F1BA9513B50}" ShortID="602197679">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wife_Trippy_Sheet" ID="{5C0DCA69-515C-4388-9FB4-74B1487EA463}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.669381107491859"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.76526872964169"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="41.1669381107492"/>
+												<Property Name="TrimEnd" Type="Real64" Value="47.7770765472313"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wife_Trippy_Sheet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021435179"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wife_Trippy_Sheet" ID="{5C0DCA69-515C-4388-9FB4-74B1487EA463}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
