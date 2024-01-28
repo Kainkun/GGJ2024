@@ -9,12 +9,16 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{64AA1913-936D-CA19-CDE4-C670176DA676}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BDA14EBE-57B6-0BCD-FD2F-65BD0BBF6EB8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="1064166627" Name="Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+				</Custom>
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -22,7 +26,16 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1064166627"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="4012807925" Name="ReverbAux">
@@ -34,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{7EC0EEC3-1BC3-F525-67A6-1FDB82655108}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{285BD655-7FED-7FFE-4C70-8E9D8D3D40E0}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -777,5 +790,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70858905-DF09-DEFC-0E4F-CB7173D77760}</FileHash>
+	<FileHash>{C070A85A-B845-E25D-4E8A-78A4753D2460}</FileHash>
 </SoundBanksInfo>
