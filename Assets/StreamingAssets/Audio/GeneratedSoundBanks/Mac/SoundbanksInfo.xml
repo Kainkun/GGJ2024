@@ -9,12 +9,16 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AB20D13B-0202-F4BF-8CD1-57713C257A3E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BDA14EBE-57B6-0BCD-FD2F-65BD0BBF6EB8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="1064166627" Name="Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+				</Custom>
 				<ShareSets>
 					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -22,7 +26,16 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1064166627"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="4012807925" Name="ReverbAux">
@@ -34,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{82083151-5D20-F2A5-3E00-D3A8B69BF984}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{7C74931C-4659-99FD-552B-40931344114F}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -44,11 +57,11 @@
 				</File>
 				<File Id="68607420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk Carton.wav</ShortName>
-					<CachePath>SFX/Milk Carton_45F3075D.wem</CachePath>
+					<CachePath>SFX/Milk Carton_3268101F.wem</CachePath>
 				</File>
 				<File Id="70393620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Can_Interaction.wav</ShortName>
-					<CachePath>SFX/Can_Interaction_9E6EE26F.wem</CachePath>
+					<CachePath>SFX/Can_Interaction_4AAA7132.wem</CachePath>
 				</File>
 				<File Id="72556111" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
@@ -56,7 +69,7 @@
 				</File>
 				<File Id="85930157" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk Carton.wav</ShortName>
-					<CachePath>SFX/Milk Carton_8EAD564B.wem</CachePath>
+					<CachePath>SFX/Milk Carton_FE4387B1.wem</CachePath>
 				</File>
 				<File Id="93776339" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>106647-Banging_a_refrigerator_shelf-AOS02977.wav</ShortName>
@@ -72,7 +85,7 @@
 				</File>
 				<File Id="128125839" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cereal_Box_Interaction.wav</ShortName>
-					<CachePath>SFX/Cereal_Box_Interaction_3FEF192D.wem</CachePath>
+					<CachePath>SFX/Cereal_Box_Interaction_2BF0A791.wem</CachePath>
 				</File>
 				<File Id="129614257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -89,6 +102,10 @@
 				<File Id="149286383" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
 					<CachePath>SFX/Cashier_Calling_A2B08B74.wem</CachePath>
+				</File>
+				<File Id="158938096" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wife_Soon.wav</ShortName>
+					<CachePath>SFX/Wife_Soon_48C64FA3.wem</CachePath>
 				</File>
 				<File Id="170909130" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
@@ -112,7 +129,11 @@
 				</File>
 				<File Id="285154543" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Can_Interaction.wav</ShortName>
-					<CachePath>SFX/Can_Interaction_25845444.wem</CachePath>
+					<CachePath>SFX/Can_Interaction_918A6D30.wem</CachePath>
+				</File>
+				<File Id="303218919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>118863-Retail_store_cash_register_scanner_beep_2.wav</ShortName>
+					<CachePath>SFX/118863-Retail_store_cash_register_scanner_beep_2_A2669B16.wem</CachePath>
 				</File>
 				<File Id="307164417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -124,11 +145,11 @@
 				</File>
 				<File Id="327156058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cereal_Box_Interaction.wav</ShortName>
-					<CachePath>SFX/Cereal_Box_Interaction_94F785CD.wem</CachePath>
+					<CachePath>SFX/Cereal_Box_Interaction_B2631828.wem</CachePath>
 				</File>
 				<File Id="348452577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Trippy_Sheet.wav</ShortName>
-					<CachePath>SFX/Wife_Trippy_Sheet_72084A1A.wem</CachePath>
+					<CachePath>SFX/Wife_Trippy_Sheet_04B17D1F.wem</CachePath>
 				</File>
 				<File Id="349635030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Coupon.wav</ShortName>
@@ -148,7 +169,11 @@
 				</File>
 				<File Id="380040983" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Can_Interaction.wav</ShortName>
-					<CachePath>SFX/Can_Interaction_49A318C5.wem</CachePath>
+					<CachePath>SFX/Can_Interaction_2E25CD0A.wem</CachePath>
+				</File>
+				<File Id="392228245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spoopy Ambience.wav</ShortName>
+					<CachePath>SFX/Spoopy Ambience_40B3FD5A.wem</CachePath>
 				</File>
 				<File Id="408982861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Meat_Log.wav</ShortName>
@@ -156,7 +181,7 @@
 				</File>
 				<File Id="454053554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Can_Interaction.wav</ShortName>
-					<CachePath>SFX/Can_Interaction_B14A6879.wem</CachePath>
+					<CachePath>SFX/Can_Interaction_BA94A470.wem</CachePath>
 				</File>
 				<File Id="496928318" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Freezer_Loop.wav</ShortName>
@@ -164,11 +189,15 @@
 				</File>
 				<File Id="531224561" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Trippy_Sheet.wav</ShortName>
-					<CachePath>SFX/Wife_Trippy_Sheet_DAD4CB28.wem</CachePath>
+					<CachePath>SFX/Wife_Trippy_Sheet_3A117C00.wem</CachePath>
 				</File>
 				<File Id="534556017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>107998-Banging_a_refrigerator_shelf-AOS02976.wav</ShortName>
 					<CachePath>SFX/107998-Banging_a_refrigerator_shelf-AOS02976_9BCAB186.wem</CachePath>
+				</File>
+				<File Id="549182951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Solo_Whistling.wav</ShortName>
+					<CachePath>SFX/Solo_Whistling_1F2191AB.wem</CachePath>
 				</File>
 				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
@@ -180,7 +209,7 @@
 				</File>
 				<File Id="604441989" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Trippy_Sheet.wav</ShortName>
-					<CachePath>SFX/Wife_Trippy_Sheet_4BFB2772.wem</CachePath>
+					<CachePath>SFX/Wife_Trippy_Sheet_60855F17.wem</CachePath>
 				</File>
 				<File Id="620687934" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
@@ -192,7 +221,7 @@
 				</File>
 				<File Id="664808166" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk Carton.wav</ShortName>
-					<CachePath>SFX/Milk Carton_10679D21.wem</CachePath>
+					<CachePath>SFX/Milk Carton_5BB949B0.wem</CachePath>
 				</File>
 				<File Id="679843875" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Strong_Silent_Type.wav</ShortName>
@@ -205,6 +234,10 @@
 				<File Id="686673804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Vitimin_D.wav</ShortName>
 					<CachePath>SFX/Cashier_Vitimin_D_D527622B.wem</CachePath>
+				</File>
+				<File Id="708543004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Car Drive Away.wav</ShortName>
+					<CachePath>SFX/Car Drive Away_818F3B66.wem</CachePath>
 				</File>
 				<File Id="717609223" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_PleaseSet.wav</ShortName>
@@ -224,7 +257,7 @@
 				</File>
 				<File Id="729504005" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Soon.wav</ShortName>
-					<CachePath>SFX/Wife_Soon_979E87C9.wem</CachePath>
+					<CachePath>SFX/Wife_Soon_3F217CB7.wem</CachePath>
 				</File>
 				<File Id="733388073" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -232,7 +265,7 @@
 				</File>
 				<File Id="733786221" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Trippy_Sheet.wav</ShortName>
-					<CachePath>SFX/Wife_Trippy_Sheet_913127D0.wem</CachePath>
+					<CachePath>SFX/Wife_Trippy_Sheet_96FEC252.wem</CachePath>
 				</File>
 				<File Id="734227481" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -260,15 +293,15 @@
 				</File>
 				<File Id="795075753" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Trippy_Sheet.wav</ShortName>
-					<CachePath>SFX/Wife_Trippy_Sheet_3936026C.wem</CachePath>
+					<CachePath>SFX/Wife_Trippy_Sheet_317E1E65.wem</CachePath>
 				</File>
 				<File Id="808508575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Soon.wav</ShortName>
-					<CachePath>SFX/Wife_Soon_70842E3A.wem</CachePath>
+					<CachePath>SFX/Wife_Soon_65B9545B.wem</CachePath>
 				</File>
 				<File Id="819302777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cereal_Box_Interaction.wav</ShortName>
-					<CachePath>SFX/Cereal_Box_Interaction_F324A799.wem</CachePath>
+					<CachePath>SFX/Cereal_Box_Interaction_85D1B402.wem</CachePath>
 				</File>
 				<File Id="823389448" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_CanIHelpYouFindAnythingElse.wav</ShortName>
@@ -276,7 +309,11 @@
 				</File>
 				<File Id="840490658" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Paper Crinkle.wav</ShortName>
-					<CachePath>SFX/Paper Crinkle_C356AC7B.wem</CachePath>
+					<CachePath>SFX/Paper Crinkle_EB0CC2C6.wem</CachePath>
+				</File>
+				<File Id="851255848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_GoGetMilk_Reprise.wav</ShortName>
+					<CachePath>SFX/Player_GoGetMilk_Reprise_818F3B66.wem</CachePath>
 				</File>
 				<File Id="864326664" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Series.wav</ShortName>
@@ -296,11 +333,15 @@
 				</File>
 				<File Id="941653300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Paper Crinkle.wav</ShortName>
-					<CachePath>SFX/Paper Crinkle_74756F34.wem</CachePath>
+					<CachePath>SFX/Paper Crinkle_481FBFFC.wem</CachePath>
 				</File>
 				<File Id="943646738" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
 					<CachePath>SFX/Series_Attention_Customers_2787A36F.wem</CachePath>
+				</File>
+				<File Id="969892960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_GoGetMilk.wav</ShortName>
+					<CachePath>SFX/Player_GoGetMilk_818F3B66.wem</CachePath>
 				</File>
 				<File Id="970742367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -316,24 +357,25 @@
 				</File>
 				<File Id="1021435179" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Trippy_Sheet.wav</ShortName>
-					<CachePath>SFX/Wife_Trippy_Sheet_BB20E61C.wem</CachePath>
+					<CachePath>SFX/Wife_Trippy_Sheet_1025F7B6.wem</CachePath>
 				</File>
 				<File Id="1027077081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk Carton.wav</ShortName>
-					<CachePath>SFX/Milk Carton_008282D1.wem</CachePath>
+					<CachePath>SFX/Milk Carton_16F8268F.wem</CachePath>
 				</File>
 				<File Id="1041385422" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk Carton.wav</ShortName>
-					<CachePath>SFX/Milk Carton_0B8760A8.wem</CachePath>
+					<CachePath>SFX/Milk Carton_30D77398.wem</CachePath>
 				</File>
 				<File Id="1043483779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flourecent_Loop.wav</ShortName>
-					<CachePath>SFX/Flourecent_Loop_6576FCAD.wem</CachePath>
+					<CachePath>SFX/Flourecent_Loop_C18F37DC.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
 				<Custom>
 					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
+					<Plugin Id="553994197" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
 				<ShareSets>
 					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
@@ -474,6 +516,17 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" DurationType="OneShot" DurationMin="1.7993542" DurationMax="3.9631827">
+					<MediaRefs>
+						<MediaRef Id="408982861"/>
+						<MediaRef Id="679843875"/>
+						<MediaRef Id="686673804"/>
+						<MediaRef Id="1007722943"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3457820653" Name="Play_Cashier_Strong_Bones" DurationType="OneShot" DurationMin="3.3732917" DurationMax="3.3732917">
 					<MediaRefs>
 						<MediaRef Id="1007722943"/>
@@ -527,6 +580,28 @@
 				<Event Id="2633745870" Name="Play_Freezer_Ambience" MaxAttenuation="13" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="496928318"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1497459184" Name="Play_GAMESTART" DurationType="OneShot" DurationMin="12.199667" DurationMax="12.199667">
+					<MediaRefs>
+						<MediaRef Id="126492990"/>
+						<MediaRef Id="708543004"/>
+						<MediaRef Id="729504005"/>
+						<MediaRef Id="969892960"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="675447719" Name="Play_GAMESTART_REPRISE" DurationType="OneShot" DurationMin="12.699667" DurationMax="12.699667">
+					<MediaRefs>
+						<MediaRef Id="126492990"/>
+						<MediaRef Id="158938096"/>
+						<MediaRef Id="708543004"/>
+						<MediaRef Id="851255848"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -648,7 +723,15 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="0.55218834" DurationMax="0.86623347">
+				<Event Id="331999908" Name="Play_Register_beep" DurationType="OneShot" DurationMin="0.44117913" DurationMax="0.44117913">
+					<MediaRefs>
+						<MediaRef Id="303218919"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="0.8082244" DurationMax="0.86623347">
 					<MediaRefs>
 						<MediaRef Id="93776339"/>
 						<MediaRef Id="534556017"/>
@@ -665,6 +748,30 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="145970281" Name="Play_Solo_Whistling" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="359667351"/>
+						<MediaRef Id="549182951"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2022546367" Name="Play_Spoopy_Ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="392228245"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="553994197"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="2225884798" Name="Play_Wife_BackSoSoon" DurationType="OneShot" DurationMin="0.8078176" DurationMax="0.8078176">
 					<MediaRefs>
@@ -694,5 +801,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CC6FED09-D9F2-D2C5-6803-B7AAD3797530}</FileHash>
+	<FileHash>{3BF7C57F-B6EB-4C3F-2BC0-875A6BBA71AA}</FileHash>
 </SoundBanksInfo>
