@@ -264,6 +264,11 @@
 								</Property>
 								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -279,6 +284,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -330,6 +338,16 @@
 					<ChildrenList>
 						<ActorMixer Name="Cashier_Mixer" ID="{FBC871BD-F6C4-4D09-9C4E-0156F78CBF65}" ShortID="814831996">
 							<PropertyList>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -343,12 +361,21 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Cashier_Random_Calling" ID="{62478F27-A7E9-43CD-BD21-73F81555E19A}" ShortID="187587514">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-4.5</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>2</Value>
@@ -361,6 +388,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1450,6 +1480,11 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -1465,6 +1500,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1492,6 +1530,11 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>1.5</Value>
@@ -1507,6 +1550,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1531,6 +1577,11 @@
 						<Sound Name="GasStationDingDong" ID="{27628F04-3FE0-4350-B6C1-D905B6367C75}" ShortID="210021095">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -1546,6 +1597,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1574,6 +1628,11 @@
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -1586,6 +1645,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1628,6 +1690,11 @@
 							</ModifierList>
 						</Property>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1635,6 +1702,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1891,6 +1961,11 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1898,6 +1973,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2021,6 +2099,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-3</Value>
@@ -2036,6 +2119,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2080,6 +2166,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2087,6 +2178,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2218,6 +2312,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3.5</Value>
@@ -2230,6 +2329,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2322,6 +2424,11 @@
 						<RandomSequenceContainer Name="Milk" ID="{C65EFCB9-582B-4196-8825-321A9B3465B4}" ShortID="840444714">
 							<PropertyList>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3.5</Value>
@@ -2334,6 +2441,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2483,6 +2593,11 @@
 						<RandomSequenceContainer Name="Paper" ID="{FA25DB5B-4EC5-46D2-A103-BC2408F2E4BA}" ShortID="943660788">
 							<PropertyList>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2490,6 +2605,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
