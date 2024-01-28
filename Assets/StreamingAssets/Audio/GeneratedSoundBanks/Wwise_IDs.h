@@ -13,21 +13,6 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_CASHIER_COUPON = 4243000246U;
-        static const AkUniqueID PLAY_CASHIER_END = 4170577199U;
-        static const AkUniqueID PLAY_CASHIER_END_RINGUP = 3143524091U;
-        static const AkUniqueID PLAY_CASHIER_MEAT_LOG = 582311066U;
-        static const AkUniqueID PLAY_CASHIER_PLANNINGTOPAY = 2045132466U;
-        static const AkUniqueID PLAY_CASHIER_PLEASESET = 159572298U;
-        static const AkUniqueID PLAY_CASHIER_RANDOM_AFTERNOON = 2053453196U;
-        static const AkUniqueID PLAY_CASHIER_RANDOM_CALLING = 32387144U;
-        static const AkUniqueID PLAY_CASHIER_RANDOM_GDMORNING = 2873879151U;
-        static const AkUniqueID PLAY_CASHIER_SEQUENCE_INSTRUCTIONS = 2258330001U;
-        static const AkUniqueID PLAY_CASHIER_SEQUENCE_JUSTTHEMILK = 2848777120U;
-        static const AkUniqueID PLAY_CASHIER_STRONG_BONES = 3457820653U;
-        static const AkUniqueID PLAY_CASHIER_STRONG_SILENT_TYPE = 589123702U;
-        static const AkUniqueID PLAY_CASHIER_THEREYOUARE = 3298164935U;
-        static const AkUniqueID PLAY_CASHIER_VITIMIN_D = 615435047U;
         static const AkUniqueID PLAY_FEMALE_VOICE_GOODBYE = 3876234301U;
         static const AkUniqueID PLAY_FEMALE_VOICE_HAVEANICEDAY = 738920550U;
         static const AkUniqueID PLAY_FEMALE_VOICE_HELLO = 37077532U;

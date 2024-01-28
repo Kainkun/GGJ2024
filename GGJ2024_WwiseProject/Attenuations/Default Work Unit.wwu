@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Music_Atten" ID="{F92BDAF1-ED87-482E-B0C3-0CFBB78B69D5}" ShortID="777312186">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1200"/>
+						<Property Name="RadiusMax" Type="Real64" Value="12"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -22,7 +22,7 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1200</XPos>
+											<XPos>12</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
