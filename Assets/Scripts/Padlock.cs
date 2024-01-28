@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,9 +12,11 @@ public class Padlock : MonoBehaviour
     public UnityEvent onSuccess;
     public UnityEvent onFailure;
     public Color solvedColor;
+    public Color failColor;
 
     private readonly List<int> _currentCode = new List<int>();
     private bool _isSolved;
+    private bool _isLocked;
 
     private void Awake()
     {
@@ -26,11 +29,23 @@ public class Padlock : MonoBehaviour
         }
     }
 
+    private IEnumerator FailCoroutine()
+    {
+        _isLocked = true;
+        Color normalColor = currentInput.color;
+        currentInput.color = failColor;
+        yield return new WaitForSeconds(1);
+        currentInput.color = normalColor;
+        _currentCode.Clear();
+        currentInput.text = string.Empty;
+        _isLocked = false;
+    }
+
     private void HandleButtonPressed(int key, InteractEventData data)
     {
-        if (_isSolved)
+        if (_isSolved || _isLocked)
             return;
-        
+
         _currentCode.Add(key);
         currentInput.text += key;
         
@@ -55,9 +70,8 @@ public class Padlock : MonoBehaviour
             }
             else
             {
-                _currentCode.Clear();
                 onFailure.Invoke();
-                currentInput.text = string.Empty;
+                StartCoroutine(FailCoroutine());
             }
         }
     }

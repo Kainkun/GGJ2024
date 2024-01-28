@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{EF1B4F76-40B2-6030-F7CE-8594B87D39D9}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{6C06B61E-EA0C-4300-5558-2F50EF4442E0}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -36,7 +36,7 @@
 				</File>
 				<File Id="93776339" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>106647-Banging_a_refrigerator_shelf-AOS02977.wav</ShortName>
-					<CachePath>SFX/106647-Banging_a_refrigerator_shelf-AOS02977_47EB0537.wem</CachePath>
+					<CachePath>SFX/106647-Banging_a_refrigerator_shelf-AOS02977_5FD855D7.wem</CachePath>
 				</File>
 				<File Id="107684846" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
@@ -116,7 +116,7 @@
 				</File>
 				<File Id="534556017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>107998-Banging_a_refrigerator_shelf-AOS02976.wav</ShortName>
-					<CachePath>SFX/107998-Banging_a_refrigerator_shelf-AOS02976_A7610379.wem</CachePath>
+					<CachePath>SFX/107998-Banging_a_refrigerator_shelf-AOS02976_9BCAB186.wem</CachePath>
 				</File>
 				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
@@ -180,7 +180,7 @@
 				</File>
 				<File Id="779758610" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>106209-Banging_a_refrigerator_shelf-AOS02975.wav</ShortName>
-					<CachePath>SFX/106209-Banging_a_refrigerator_shelf-AOS02975_869FE83B.wem</CachePath>
+					<CachePath>SFX/106209-Banging_a_refrigerator_shelf-AOS02975_6C943DBC.wem</CachePath>
 				</File>
 				<File Id="787705611" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
@@ -441,5 +441,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C296E80A-5BD7-B38D-81D2-03E657FAEDCC}</FileHash>
+	<FileHash>{FCBF90C3-58E6-44A8-619A-891EA66282FC}</FileHash>
 </SoundBanksInfo>

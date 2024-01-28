@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
-    m_lastTime: -8584951765503292780
+    m_lastTime: -8584951708732453164
     List:
     - name: SoundBank
       guid: 8cd371baccf74f438c2972fc329213cd
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
-    m_lastTime: -8584951765504515684
+    m_lastTime: -8584951708732714125
     List:
     - name: Cashier Events
       guid: 57928b10f69dfc4b8106617ad0357570
@@ -128,6 +128,46 @@ MonoBehaviour:
         guid: a0718fb804d58649b1db4459bc51bcd8
       Path: Events\Default Work Unit\PA Man Events
       maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_2D_Roomtone
+      guid: 143e0b4d60b98043a308ca9aa6a238b2
+      id: 4867526
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Store Events
+        ObjectType: 4
+        guid: aaacad2ee7dee84980f646a812cc3efc
+      - ElementName: Play_2D_Roomtone
+        ObjectType: 3
+        guid: 143e0b4d60b98043a308ca9aa6a238b2
+      Path: Events\Default Work Unit\Store Events\Play_2D_Roomtone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AC_Ambience
+      guid: b566cb42f610574e9da5bb5c9b9dcc64
+      id: 1705887329
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Store Events
+        ObjectType: 4
+        guid: aaacad2ee7dee84980f646a812cc3efc
+      - ElementName: Play_AC_Ambience
+        ObjectType: 3
+        guid: b566cb42f610574e9da5bb5c9b9dcc64
+      Path: Events\Default Work Unit\Store Events\Play_AC_Ambience
+      maxAttenuation: 13
       maxDuration: -1
       minDuration: -1
     - name: Play_Cashier_Coupon
@@ -428,8 +468,8 @@ MonoBehaviour:
         guid: 7d759f81b3af7b48a246aaff2e8fc2fb
       Path: Events\Default Work Unit\Cashier Events\Play_Cashier_Vitimin_D
       maxAttenuation: 0
-      maxDuration: 3.0571203
-      minDuration: 3.0571203
+      maxDuration: 2.6491153
+      minDuration: 2.6491153
     - name: Play_Female_Voice_Goodbye
       guid: 8beda5564e5adf45972e1935bbd26a6b
       id: 3876234301
@@ -481,6 +521,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.92877084
       minDuration: 0.92877084
+    - name: Play_Freezer_Ambience
+      guid: 7f3bd795c1df6d4ca81e71cacab22074
+      id: 2633745870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Store Events
+        ObjectType: 4
+        guid: aaacad2ee7dee84980f646a812cc3efc
+      - ElementName: Play_Freezer_Ambience
+        ObjectType: 3
+        guid: 7f3bd795c1df6d4ca81e71cacab22074
+      Path: Events\Default Work Unit\Store Events\Play_Freezer_Ambience
+      maxAttenuation: 13
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GasStationDingDong
+      guid: a8b186ebe9d2cf46951e7f82a2479a66
+      id: 2809485985
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Store Events
+        ObjectType: 4
+        guid: aaacad2ee7dee84980f646a812cc3efc
+      - ElementName: Play_GasStationDingDong
+        ObjectType: 3
+        guid: a8b186ebe9d2cf46951e7f82a2479a66
+      Path: Events\Default Work Unit\Store Events\Play_GasStationDingDong
+      maxAttenuation: 13
+      maxDuration: 1.7517849
+      minDuration: 1.7517849
     - name: Play_Muzak_Guitar
       guid: 878de344def6a64e95e76aad9d69ef53
       id: 2931435471
@@ -578,6 +658,23 @@ MonoBehaviour:
       maxAttenuation: 15
       maxDuration: 10.42972
       minDuration: 10.42972
+    - name: Play_Player_Footsteps
+      guid: f9cb414baa8311438e749cf28f9153e5
+      id: 98439365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Player_Footsteps
+        ObjectType: 3
+        guid: f9cb414baa8311438e749cf28f9153e5
+      Path: Events\Default Work Unit\Play_Player_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.40160644
+      minDuration: 0.26476508
     - name: Play_Sequence_Welcome_WhatcanIDo
       guid: cd223fcc9f35d749aa16171ffa237aef
       id: 4123174421
@@ -595,6 +692,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.5325209
       minDuration: 1.068125
+    - name: Play_Shelf
+      guid: 32696ec6d9fd4641a5b14932844ba443
+      id: 3126524178
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Shelf
+        ObjectType: 3
+        guid: 32696ec6d9fd4641a5b14932844ba443
+      Path: Events\Default Work Unit\Play_Shelf
+      maxAttenuation: 0
+      maxDuration: 0.86623347
+      minDuration: 0.55218834
+    - name: Store Events
+      guid: aaacad2ee7dee84980f646a812cc3efc
+      id: 3877740547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Store Events
+        ObjectType: 4
+        guid: aaacad2ee7dee84980f646a812cc3efc
+      Path: Events\Default Work Unit\Store Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -651,7 +782,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584952690498219148
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000
+  ExpandedFileSystemItemIds: 020000000300000006000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
