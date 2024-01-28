@@ -6,6 +6,11 @@
 				<Folder Name="Female Voice Test" ID="{C57AB073-3CF6-4AAD-A294-77FC65546535}" ShortID="518920025">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -1868,6 +1873,147 @@
 										<ReferenceList>
 											<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 												<ObjectRef Name="Footstep_Limit" ID="{32D57F21-F468-47E4-A7C3-03869E12ED45}" WorkUnitID="{565CAC7B-0992-4304-81AE-805238CE179A}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Shelf" ID="{BD98F52A-7D26-4AF0-BA44-59C1D8527BE0}" ShortID="895656685">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7854E243-D237-468E-809B-FD5AFE333B5B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="60"/>
+											<Property Name="Min" Type="Real64" Value="-60"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="106209-Banging_a_refrigerator_shelf-AOS02975" ID="{19C909E4-A871-4898-8193-6F57EA71D601}" ShortID="945605322">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="106209-Banging_a_refrigerator_shelf-AOS02975" ID="{91121952-126F-4D90-82FE-27724F805360}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.519543973941368"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0504885993485342"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.622149837133551"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>106209-Banging_a_refrigerator_shelf-AOS02975.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779758610"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="106209-Banging_a_refrigerator_shelf-AOS02975" ID="{91121952-126F-4D90-82FE-27724F805360}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="106647-Banging_a_refrigerator_shelf-AOS02977" ID="{8B6F2271-20FE-4FCB-B864-14420F4DB848}" ShortID="949958793">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="106647-Banging_a_refrigerator_shelf-AOS02977" ID="{5FDD316A-0C22-4C75-BC49-1CC35218FECF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0732899022801303"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.58428338762215"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0570032573289902"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.893729641693811"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>106647-Banging_a_refrigerator_shelf-AOS02977.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="93776339"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="106647-Banging_a_refrigerator_shelf-AOS02977" ID="{5FDD316A-0C22-4C75-BC49-1CC35218FECF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="107998-Banging_a_refrigerator_shelf-AOS02976" ID="{3A29F97E-F59B-4C83-B4B3-93B7ACF45678}" ShortID="921907713">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="107998-Banging_a_refrigerator_shelf-AOS02976" ID="{0CD903B4-56C9-4DE7-83EC-2CA0F6ACB3E4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0342019543973941"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.55700325732899"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0146579804560261"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.745928338762215"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>107998-Banging_a_refrigerator_shelf-AOS02976.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="534556017"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="107998-Banging_a_refrigerator_shelf-AOS02976" ID="{0CD903B4-56C9-4DE7-83EC-2CA0F6ACB3E4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{475F9E02-FEF4-47BB-974C-546E38E4F1BE}" ShortID="17212105">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+												<ObjectRef Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{CFB92486-FBA4-4E13-92F3-46A4877E5CC1}" ShortID="873335851">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Peak Limiter (Custom)" ID="{8D0BFE57-54BE-4EAD-8F57-720F9754151A}" ShortID="425319014" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+												</Custom>
 											</Reference>
 										</ReferenceList>
 									</EffectSlot>

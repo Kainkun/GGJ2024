@@ -426,6 +426,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Shelf" ID="{C66E6932-FDD9-4146-A5B1-4932844BA443}">
+					<ChildrenList>
+						<Action Name="" ID="{4C0861EB-AEDE-49AF-9513-5610853B214A}" ShortID="298644668">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shelf" ID="{BD98F52A-7D26-4AF0-BA44-59C1D8527BE0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
