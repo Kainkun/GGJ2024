@@ -437,6 +437,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Flourecent_Loop" ID="{579C8BC5-AA6C-4574-B7E5-53712CE3070C}">
+					<ChildrenList>
+						<Action Name="" ID="{97164710-3527-477E-A3D6-1CE548E95FB6}" ShortID="618284521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flourecent_Loop" ID="{1EDE6000-175B-4784-86BF-CAD1DABF1473}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
