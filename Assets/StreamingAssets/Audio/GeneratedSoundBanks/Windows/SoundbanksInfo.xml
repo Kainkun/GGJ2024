@@ -22,25 +22,141 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{B8B87FB6-EB81-93B1-AB54-3E3200550EAC}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{C62205F1-9DDE-BAFB-06DD-F0EBF0D70DC1}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
+				<File Id="31538099" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Calling.wav</ShortName>
+					<CachePath>SFX/Cashier_Calling_80BA08B6.wem</CachePath>
+				</File>
+				<File Id="72556111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Morning.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Morning_A78196E7.wem</CachePath>
+				</File>
+				<File Id="129614257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Instructions.wav</ShortName>
+					<CachePath>SFX/Cashier_Instructions_D78B247C.wem</CachePath>
+				</File>
+				<File Id="134163744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Instructions.wav</ShortName>
+					<CachePath>SFX/Cashier_Instructions_B04B8D65.wem</CachePath>
+				</File>
+				<File Id="134277528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_PlanningToPay.wav</ShortName>
+					<CachePath>SFX/Cashier_PlanningToPay_8493C882.wem</CachePath>
+				</File>
+				<File Id="149286383" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Calling.wav</ShortName>
+					<CachePath>SFX/Cashier_Calling_A2B08B74.wem</CachePath>
+				</File>
+				<File Id="170909130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Morning.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Morning_D66897AA.wem</CachePath>
+				</File>
 				<File Id="207482798" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213288__aderumoro__welcome-female-friendly.wav</ShortName>
 					<CachePath>SFX/213288__aderumoro__welcome-female-friendly_818F3B66.wem</CachePath>
+				</File>
+				<File Id="241421801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Calling.wav</ShortName>
+					<CachePath>SFX/Cashier_Calling_8D3D032D.wem</CachePath>
 				</File>
 				<File Id="249524521" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213284__aderumoro__hello-2-female-friendly.wav</ShortName>
 					<CachePath>SFX/213284__aderumoro__hello-2-female-friendly_818F3B66.wem</CachePath>
 				</File>
+				<File Id="264521104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Afternoon_8DAF802F.wem</CachePath>
+				</File>
+				<File Id="307164417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Calling.wav</ShortName>
+					<CachePath>SFX/Cashier_Calling_07AA9BB6.wem</CachePath>
+				</File>
 				<File Id="334641649" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213286__aderumoro__goodbye-female-friendly.wav</ShortName>
 					<CachePath>SFX/213286__aderumoro__goodbye-female-friendly_818F3B66.wem</CachePath>
 				</File>
+				<File Id="349635030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Coupon.wav</ShortName>
+					<CachePath>SFX/Cashier_Coupon_818F3B66.wem</CachePath>
+				</File>
+				<File Id="375619510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Instructions.wav</ShortName>
+					<CachePath>SFX/Cashier_Instructions_0778BED6.wem</CachePath>
+				</File>
+				<File Id="408982861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Meat_Log.wav</ShortName>
+					<CachePath>SFX/Cashier_Meat_Log_818F3B66.wem</CachePath>
+				</File>
 				<File Id="587830811" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional.wav</ShortName>
 					<CachePath>SFX/213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional_818F3B66.wem</CachePath>
+				</File>
+				<File Id="599990231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_PullingYourLeg.wav</ShortName>
+					<CachePath>SFX/Cashier_PullingYourLeg_818F3B66.wem</CachePath>
+				</File>
+				<File Id="624752260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Morning.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Morning_08FC5A01.wem</CachePath>
+				</File>
+				<File Id="679843875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Strong_Silent_Type.wav</ShortName>
+					<CachePath>SFX/Cashier_Strong_Silent_Type_D5FC928A.wem</CachePath>
+				</File>
+				<File Id="682176323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_JustTheMilk.wav</ShortName>
+					<CachePath>SFX/Cashier_JustTheMilk_818F3B66.wem</CachePath>
+				</File>
+				<File Id="686673804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Vitimin_D.wav</ShortName>
+					<CachePath>SFX/Cashier_Vitimin_D_818F3B66.wem</CachePath>
+				</File>
+				<File Id="717609223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_PleaseSet.wav</ShortName>
+					<CachePath>SFX/Cashier_PleaseSet_86005768.wem</CachePath>
+				</File>
+				<File Id="719345768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Calling.wav</ShortName>
+					<CachePath>SFX/Cashier_Calling_910DD0CC.wem</CachePath>
+				</File>
+				<File Id="725438702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Morning.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Morning_18C0DEE1.wem</CachePath>
+				</File>
+				<File Id="733388073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Calling.wav</ShortName>
+					<CachePath>SFX/Cashier_Calling_947E2074.wem</CachePath>
+				</File>
+				<File Id="734227481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Instructions.wav</ShortName>
+					<CachePath>SFX/Cashier_Instructions_C1F52844.wem</CachePath>
+				</File>
+				<File Id="744120344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Instructions.wav</ShortName>
+					<CachePath>SFX/Cashier_Instructions_30477FE8.wem</CachePath>
+				</File>
+				<File Id="760783512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Afternoon_0A654014.wem</CachePath>
+				</File>
+				<File Id="787705611" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Afternoon_D621E257.wem</CachePath>
+				</File>
+				<File Id="823389448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_CanIHelpYouFindAnythingElse.wav</ShortName>
+					<CachePath>SFX/Cashier_CanIHelpYouFindAnythingElse_818F3B66.wem</CachePath>
+				</File>
+				<File Id="901044226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_SeeYouSoon.wav</ShortName>
+					<CachePath>SFX/Cashier_SeeYouSoon_818F3B66.wem</CachePath>
+				</File>
+				<File Id="912887833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
+					<CachePath>SFX/Cashier_Good_Afternoon_1C64DEA2.wem</CachePath>
 				</File>
 				<File Id="916089115" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Muzak_Guitar.wav</ShortName>
@@ -50,6 +166,18 @@
 					<ShortName>213285__aderumoro__have-a-nice-day-female-professional.wav</ShortName>
 					<CachePath>SFX/213285__aderumoro__have-a-nice-day-female-professional_818F3B66.wem</CachePath>
 				</File>
+				<File Id="970742367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Calling.wav</ShortName>
+					<CachePath>SFX/Cashier_Calling_EEE29C2C.wem</CachePath>
+				</File>
+				<File Id="1002442733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_ThereYouAre.wav</ShortName>
+					<CachePath>SFX/Cashier_ThereYouAre_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1007722943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cashier_Strong_Bones.wav</ShortName>
+					<CachePath>SFX/Cashier_Strong_Bones_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<ShareSets>
@@ -57,6 +185,98 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
+				<Event Id="4243000246" Name="Play_Cashier_Coupon" DurationType="OneShot" DurationMin="3" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="349635030"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4170577199" Name="Play_Cashier_END" DurationType="OneShot" DurationMin="1.0280417" DurationMax="1.0280417">
+					<MediaRefs>
+						<MediaRef Id="901044226"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3143524091" Name="Play_Cashier_END_RINGUP" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="599990231"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="582311066" Name="Play_Cashier_Meat_Log" DurationType="OneShot" DurationMin="1.7993542" DurationMax="1.7993542">
+					<MediaRefs>
+						<MediaRef Id="408982861"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2045132466" Name="Play_Cashier_PlanningToPay" DurationType="OneShot" DurationMin="1.7937132" DurationMax="1.7937132">
+					<MediaRefs>
+						<MediaRef Id="134277528"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="159572298" Name="Play_Cashier_PleaseSet" DurationType="OneShot" DurationMin="3.2868369" DurationMax="3.2868369">
+					<MediaRefs>
+						<MediaRef Id="717609223"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2053453196" Name="Play_Cashier_Random_Afternoon" DurationType="OneShot" DurationMin="0.86811024" DurationMax="1.3110236">
+					<MediaRefs>
+						<MediaRef Id="264521104"/>
+						<MediaRef Id="760783512"/>
+						<MediaRef Id="787705611"/>
+						<MediaRef Id="912887833"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="32387144" Name="Play_Cashier_Random_Calling" DurationType="OneShot" DurationMin="0.9901768" DurationMax="1.870334">
+					<MediaRefs>
+						<MediaRef Id="31538099"/>
+						<MediaRef Id="149286383"/>
+						<MediaRef Id="241421801"/>
+						<MediaRef Id="307164417"/>
+						<MediaRef Id="719345768"/>
+						<MediaRef Id="733388073"/>
+						<MediaRef Id="970742367"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2873879151" Name="Play_Cashier_Random_GdMorning" DurationType="OneShot" DurationMin="0.8629855" DurationMax="0.9671389">
+					<MediaRefs>
+						<MediaRef Id="72556111"/>
+						<MediaRef Id="170909130"/>
+						<MediaRef Id="624752260"/>
+						<MediaRef Id="725438702"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2258330001" Name="Play_Cashier_Sequence_Instructions" DurationType="OneShot" DurationMin="2.339569" DurationMax="3.4854805">
+					<MediaRefs>
+						<MediaRef Id="129614257"/>
+						<MediaRef Id="134163744"/>
+						<MediaRef Id="375619510"/>
+						<MediaRef Id="734227481"/>
+						<MediaRef Id="744120344"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2848777120" Name="Play_Cashier_Sequence_JustTheMilk" DurationType="OneShot" DurationMin="3.2680833" DurationMax="7">
+					<MediaRefs>
+						<MediaRef Id="682176323"/>
+						<MediaRef Id="823389448"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3457820653" Name="Play_Cashier_Strong_Bones" DurationType="OneShot" DurationMin="3.3732917" DurationMax="3.3732917">
+					<MediaRefs>
+						<MediaRef Id="1007722943"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="589123702" Name="Play_Cashier_Strong_Silent_Type" DurationType="OneShot" DurationMin="3.9631827" DurationMax="3.9631827">
+					<MediaRefs>
+						<MediaRef Id="679843875"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3298164935" Name="Play_Cashier_ThereYouAre" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="1002442733"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="615435047" Name="Play_Cashier_Vitimin_D" DurationType="OneShot" DurationMin="3.2082083" DurationMax="3.2082083">
+					<MediaRefs>
+						<MediaRef Id="686673804"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
 					<MediaRefs>
 						<MediaRef Id="334641649"/>
@@ -91,5 +311,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AAE2D619-8C84-1D54-2064-920FE5DCF99A}</FileHash>
+	<FileHash>{0E90594D-3930-B859-D0BF-52B8BA08A96C}</FileHash>
 </SoundBanksInfo>
