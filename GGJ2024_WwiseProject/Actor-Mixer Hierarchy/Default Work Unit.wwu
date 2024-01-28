@@ -1333,43 +1333,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Cashier_Meat_Log" ID="{873496AD-E98F-4C6F-9685-46D301CCA99E}" ShortID="567782494">
-											<PropertyList>
-												<Property Name="ReflectionsVolume" Type="Real64">
-													<ValueList>
-														<Value>12</Value>
-													</ValueList>
-												</Property>
-												<Property Name="UserAuxSendVolume0" Type="Real64">
-													<ValueList>
-														<Value>-11</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}">
-													<Language>SFX</Language>
-													<AudioFile>Cashier_Meat_Log.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="408982861"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Cashier_Strong_Bones" ID="{D6CA76A0-B249-490A-AFC1-125642F03EE4}" ShortID="824428657">
 											<PropertyList>
 												<Property Name="ReflectionsVolume" Type="Real64">
@@ -1495,6 +1458,43 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Cashier_Meat_Log" ID="{873496AD-E98F-4C6F-9685-46D301CCA99E}" ShortID="567782494">
+									<PropertyList>
+										<Property Name="ReflectionsVolume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}">
+											<Language>SFX</Language>
+											<AudioFile>Cashier_Meat_Log.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408982861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cashier_Meat_Log" ID="{2A7E954D-1EC9-4352-A4B4-81E8E5879567}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

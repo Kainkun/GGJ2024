@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{E0A1D3B1-2B90-95F7-A8BA-0DA9B2E63E2B}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{46477241-3E52-AB89-B23A-6AD7C3A58D21}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -154,6 +154,10 @@
 				<File Id="349635030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Coupon.wav</ShortName>
 					<CachePath>SFX/Cashier_Coupon_818F3B66.wem</CachePath>
+				</File>
+				<File Id="354790867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Milk_Acquired.wav</ShortName>
+					<CachePath>SFX/Milk_Acquired_818F3B66.wem</CachePath>
 				</File>
 				<File Id="359667351" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Muzak_Guitar_1.wav</ShortName>
@@ -516,9 +520,8 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" DurationType="OneShot" DurationMin="1.7993542" DurationMax="3.9631827">
+				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" DurationType="OneShot" DurationMin="2.6491153" DurationMax="3.9631827">
 					<MediaRefs>
-						<MediaRef Id="408982861"/>
 						<MediaRef Id="679843875"/>
 						<MediaRef Id="686673804"/>
 						<MediaRef Id="1007722943"/>
@@ -622,6 +625,14 @@
 						<MediaRef Id="664808166"/>
 						<MediaRef Id="1027077081"/>
 						<MediaRef Id="1041385422"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2684971554" Name="Play_Milk_Acquired" DurationType="OneShot" DurationMin="4.25" DurationMax="4.25">
+					<MediaRefs>
+						<MediaRef Id="354790867"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
@@ -801,5 +812,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B7AF4FE0-5BF2-C8B0-7465-7B1B97703BCE}</FileHash>
+	<FileHash>{10E42D4A-6BFE-8DFD-8847-0D34910830B8}</FileHash>
 </SoundBanksInfo>
