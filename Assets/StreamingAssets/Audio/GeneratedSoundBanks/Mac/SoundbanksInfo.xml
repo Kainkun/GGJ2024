@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{5B6C783B-3922-2B88-6576-4A92BE97013C}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{12709A50-D3F0-AA2B-0769-84E993E4C1CC}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -33,6 +33,10 @@
 				<File Id="72556111" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Morning_A78196E7.wem</CachePath>
+				</File>
+				<File Id="107684846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Series_Attention_Customers.wav</ShortName>
+					<CachePath>SFX/Series_Attention_Customers_D3ABA304.wem</CachePath>
 				</File>
 				<File Id="129614257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -84,7 +88,7 @@
 				</File>
 				<File Id="359667351" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Muzak_Guitar_1.wav</ShortName>
-					<CachePath>SFX/Muzak_Guitar_1_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Muzak_Guitar_1_66B93D96.wem</CachePath>
 				</File>
 				<File Id="375619510" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -94,6 +98,10 @@
 					<ShortName>Cashier_Meat_Log.wav</ShortName>
 					<CachePath>SFX/Cashier_Meat_Log_818F3B66.wem</CachePath>
 				</File>
+				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Series_Attention_Customers.wav</ShortName>
+					<CachePath>SFX/Series_Attention_Customers_CDD654E5.wem</CachePath>
+				</File>
 				<File Id="587830811" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional.wav</ShortName>
 					<CachePath>SFX/213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional_818F3B66.wem</CachePath>
@@ -101,6 +109,10 @@
 				<File Id="599990231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_PullingYourLeg.wav</ShortName>
 					<CachePath>SFX/Cashier_PullingYourLeg_818F3B66.wem</CachePath>
+				</File>
+				<File Id="620687934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Series_Attention_Customers.wav</ShortName>
+					<CachePath>SFX/Series_Attention_Customers_A17E382D.wem</CachePath>
 				</File>
 				<File Id="624752260" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
@@ -165,6 +177,10 @@
 				<File Id="916665401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213285__aderumoro__have-a-nice-day-female-professional.wav</ShortName>
 					<CachePath>SFX/213285__aderumoro__have-a-nice-day-female-professional_818F3B66.wem</CachePath>
+				</File>
+				<File Id="943646738" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Series_Attention_Customers.wav</ShortName>
+					<CachePath>SFX/Series_Attention_Customers_FDA836A8.wem</CachePath>
 				</File>
 				<File Id="970742367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -292,7 +308,7 @@
 						<MediaRef Id="249524521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="19" DurationType="Infinite">
+				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="359667351"/>
 					</MediaRefs>
@@ -301,6 +317,26 @@
 							<PluginRef Id="2675251108"/>
 						</ShareSets>
 					</PluginRefs>
+				</Event>
+				<Event Id="3619978204" Name="Play_PA_Man_Closingin10" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.4269164" DurationMax="3.4269164">
+					<MediaRefs>
+						<MediaRef Id="107684846"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3653533474" Name="Play_PA_Man_ClosingIn30" MaxAttenuation="15" DurationType="OneShot" DurationMin="9.511466" DurationMax="9.511466">
+					<MediaRefs>
+						<MediaRef Id="943646738"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4052274365" Name="Play_PA_Man_DairyInTheBack" MaxAttenuation="15" DurationType="OneShot" DurationMin="17.282362" DurationMax="17.282362">
+					<MediaRefs>
+						<MediaRef Id="586637315"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2102180961" Name="Play_PA_Man_HalfOff" MaxAttenuation="15" DurationType="OneShot" DurationMin="10.42972" DurationMax="10.42972">
+					<MediaRefs>
+						<MediaRef Id="620687934"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209">
 					<MediaRefs>
@@ -311,5 +347,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3A22C3CE-991A-931E-56F6-52DF4794872C}</FileHash>
+	<FileHash>{0B84E3E4-884B-4A1E-D0CD-26560420DE07}</FileHash>
 </SoundBanksInfo>

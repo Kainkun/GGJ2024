@@ -32,6 +32,10 @@ namespace AK
         static const AkUniqueID PLAY_FEMALE_VOICE_HAVEANICEDAY = 738920550U;
         static const AkUniqueID PLAY_FEMALE_VOICE_HELLO = 37077532U;
         static const AkUniqueID PLAY_MUZAK_GUITAR = 2931435471U;
+        static const AkUniqueID PLAY_PA_MAN_CLOSINGIN10 = 3619978204U;
+        static const AkUniqueID PLAY_PA_MAN_CLOSINGIN30 = 3653533474U;
+        static const AkUniqueID PLAY_PA_MAN_DAIRYINTHEBACK = 4052274365U;
+        static const AkUniqueID PLAY_PA_MAN_HALFOFF = 2102180961U;
         static const AkUniqueID PLAY_SEQUENCE_WELCOME_WHATCANIDO = 4123174421U;
     } // namespace EVENTS
 

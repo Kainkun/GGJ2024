@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<Effect Name="New_Peak_Limiter" ID="{9D6EDA55-8FFD-4E45-85E7-1C8D986D6ADB}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 					<PropertyList>
-						<Property Name="Threshold" Type="Real32" Value="-13"/>
+						<Property Name="Ratio" Type="Real32" Value="50"/>
+						<Property Name="Threshold" Type="Real32" Value="-18"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

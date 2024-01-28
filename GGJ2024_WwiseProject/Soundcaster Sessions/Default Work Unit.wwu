@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D93B732C-DB3C-49F6-9F06-742C4887CAE0}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D93B732C-DB3C-49F6-9F06-742C4887CAE0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D93B732C-DB3C-49F6-9F06-742C4887CAE0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{F319313A-0B53-40C8-AD21-F3CAD9F9EF49}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_PA_Man_HalfOff" ID="{C448AF6A-B654-45E2-A5E0-1A06DBCCC3C0}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PA_Man_DairyInTheBack" ID="{55044419-D9C4-4256-B212-302E68CD42C9}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Muzak_Guitar" ID="{44E38D87-F6DE-4EA6-95E7-6AAD9D69EF53}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PA_Man_Closingin10" ID="{BCE7B52C-FC54-46F1-A3BB-C53233AE95E5}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PA_Man_ClosingIn30" ID="{83FCD484-6CF7-4175-8E7A-A0E2C9C4EC30}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

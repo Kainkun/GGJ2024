@@ -227,6 +227,146 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="PA Man Events" ID="{B88F71A0-D504-4986-B1DB-4459BC51BCD8}" ShortID="249577862">
+					<ChildrenList>
+						<Event Name="Play_PA_Man_Closingin10" ID="{BCE7B52C-FC54-46F1-A3BB-C53233AE95E5}">
+							<ChildrenList>
+								<Action Name="" ID="{72AB0E4B-6D25-45B5-8145-678220684B9E}" ShortID="784287068">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{80308CA9-3359-4C1F-8599-0E4C2C3EE1A5}" ShortID="257395003">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PA_Man_Closingin10" ID="{F5A85BA1-EABE-48A5-B1FD-D916E6F136D4}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E3A28875-2C01-4423-BB25-3D918BE09CEF}" ShortID="105755770">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PA_Man_ClosingIn30" ID="{83FCD484-6CF7-4175-8E7A-A0E2C9C4EC30}">
+							<ChildrenList>
+								<Action Name="" ID="{B19CB323-6C1E-4D61-87D1-4C6A4C2C4578}" ShortID="572309640">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C49094F3-9DD0-4F7B-ACA2-F73BF53CECD8}" ShortID="115340032">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PA_Man_ClosingIn30" ID="{9EAB5BA7-89EF-4576-A151-C57D304311CD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1C00A0F1-935B-48F0-8CD8-7BE46C4AAB02}" ShortID="203963281">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Delay" Type="Real64" Value="9.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PA_Man_DairyInTheBack" ID="{55044419-D9C4-4256-B212-302E68CD42C9}">
+							<ChildrenList>
+								<Action Name="" ID="{5F739EB9-56E0-4673-A827-7545AF20995A}" ShortID="362701573">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4B214D1D-CE93-4DCC-A564-CC1BB6079EC5}" ShortID="101117383">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PA_Man_DairyInTheBack" ID="{81EADA86-F791-4396-9ECE-EFBA90425DAD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B28B1AFC-DAA9-411D-88B4-34F39121F8F2}" ShortID="468928716">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Delay" Type="Real64" Value="16"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PA_Man_HalfOff" ID="{C448AF6A-B654-45E2-A5E0-1A06DBCCC3C0}">
+							<ChildrenList>
+								<Action Name="" ID="{470E822D-281E-4AEB-9C2E-E1694CD24624}" ShortID="820041901">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{235BE863-7676-4C94-9AC4-A8DF934D111A}" ShortID="8792966">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PA_Man_HalfOff" ID="{D828E321-851D-472B-BEDB-6CC869EF8FA5}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A146F885-6FC9-46C0-A351-2AE172ABEE8A}" ShortID="112545749">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Delay" Type="Real64" Value="10"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
