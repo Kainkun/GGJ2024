@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform pitchTransform;
     [SerializeField] private GameObject interactionSource;
     [SerializeField] private CharacterController characterController;
+    [SerializeField] public CanvasGroup crossHair;
     
     [Header("Settings")]
     [SerializeField] private PlayerMovementSettings movementSettings;

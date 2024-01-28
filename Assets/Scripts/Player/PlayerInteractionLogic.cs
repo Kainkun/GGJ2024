@@ -40,7 +40,7 @@ public class PlayerInteractionLogic
             {
                 if (_hitBuffer[i].distance < nearestDist)
                 {
-                    if (_hitBuffer[i].TryGetComponentFromRaycastHit(out Interactable _) || !_hitBuffer[i].collider.isTrigger)
+                    if (_hitBuffer[i].transform != _references.interactSource.transform && (_hitBuffer[i].TryGetComponentFromRaycastHit(out Interactable _) || !_hitBuffer[i].collider.isTrigger))
                     {
                         nearest = _hitBuffer[i];
                         nearestDist = _hitBuffer[i].distance;
