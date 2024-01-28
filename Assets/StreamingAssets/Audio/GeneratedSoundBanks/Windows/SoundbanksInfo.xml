@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{285BD655-7FED-7FFE-4C70-8E9D8D3D40E0}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{7DF220EE-22B9-7708-9DF0-3C185BE20E3D}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -516,6 +516,17 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" DurationType="OneShot" DurationMin="1.7993542" DurationMax="3.9631827">
+					<MediaRefs>
+						<MediaRef Id="408982861"/>
+						<MediaRef Id="679843875"/>
+						<MediaRef Id="686673804"/>
+						<MediaRef Id="1007722943"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3457820653" Name="Play_Cashier_Strong_Bones" DurationType="OneShot" DurationMin="3.3732917" DurationMax="3.3732917">
 					<MediaRefs>
 						<MediaRef Id="1007722943"/>
@@ -790,5 +801,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{24AFE506-8F10-EB69-E0DF-D6F09B489ACB}</FileHash>
+	<FileHash>{A63FC7D4-1D7F-C0FC-7BB0-3391442F45C3}</FileHash>
 </SoundBanksInfo>
