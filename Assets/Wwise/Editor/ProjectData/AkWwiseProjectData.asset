@@ -428,8 +428,8 @@ MonoBehaviour:
         guid: 7d759f81b3af7b48a246aaff2e8fc2fb
       Path: Events\Default Work Unit\Cashier Events\Play_Cashier_Vitimin_D
       maxAttenuation: 0
-      maxDuration: 3.2082083
-      minDuration: 3.2082083
+      maxDuration: 3.0571203
+      minDuration: 3.0571203
     - name: Play_Female_Voice_Goodbye
       guid: 8beda5564e5adf45972e1935bbd26a6b
       id: 3876234301

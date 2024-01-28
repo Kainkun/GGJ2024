@@ -14,7 +14,7 @@ public class Interactable : MonoBehaviour
     private float maxInteractDistance = 1;
 
     [SerializeField] 
-    private UnityEvent<InteractEventData> onInteract;
+    public UnityEvent<InteractEventData> onInteract;
     
     public bool CanInteract(GameObject source)
     {
