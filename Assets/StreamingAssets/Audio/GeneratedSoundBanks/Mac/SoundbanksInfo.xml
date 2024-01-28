@@ -5,7 +5,7 @@
 		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../GGJ2024_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{66F77F9C-8A86-0CDD-0047-B6BC89ACE28C}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{B8B87FB6-EB81-93B1-AB54-3E3200550EAC}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -44,7 +44,7 @@
 				</File>
 				<File Id="916089115" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Muzak_Guitar.wav</ShortName>
-					<CachePath>SFX/Muzak_Guitar_988C39A2.wem</CachePath>
+					<CachePath>SFX/Muzak_Guitar_2E89438E.wem</CachePath>
 				</File>
 				<File Id="916665401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213285__aderumoro__have-a-nice-day-female-professional.wav</ShortName>
@@ -91,5 +91,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EF48D2F0-C2F7-3993-CD06-1017425DD633}</FileHash>
+	<FileHash>{752ED4FD-F5AF-CCFC-5F86-FC0188BB8322}</FileHash>
 </SoundBanksInfo>

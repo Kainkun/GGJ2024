@@ -99,7 +99,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sample text
+  m_text: '- milk'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 91bc5f09afb0987469129a92abe25aaa, type: 2}
   m_sharedMaterial: {fileID: -2239777137239014471, guid: 91bc5f09afb0987469129a92abe25aaa, type: 2}
