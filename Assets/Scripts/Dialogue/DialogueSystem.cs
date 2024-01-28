@@ -9,9 +9,6 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] 
     private Dialogue[] registeredDialogue;
 
-    [SerializeField] 
-    private SubtitleRunner subtitleRunner;
-    
     public event Action<DialogueEventData> OnRunDialogue;
 
     private void Awake()
@@ -44,7 +41,6 @@ public class DialogueSystem : MonoBehaviour
                     throw new Exception($"[DIALOGUE SYSTEM] Tried to run dialogue for {dialogue.id}, but was missing speaker!");
             
                 dialogueLine.audioEvent.Post(speaker);
-                subtitleRunner.DisplaySubtitle(dialogueLine.subtitle, dialogueLine.duration);
             
                 DialogueEventData eventData = new DialogueEventData {
                     Duration = dialogueLine.duration,

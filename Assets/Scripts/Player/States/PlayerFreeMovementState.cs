@@ -26,9 +26,13 @@ public class PlayerFreeMovementState : PlayerState
     [SerializeField] 
     private PlayerRotationSettings rotationSettings;
 
+    [SerializeField] 
+    private DistanceFootstepSettings footstepSettings;
+
     private PlayerMovementLogic _movementLogic;
     private PlayerInteractionLogic _interactionLogic;
     private PlayerRotationLogic _rotationLogic;
+    private DistanceFootstepLogic _footstepLogic;
 
     protected override void OnInitialize()
     {
@@ -36,6 +40,7 @@ public class PlayerFreeMovementState : PlayerState
         _movementLogic = new PlayerMovementLogic(movementSettings, new PlayerMovementReferences{yawTransform = yawTransform, characterController = characterController});
         _rotationLogic = new PlayerRotationLogic(rotationSettings, new PlayerRotationReferences{yawTransform = yawTransform, pitchTransform = pitchTransform});
         _interactionLogic = new PlayerInteractionLogic(new PlayerInteractReferences{interactSource = interactionSource, viewTransform = pitchTransform});
+        _footstepLogic = new DistanceFootstepLogic(footstepSettings, new DistanceFootstepReferences {body = Controller.gameObject});
     }
 
     public override void OnEnter()
@@ -51,5 +56,6 @@ public class PlayerFreeMovementState : PlayerState
         _movementLogic.Update(Time.deltaTime, new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized);
         _rotationLogic.Update(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
         _interactionLogic.Update(Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Mouse0));
+        _footstepLogic.Update();
     }
 }
