@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edd358a313f47fca22cfbfbb042ea77, type: 3}
+  m_Name: clerk_1_post_event
+  m_EditorClassIdentifier: 
+  id: clerk_1_post_event
+  lines:
+  - isPause: 0
+    duration: 1
+    speaker: {fileID: 11400000, guid: 9bbbfe66ba54bed4fbf5c550537f5f7d, type: 2}
+    audioEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 8a496ba270fc33246809917993687bdf, type: 2}
