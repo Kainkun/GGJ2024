@@ -74,6 +74,7 @@
 						<ObjectRef Name="Wife" ID="{E20B45D3-4F08-4D40-B049-4F31D99B35B6}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player Footsteps" ID="{A791A6ED-EA18-4DD2-935E-BEF51BD79FB2}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_Random_Afternoon" ID="{A5AEBEE0-0553-4E19-B85B-C12612C7357C}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cashier_SmallTalk" ID="{F8D3B34A-8875-4E37-8AE2-49291F4EECC0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wife_BackSoSoon" ID="{94F34BCD-2E14-4E42-8398-E8F4DEB2F6B7}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AC_Ambience" ID="{42CB66B5-10F6-4E57-9DA5-BB5C9B9DCC64}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_Sequence_JustTheMilk" ID="{16278448-CE37-4E6F-BCE4-3905D354F237}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>

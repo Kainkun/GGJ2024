@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{7DF220EE-22B9-7708-9DF0-3C185BE20E3D}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{7C74931C-4659-99FD-552B-40931344114F}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -731,7 +731,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="0.55218834" DurationMax="0.86623347">
+				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="0.8082244" DurationMax="0.86623347">
 					<MediaRefs>
 						<MediaRef Id="93776339"/>
 						<MediaRef Id="534556017"/>
@@ -801,5 +801,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{16DDF824-25A8-AC15-C039-5D784F9209EA}</FileHash>
+	<FileHash>{3BF7C57F-B6EB-4C3F-2BC0-875A6BBA71AA}</FileHash>
 </SoundBanksInfo>

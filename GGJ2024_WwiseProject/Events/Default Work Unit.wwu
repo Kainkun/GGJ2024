@@ -237,6 +237,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Cashier_SmallTalk" ID="{8C618A13-CE9F-4C65-AD4C-E2D3078AD96D}">
+							<ChildrenList>
+								<Action Name="" ID="{417E7C3E-3AF5-414A-81FE-6574EE52945F}" ShortID="179961237">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_SmallTalk" ID="{F8D3B34A-8875-4E37-8AE2-49291F4EECC0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PA Man Events" ID="{B88F71A0-D504-4986-B1DB-4459BC51BCD8}" ShortID="249577862">
