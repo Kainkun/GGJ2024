@@ -1215,44 +1215,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 1131113136}
     m_Modifications:
     - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1131113137}
     - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: Teleport
-      objectReference: {fileID: 0}
-    - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: TeleportNext, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
-      value: MilkDisapear
-      objectReference: {fileID: 0}
-    - target: {fileID: 5076998211601851719, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: MilkMove1
       objectReference: {fileID: 0}
     - target: {fileID: 5164270717756581126, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
       propertyPath: m_Name
       value: DisapearingMilk
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094480933569770914, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -108.438
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094480933569770914, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -374.17798
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094480933569770914, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 39.425995
       objectReference: {fileID: 0}
     - target: {fileID: 6860955695538735711, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1272,15 +1256,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6860955695538735711, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860955695538735711, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860955695538735711, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860955695538735711, guid: c9b1012285c63b14fb090d5ad6f2797b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
