@@ -47,13 +47,21 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{A6BEF41A-990C-0C3D-32B0-33463E29B32A}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{BC0B72A7-3398-B834-CE08-F9304A60C736}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
+				<File Id="12546953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Milk_Acquired.wav</ShortName>
+					<CachePath>SFX/Milk_Acquired_818F3B66.wem</CachePath>
+				</File>
 				<File Id="31538099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
 					<CachePath>SFX/Cashier_Calling_80BA08B6.wem</CachePath>
+				</File>
+				<File Id="55457130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Park Residential, Birds, Wind, Crows _STEREO.wav</ShortName>
+					<CachePath>SFX/Park Residential, Birds, Wind, Crows _STEREO_B5125869.wem</CachePath>
 				</File>
 				<File Id="68607420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk Carton.wav</ShortName>
@@ -516,9 +524,8 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" DurationType="OneShot" DurationMin="1.7993542" DurationMax="3.9631827">
+				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" DurationType="OneShot" DurationMin="2.6491153" DurationMax="3.9631827">
 					<MediaRefs>
-						<MediaRef Id="408982861"/>
 						<MediaRef Id="679843875"/>
 						<MediaRef Id="686673804"/>
 						<MediaRef Id="1007722943"/>
@@ -568,6 +575,11 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="1906367112" Name="Play_Exterior_Ambience_Loop" MaxAttenuation="8" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="55457130"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1756293666" Name="Play_Flourecent_Loop" MaxAttenuation="13" DurationType="Infinite">
 					<MediaRefs>
@@ -626,6 +638,11 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="2684971554" Name="Play_Milk_Acquired" DurationType="OneShot" DurationMin="4.25" DurationMax="4.25">
+					<MediaRefs>
+						<MediaRef Id="12546953"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
@@ -801,5 +818,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AB34BBDE-F33A-BBE7-33DD-F41BA8377536}</FileHash>
+	<FileHash>{423D37FF-F8E8-8392-5DDC-3D695BBFCEF2}</FileHash>
 </SoundBanksInfo>
