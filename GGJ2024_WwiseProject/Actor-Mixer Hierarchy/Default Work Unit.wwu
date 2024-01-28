@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{110EA830-C59F-4B3C-8035-A55C98549B65}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Female Voice Test" ID="{C57AB073-3CF6-4AAD-A294-77FC65546535}" ShortID="518920025">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Sound Name="213284__aderumoro__hello-2-female-friendly" ID="{6EF5D0EC-8384-44DD-85D0-74ED5D809352}" ShortID="1042875132">
 							<ReferenceList>
@@ -140,6 +144,45 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{E4205C52-16BD-47F4-9DB9-82E5BDFC8856}" ShortID="668513311">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="Muzak_Guitar" ID="{EF0089CA-8321-4B71-9390-AE322C9EAEDE}" ShortID="543125167">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Muzak_Guitar" ID="{07A07670-C856-45A8-955F-11DC7B5EE203}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2894.737"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.199460899793262"/>
+										<Property Name="LoopEnd" Type="Real64" Value="109.840431280165"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Muzak_Guitar.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="916089115"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Muzak_Guitar" ID="{07A07670-C856-45A8-955F-11DC7B5EE203}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
