@@ -4,40 +4,6 @@ using UnityEngine;
 [Serializable]
 public class PlayerFreeMovementState : PlayerState
 {
-    [Header("References")]
-    
-    [SerializeField]
-    private Transform yawTransform;
-    
-    [SerializeField]
-    private Transform pitchTransform;
-
-    [SerializeField] 
-    private GameObject interactionSource;
-    
-    [SerializeField] 
-    private CharacterController characterController;
-
-    [Header("Settings")]
-    
-    [SerializeField]
-    private PlayerMovementSettings movementSettings;
-    
-    [SerializeField] 
-    private PlayerRotationSettings rotationSettings;
-
-    private PlayerMovementLogic _movementLogic;
-    private PlayerInteractionLogic _interactionLogic;
-    private PlayerRotationLogic _rotationLogic;
-
-    protected override void OnInitialize()
-    {
-        base.OnInitialize();
-        _movementLogic = new PlayerMovementLogic(movementSettings, new PlayerMovementReferences{yawTransform = yawTransform, characterController = characterController});
-        _rotationLogic = new PlayerRotationLogic(rotationSettings, new PlayerRotationReferences{yawTransform = yawTransform, pitchTransform = pitchTransform});
-        _interactionLogic = new PlayerInteractionLogic(new PlayerInteractReferences{interactSource = interactionSource, viewTransform = pitchTransform});
-    }
-
     public override void OnEnter()
     {
         base.OnEnter();
@@ -48,8 +14,12 @@ public class PlayerFreeMovementState : PlayerState
     public override void OnUpdate()
     {
         base.OnUpdate();
-        _movementLogic.Update(Time.deltaTime, new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized);
-        _rotationLogic.Update(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
-        _interactionLogic.Update(Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Mouse0));
+        Controller.MovementLogic.Update(Time.deltaTime, new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized);
+        Controller.RotationLogic.Update(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
+        Controller.InteractionLogic.Update(Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Mouse0));
+        Controller.FootstepLogic.Update();
+        
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+            Controller.StateMachine.TransitionTo(Controller.checkPaperState);
     }
 }

@@ -12,7 +12,6 @@ public class Dialogue : ScriptableObject
     {
         public bool isPause;
         public float duration;
-        public string subtitle;
         public GameObjectLocator speaker;
         public AK.Wwise.Event audioEvent;
     }
