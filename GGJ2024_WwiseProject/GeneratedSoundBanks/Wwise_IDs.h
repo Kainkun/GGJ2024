@@ -42,6 +42,7 @@ namespace AK
         static const AkUniqueID PLAY_PA_MAN_HALFOFF = 2102180961U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAY_SEQUENCE_WELCOME_WHATCANIDO = 4123174421U;
+        static const AkUniqueID PLAY_SHELF = 3126524178U;
     } // namespace EVENTS
 
     namespace BANKS

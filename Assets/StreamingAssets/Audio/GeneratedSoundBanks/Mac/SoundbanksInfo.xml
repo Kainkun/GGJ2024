@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0BA23B7A-AA03-5B0C-C79F-E7A6FB2C29C2}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F1436AAA-BEB7-BA24-24A3-18AA8B3981D0}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{3D5F1A98-7D3D-E7A7-4744-F1D01ED1CC3B}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{EF1B4F76-40B2-6030-F7CE-8594B87D39D9}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -34,13 +34,17 @@
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Morning_A78196E7.wem</CachePath>
 				</File>
+				<File Id="93776339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>106647-Banging_a_refrigerator_shelf-AOS02977.wav</ShortName>
+					<CachePath>SFX/106647-Banging_a_refrigerator_shelf-AOS02977_47EB0537.wem</CachePath>
+				</File>
 				<File Id="107684846" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_D3ABA304.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_912F01C7.wem</CachePath>
 				</File>
 				<File Id="126492990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GasStationDingDong.wav</ShortName>
-					<CachePath>SFX/GasStationDingDong_B6CBF3DC.wem</CachePath>
+					<CachePath>SFX/GasStationDingDong_FA02BFF4.wem</CachePath>
 				</File>
 				<File Id="129614257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -64,7 +68,7 @@
 				</File>
 				<File Id="232370685" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Series.wav</ShortName>
-					<CachePath>SFX/Footsteps_Series_CDE01876.wem</CachePath>
+					<CachePath>SFX/Footsteps_Series_0ED46CD2.wem</CachePath>
 				</File>
 				<File Id="241421801" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -76,7 +80,7 @@
 				</File>
 				<File Id="277029858" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Series.wav</ShortName>
-					<CachePath>SFX/Footsteps_Series_7D5AB851.wem</CachePath>
+					<CachePath>SFX/Footsteps_Series_AF01AE4A.wem</CachePath>
 				</File>
 				<File Id="307164417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -84,7 +88,7 @@
 				</File>
 				<File Id="325516985" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Series.wav</ShortName>
-					<CachePath>SFX/Footsteps_Series_BC2ABD86.wem</CachePath>
+					<CachePath>SFX/Footsteps_Series_ACC0661F.wem</CachePath>
 				</File>
 				<File Id="349635030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Coupon.wav</ShortName>
@@ -96,7 +100,7 @@
 				</File>
 				<File Id="359915242" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soda_Machine.wav</ShortName>
-					<CachePath>SFX/Soda_Machine_A3DCC629.wem</CachePath>
+					<CachePath>SFX/Soda_Machine_B9099600.wem</CachePath>
 				</File>
 				<File Id="375619510" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -108,11 +112,15 @@
 				</File>
 				<File Id="496928318" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Freezer_Loop.wav</ShortName>
-					<CachePath>SFX/Freezer_Loop_B0D03414.wem</CachePath>
+					<CachePath>SFX/Freezer_Loop_AF2026C5.wem</CachePath>
+				</File>
+				<File Id="534556017" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>107998-Banging_a_refrigerator_shelf-AOS02976.wav</ShortName>
+					<CachePath>SFX/107998-Banging_a_refrigerator_shelf-AOS02976_A7610379.wem</CachePath>
 				</File>
 				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_CDD654E5.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_8671E91E.wem</CachePath>
 				</File>
 				<File Id="599990231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_PullingYourLeg.wav</ShortName>
@@ -120,7 +128,7 @@
 				</File>
 				<File Id="620687934" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_A17E382D.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_15B107D6.wem</CachePath>
 				</File>
 				<File Id="624752260" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Morning.wav</ShortName>
@@ -128,7 +136,7 @@
 				</File>
 				<File Id="679843875" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Strong_Silent_Type.wav</ShortName>
-					<CachePath>SFX/Cashier_Strong_Silent_Type_A90D282C.wem</CachePath>
+					<CachePath>SFX/Cashier_Strong_Silent_Type_B9CD9BCD.wem</CachePath>
 				</File>
 				<File Id="682176323" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_JustTheMilk.wav</ShortName>
@@ -136,7 +144,7 @@
 				</File>
 				<File Id="686673804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Vitimin_D.wav</ShortName>
-					<CachePath>SFX/Cashier_Vitimin_D_56F738ED.wem</CachePath>
+					<CachePath>SFX/Cashier_Vitimin_D_D527622B.wem</CachePath>
 				</File>
 				<File Id="717609223" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_PleaseSet.wav</ShortName>
@@ -152,7 +160,7 @@
 				</File>
 				<File Id="729189548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Series.wav</ShortName>
-					<CachePath>SFX/Footsteps_Series_25301630.wem</CachePath>
+					<CachePath>SFX/Footsteps_Series_C9281DAB.wem</CachePath>
 				</File>
 				<File Id="733388073" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -170,13 +178,17 @@
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_0A654014.wem</CachePath>
 				</File>
+				<File Id="779758610" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>106209-Banging_a_refrigerator_shelf-AOS02975.wav</ShortName>
+					<CachePath>SFX/106209-Banging_a_refrigerator_shelf-AOS02975_869FE83B.wem</CachePath>
+				</File>
 				<File Id="787705611" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_D621E257.wem</CachePath>
 				</File>
 				<File Id="788903558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AC_Loop.wav</ShortName>
-					<CachePath>SFX/AC_Loop_B7788A03.wem</CachePath>
+					<CachePath>SFX/AC_Loop_4B744DE4.wem</CachePath>
 				</File>
 				<File Id="823389448" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_CanIHelpYouFindAnythingElse.wav</ShortName>
@@ -184,7 +196,7 @@
 				</File>
 				<File Id="864326664" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Series.wav</ShortName>
-					<CachePath>SFX/Footsteps_Series_0765CDE7.wem</CachePath>
+					<CachePath>SFX/Footsteps_Series_AE486055.wem</CachePath>
 				</File>
 				<File Id="901044226" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_SeeYouSoon.wav</ShortName>
@@ -196,11 +208,11 @@
 				</File>
 				<File Id="915841267" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps_Series.wav</ShortName>
-					<CachePath>SFX/Footsteps_Series_D857303B.wem</CachePath>
+					<CachePath>SFX/Footsteps_Series_7F539B3C.wem</CachePath>
 				</File>
 				<File Id="943646738" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
-					<CachePath>SFX/Series_Attention_Customers_FDA836A8.wem</CachePath>
+					<CachePath>SFX/Series_Attention_Customers_2787A36F.wem</CachePath>
 				</File>
 				<File Id="970742367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -216,7 +228,11 @@
 				</File>
 			</Media>
 			<Plugins>
+				<Custom>
+					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</Custom>
 				<ShareSets>
+					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
 					<Plugin Id="1074933567" Name="Footstep_Limit" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
@@ -407,8 +423,23 @@
 					</PluginRefs>
 				</Event>
 				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209"/>
+				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="0.55218834" DurationMax="0.86623347">
+					<MediaRefs>
+						<MediaRef Id="93776339"/>
+						<MediaRef Id="534556017"/>
+						<MediaRef Id="779758610"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="425319014"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="418265525"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FA30D2BD-CF0D-17E3-161D-0CCAC7BBB177}</FileHash>
+	<FileHash>{F0C6EA14-0C8D-1343-85C5-A7E717769A7F}</FileHash>
 </SoundBanksInfo>
