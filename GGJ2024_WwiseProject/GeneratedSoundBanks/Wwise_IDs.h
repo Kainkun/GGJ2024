@@ -44,6 +44,10 @@ namespace AK
         static const AkUniqueID PLAY_PAPER = 441377128U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAY_SHELF = 3126524178U;
+        static const AkUniqueID PLAY_WIFE_BACKSOSOON = 2225884798U;
+        static const AkUniqueID PLAY_WIFE_SOON = 18284977U;
+        static const AkUniqueID PLAY_WIFE_SOON_2 = 195073926U;
+        static const AkUniqueID PLAY_WIFE_TRIPPY = 2459103792U;
     } // namespace EVENTS
 
     namespace BANKS
