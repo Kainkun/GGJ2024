@@ -33,6 +33,7 @@ namespace AK
         static const AkUniqueID PLAY_CASHIER_THEREYOUARE = 3298164935U;
         static const AkUniqueID PLAY_CASHIER_VITIMIN_D = 615435047U;
         static const AkUniqueID PLAY_CEREAL = 35188282U;
+        static const AkUniqueID PLAY_EXTERIOR_AMBIENCE_LOOP = 1906367112U;
         static const AkUniqueID PLAY_FLOURECENT_LOOP = 1756293666U;
         static const AkUniqueID PLAY_FREEZER_AMBIENCE = 2633745870U;
         static const AkUniqueID PLAY_GAMESTART = 1497459184U;

@@ -47,13 +47,21 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{46477241-3E52-AB89-B23A-6AD7C3A58D21}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{85AD8219-E401-9CA1-EB5D-36E651311D48}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
+				<File Id="12546953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Milk_Acquired.wav</ShortName>
+					<CachePath>SFX/Milk_Acquired_818F3B66.wem</CachePath>
+				</File>
 				<File Id="31538099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
 					<CachePath>SFX/Cashier_Calling_80BA08B6.wem</CachePath>
+				</File>
+				<File Id="55457130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Park Residential, Birds, Wind, Crows _STEREO.wav</ShortName>
+					<CachePath>SFX/Park Residential, Birds, Wind, Crows _STEREO_B5125869.wem</CachePath>
 				</File>
 				<File Id="68607420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk Carton.wav</ShortName>
@@ -133,7 +141,7 @@
 				</File>
 				<File Id="303218919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>118863-Retail_store_cash_register_scanner_beep_2.wav</ShortName>
-					<CachePath>SFX/118863-Retail_store_cash_register_scanner_beep_2_A2669B16.wem</CachePath>
+					<CachePath>SFX/118863-Retail_store_cash_register_scanner_beep_2_12FEB370.wem</CachePath>
 				</File>
 				<File Id="307164417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -155,10 +163,6 @@
 					<ShortName>Cashier_Coupon.wav</ShortName>
 					<CachePath>SFX/Cashier_Coupon_818F3B66.wem</CachePath>
 				</File>
-				<File Id="354790867" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Milk_Acquired.wav</ShortName>
-					<CachePath>SFX/Milk_Acquired_818F3B66.wem</CachePath>
-				</File>
 				<File Id="359667351" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Muzak_Guitar_1.wav</ShortName>
 					<CachePath>SFX/Muzak_Guitar_1_66B93D96.wem</CachePath>
@@ -177,7 +181,7 @@
 				</File>
 				<File Id="392228245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spoopy Ambience.wav</ShortName>
-					<CachePath>SFX/Spoopy Ambience_40B3FD5A.wem</CachePath>
+					<CachePath>SFX/Spoopy Ambience_E1CBA1F9.wem</CachePath>
 				</File>
 				<File Id="408982861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Meat_Log.wav</ShortName>
@@ -201,7 +205,7 @@
 				</File>
 				<File Id="549182951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Solo_Whistling.wav</ShortName>
-					<CachePath>SFX/Solo_Whistling_1F2191AB.wem</CachePath>
+					<CachePath>SFX/Solo_Whistling_297C6CFC.wem</CachePath>
 				</File>
 				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
@@ -572,6 +576,11 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="1906367112" Name="Play_Exterior_Ambience_Loop" MaxAttenuation="8" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="55457130"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1756293666" Name="Play_Flourecent_Loop" MaxAttenuation="13" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1043483779"/>
@@ -632,11 +641,8 @@
 				</Event>
 				<Event Id="2684971554" Name="Play_Milk_Acquired" DurationType="OneShot" DurationMin="4.25" DurationMax="4.25">
 					<MediaRefs>
-						<MediaRef Id="354790867"/>
+						<MediaRef Id="12546953"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
@@ -812,5 +818,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{10E42D4A-6BFE-8DFD-8847-0D34910830B8}</FileHash>
+	<FileHash>{C4A056C0-0E5B-6043-0BD0-A7E53081A169}</FileHash>
 </SoundBanksInfo>
