@@ -265,6 +265,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Muzak_Guitar_1" ID="{4B506F44-226D-4ED4-95ED-B616178F4A3E}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Muzak_Guitar_1.wav</AudioFile>
 									<MediaIDList>
@@ -1238,10 +1242,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Cashier_SeeYouSoon" ID="{329CF41B-B4D6-4BBD-8BE3-6503E42503B8}">
-											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Cashier_SeeYouSoon.wav</AudioFile>
 											<MediaIDList>
