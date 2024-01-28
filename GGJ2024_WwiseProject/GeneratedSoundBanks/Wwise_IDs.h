@@ -34,6 +34,8 @@ namespace AK
         static const AkUniqueID PLAY_CEREAL = 35188282U;
         static const AkUniqueID PLAY_FLOURECENT_LOOP = 1756293666U;
         static const AkUniqueID PLAY_FREEZER_AMBIENCE = 2633745870U;
+        static const AkUniqueID PLAY_GAMESTART = 1497459184U;
+        static const AkUniqueID PLAY_GAMESTART_REPRISE = 675447719U;
         static const AkUniqueID PLAY_GASSTATIONDINGDONG = 2809485985U;
         static const AkUniqueID PLAY_MILK = 1782398807U;
         static const AkUniqueID PLAY_MUZAK_GUITAR = 2931435471U;
@@ -43,7 +45,10 @@ namespace AK
         static const AkUniqueID PLAY_PA_MAN_HALFOFF = 2102180961U;
         static const AkUniqueID PLAY_PAPER = 441377128U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
+        static const AkUniqueID PLAY_REGISTER_BEEP = 331999908U;
         static const AkUniqueID PLAY_SHELF = 3126524178U;
+        static const AkUniqueID PLAY_SOLO_WHISTLING = 145970281U;
+        static const AkUniqueID PLAY_SPOOPY_AMBIENCE = 2022546367U;
         static const AkUniqueID PLAY_WIFE_BACKSOSOON = 2225884798U;
         static const AkUniqueID PLAY_WIFE_SOON = 18284977U;
         static const AkUniqueID PLAY_WIFE_SOON_2 = 195073926U;
