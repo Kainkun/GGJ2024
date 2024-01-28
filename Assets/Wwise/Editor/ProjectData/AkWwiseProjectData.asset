@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
-    m_lastTime: -8584951989564869104
+    m_lastTime: -8584951994200590399
     List:
     - name: SoundBank
       guid: 8cd371baccf74f438c2972fc329213cd
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
-    m_lastTime: -8584951989567811157
+    m_lastTime: -8584951994203127807
     List:
     - name: Play_Female_Voice_Goodbye
       guid: 8beda5564e5adf45972e1935bbd26a6b
