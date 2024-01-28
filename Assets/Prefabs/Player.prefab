@@ -1119,7 +1119,7 @@ MonoBehaviour:
     interactHint: {fileID: 6296935820728543132}
     checkPaperHint: {fileID: 980963373858898399}
     movementHint: {fileID: 8698480520410795306}
-    checkPaperHintCount: 7
+    checkPaperHintCount: 5
   checkPaperState:
     timeline: {fileID: 8072388418848336260}
     paperRandomizer: {fileID: 3262021808784048283}
@@ -1137,11 +1137,11 @@ MonoBehaviour:
     sensitivity: 1
     invertY: 0
   footstepSettings:
-    stepDistance: 1
+    stepDistance: 2.5
     stepEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: 8021eea016aecf14c8aa5285799401ac, type: 2}
 --- !u!143 &8570057859562781716
 CharacterController:
   m_ObjectHideFlags: 0

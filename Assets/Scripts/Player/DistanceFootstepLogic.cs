@@ -36,6 +36,7 @@ public class DistanceFootstepLogic
         if (_elapsedDistance > _settings.stepDistance)
         {
             _settings.stepEvent.Post(_references.body);
+            _elapsedDistance = 0;
         }
         
         _prevPos = pos;
