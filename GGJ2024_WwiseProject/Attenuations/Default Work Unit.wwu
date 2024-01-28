@@ -10,8 +10,13 @@
 								<Value>-3</Value>
 							</ValueList>
 						</Property>
-						<Property Name="ConeInnerAngle" Type="int32" Value="195"/>
-						<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
+						<Property Name="ConeInnerAngle" Type="int32" Value="15"/>
+						<Property Name="ConeLowPassFilterValue" Type="int32">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ConeOuterAngle" Type="int32" Value="230"/>
 						<Property Name="ConeUse" Type="bool">
 							<ValueList>
 								<Value>True</Value>

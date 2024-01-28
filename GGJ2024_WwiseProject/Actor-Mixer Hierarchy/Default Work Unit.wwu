@@ -164,7 +164,12 @@
 					<ChildrenList>
 						<Sound Name="Muzak_Guitar" ID="{EF0089CA-8321-4B71-9390-AE322C9EAEDE}" ShortID="543125167">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OutputBusHighpass" Type="int16">
 									<ValueList>
@@ -225,6 +230,65 @@
 							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Muzak_Guitar" ID="{07A07670-C856-45A8-955F-11DC7B5EE203}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" ShortID="663190557">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Music_Atten" ID="{F92BDAF1-ED87-482E-B0C3-0CFBB78B69D5}" WorkUnitID="{FE91155A-F276-49B4-8799-B817E46D2EC0}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Muzak_Guitar_1" ID="{4B506F44-226D-4ED4-95ED-B616178F4A3E}">
+									<Language>SFX</Language>
+									<AudioFile>Muzak_Guitar_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="359667351"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4D2931A3-6FFB-41DA-ADA3-83E891FF7BCD}" ShortID="95258135">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+														<ObjectRef Name="New_Peak_Limiter" ID="{9D6EDA55-8FFD-4E45-85E7-1C8D986D6ADB}" WorkUnitID="{565CAC7B-0992-4304-81AE-805238CE179A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Muzak_Guitar_1" ID="{4B506F44-226D-4ED4-95ED-B616178F4A3E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
