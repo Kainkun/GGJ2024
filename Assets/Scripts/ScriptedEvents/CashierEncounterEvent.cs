@@ -62,8 +62,12 @@ namespace ScriptedEvents
                 yield return null;
         
             // [timeline] places coupon on counter, clerk inspects it and comments on it, you are finally good to go.
+            DialogueSystem.Instance.RunDialogue("dread_checking_out_coupon");
             yield return StartCoroutine(timelineAnimation.PlayCoroutine());
         
+            yield return DialogueSystem.Instance.RunDialogue("dread_goodbye");
+            yield return StartCoroutine(timelineAnimation.PlayCoroutine());
+            
             epilogueAnimator.SetTrigger(FadeOut);
         }
 

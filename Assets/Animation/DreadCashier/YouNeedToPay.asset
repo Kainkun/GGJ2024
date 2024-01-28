@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: dread_you_need_to_pay
   lines:
-  - duration: 1
-    subtitle: You need to pay
+  - isPause: 0
+    duration: 3
     speaker: {fileID: 11400000, guid: 93d5aa573616bcc4a92c57a408bd3de8, type: 2}
     audioEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: 7ae6c512b58f5f043b2d6051e50de61c, type: 2}

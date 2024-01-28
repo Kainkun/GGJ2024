@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: dread_put_down_on_counter
   lines:
-  - duration: 1
-    subtitle: Put the milk down on counter.
+  - isPause: 0
+    duration: 3.3
     speaker: {fileID: 11400000, guid: 93d5aa573616bcc4a92c57a408bd3de8, type: 2}
     audioEvent:
       idInternal: 0
       valueGuidInternal: 
-      WwiseObjectReference: {fileID: 0}
+      WwiseObjectReference: {fileID: 11400000, guid: a22fda450870f11439319a57cb10a2e3, type: 2}

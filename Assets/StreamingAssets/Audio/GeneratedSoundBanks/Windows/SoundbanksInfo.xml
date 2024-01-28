@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{C62205F1-9DDE-BAFB-06DD-F0EBF0D70DC1}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{8A739C46-62D8-90EE-51D0-C0604762DBF0}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -81,6 +81,10 @@
 				<File Id="349635030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Coupon.wav</ShortName>
 					<CachePath>SFX/Cashier_Coupon_818F3B66.wem</CachePath>
+				</File>
+				<File Id="359667351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Muzak_Guitar_1.wav</ShortName>
+					<CachePath>SFX/Muzak_Guitar_1_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="375619510" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Instructions.wav</ShortName>
@@ -157,10 +161,6 @@
 				<File Id="912887833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Good_Afternoon.wav</ShortName>
 					<CachePath>SFX/Cashier_Good_Afternoon_1C64DEA2.wem</CachePath>
-				</File>
-				<File Id="916089115" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Muzak_Guitar.wav</ShortName>
-					<CachePath>SFX/Muzak_Guitar_2E89438E.wem</CachePath>
 				</File>
 				<File Id="916665401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213285__aderumoro__have-a-nice-day-female-professional.wav</ShortName>
@@ -292,9 +292,9 @@
 						<MediaRef Id="249524521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="1200" DurationType="Infinite">
+				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="19" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="916089115"/>
+						<MediaRef Id="359667351"/>
 					</MediaRefs>
 					<PluginRefs>
 						<ShareSets>
@@ -311,5 +311,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0E90594D-3930-B859-D0BF-52B8BA08A96C}</FileHash>
+	<FileHash>{2E9A4202-0D1C-935E-304A-78ACD05ABEF7}</FileHash>
 </SoundBanksInfo>

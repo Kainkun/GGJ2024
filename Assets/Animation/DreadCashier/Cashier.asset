@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547ae20319c8411e8f5b977b56f9ed5b, type: 3}
   m_Name: Cashier
   m_EditorClassIdentifier: 
-  gameObjectName: Capsule
+  gameObjectName: Clerk
