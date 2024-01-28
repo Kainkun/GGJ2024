@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	37077532	Play_Female_Voice_Hello			\Default Work Unit\Play_Female_Voice_Hello	
+	738920550	Play_Female_Voice_HaveANiceDay			\Default Work Unit\Play_Female_Voice_HaveANiceDay	
+	2931435471	Play_Muzak_Guitar			\Default Work Unit\Play_Muzak_Guitar	
+	3876234301	Play_Female_Voice_Goodbye			\Default Work Unit\Play_Female_Voice_Goodbye	
+	4123174421	Play_Sequence_Welcome_WhatcanIDo			\Default Work Unit\Play_Sequence_Welcome_WhatcanIDo	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2675251108	New_Peak_Limiter	Wwise Peak Limiter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	207482798	213288__aderumoro__welcome-female-friendly	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\213288__aderumoro__welcome-female-friendly_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Female Voice Test\Welcome_WhatcanIDo\213288__aderumoro__welcome-female-friendly		102636
+	249524521	213284__aderumoro__hello-2-female-friendly	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\213284__aderumoro__hello-2-female-friendly_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Female Voice Test\213284__aderumoro__hello-2-female-friendly		89258
+	334641649	213286__aderumoro__goodbye-female-friendly	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\213286__aderumoro__goodbye-female-friendly_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Female Voice Test\213286__aderumoro__goodbye-female-friendly		74772
+	587830811	213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Female Voice Test\Welcome_WhatcanIDo\213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional		147218
+	916089115	Muzak_Guitar	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\Muzak_Guitar_988C39A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Muzak_Guitar		21120144
+	916665401	213285__aderumoro__have-a-nice-day-female-professional	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Windows\SFX\213285__aderumoro__have-a-nice-day-female-professional_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Female Voice Test\213285__aderumoro__have-a-nice-day-female-professional		136072
+

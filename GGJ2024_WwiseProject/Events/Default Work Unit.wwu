@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Muzak_Guitar" ID="{44E38D87-F6DE-4EA6-95E7-6AAD9D69EF53}">
+					<ChildrenList>
+						<Action Name="" ID="{C1A017A4-2F7D-44D9-B53B-010383EB8F8B}" ShortID="1039518607">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Muzak_Guitar" ID="{EF0089CA-8321-4B71-9390-AE322C9EAEDE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

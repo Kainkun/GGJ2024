@@ -5,13 +5,26 @@
 		<SourceFilesRoot>../../../../../GGJ2024_WwiseProject/.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../GGJ2024_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Type="User" Language="SFX" Hash="{10CE712C-C0BB-7445-3187-C708F2A1A016}">
-			<ShortName>Default</ShortName>
-			<Path>Default.bnk</Path>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0BA23B7A-AA03-5B0C-C79F-E7A6FB2C29C2}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{66F77F9C-8A86-0CDD-0047-B6BC89ACE28C}">
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
 			<Media>
 				<File Id="207482798" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213288__aderumoro__welcome-female-friendly.wav</ShortName>
@@ -29,28 +42,47 @@
 					<ShortName>213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional.wav</ShortName>
 					<CachePath>SFX/213287__aderumoro__what-can-i-do-for-you-today-female-friendly-professional_818F3B66.wem</CachePath>
 				</File>
+				<File Id="916089115" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Muzak_Guitar.wav</ShortName>
+					<CachePath>SFX/Muzak_Guitar_988C39A2.wem</CachePath>
+				</File>
 				<File Id="916665401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>213285__aderumoro__have-a-nice-day-female-professional.wav</ShortName>
 					<CachePath>SFX/213285__aderumoro__have-a-nice-day-female-professional_818F3B66.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
-				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
+				<Event Id="3876234301" Name="Play_Female_Voice_Goodbye" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
 					<MediaRefs>
 						<MediaRef Id="334641649"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166">
+				<Event Id="738920550" Name="Play_Female_Voice_HaveANiceDay" DurationType="OneShot" DurationMin="1.4164166" DurationMax="1.4164166">
 					<MediaRefs>
 						<MediaRef Id="916665401"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="37077532" Name="Play_Female_Voice_Hello" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084">
+				<Event Id="37077532" Name="Play_Female_Voice_Hello" DurationType="OneShot" DurationMin="0.92877084" DurationMax="0.92877084">
 					<MediaRefs>
 						<MediaRef Id="249524521"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209">
+				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="1200" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="916089115"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4123174421" Name="Play_Sequence_Welcome_WhatcanIDo" DurationType="OneShot" DurationMin="1.068125" DurationMax="1.5325209">
 					<MediaRefs>
 						<MediaRef Id="207482798"/>
 						<MediaRef Id="587830811"/>
@@ -58,19 +90,6 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-			<Plugins>
-				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
-					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
-				</AudioDevices>
-			</Plugins>
-			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
-			</Busses>
-		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B5D92FFE-B812-6190-6AEC-F1F3AE725077}</FileHash>
+	<FileHash>{EF48D2F0-C2F7-3993-CD06-1017425DD633}</FileHash>
 </SoundBanksInfo>
