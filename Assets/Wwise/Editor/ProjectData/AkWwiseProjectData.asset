@@ -428,8 +428,8 @@ MonoBehaviour:
         guid: 8beda5564e5adf45972e1935bbd26a6b
       Path: Events/Default Work Unit/Play_Female_Voice_Goodbye
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.777875
+      minDuration: 0.777875
     - name: Play_Female_Voice_HaveANiceDay
       guid: 881c5843c88b344196146c98f833ba08
       id: 738920550
@@ -445,8 +445,8 @@ MonoBehaviour:
         guid: 881c5843c88b344196146c98f833ba08
       Path: Events/Default Work Unit/Play_Female_Voice_HaveANiceDay
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.4164166
+      minDuration: 1.4164166
     - name: Play_Female_Voice_Hello
       guid: 708ed01372b88342a1becb4a36ef6b92
       id: 37077532
@@ -462,8 +462,8 @@ MonoBehaviour:
         guid: 708ed01372b88342a1becb4a36ef6b92
       Path: Events/Default Work Unit/Play_Female_Voice_Hello
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.92877084
+      minDuration: 0.92877084
     - name: Play_Muzak_Guitar
       guid: 878de344def6a64e95e76aad9d69ef53
       id: 2931435471
@@ -478,7 +478,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 878de344def6a64e95e76aad9d69ef53
       Path: Events/Default Work Unit/Play_Muzak_Guitar
-      maxAttenuation: 0
+      maxAttenuation: 12
       maxDuration: -1
       minDuration: -1
     - name: Play_Sequence_Welcome_WhatcanIDo
@@ -496,8 +496,8 @@ MonoBehaviour:
         guid: cd223fcc9f35d749aa16171ffa237aef
       Path: Events/Default Work Unit/Play_Sequence_Welcome_WhatcanIDo
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.5325209
+      minDuration: 1.068125
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
