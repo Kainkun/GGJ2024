@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 53395330631726107}
   - component: {fileID: 4139136486104758954}
   - component: {fileID: 6243641388953895449}
+  - component: {fileID: 643043588147923071}
   m_Layer: 0
   m_Name: BoxTemplate
   m_TagString: Untagged
@@ -200,6 +201,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 643043588147923071}
+        m_TargetAssemblyTypeName: ScriptedEvents.EventPlayer, Assembly-CSharp
+        m_MethodName: PlayEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &6243641388953895449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -221,3 +234,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.15603113, y: 0.605904, z: 0.45466638}
   m_Center: {x: 0.0009276867, y: 0.30005842, z: -0.0018550158}
+--- !u!114 &643043588147923071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4134906690063525886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9f7c1e02284a3aacc4305a788b4298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventToPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7fef189358922ca4785af3a7c670bc0e, type: 2}

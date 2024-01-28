@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fe29af97c8eb84185672b25c571362, type: 3}
+  m_Name: 49A92052-2C59-4F01-8561-FCDB093A1BBF
+  m_EditorClassIdentifier: 
+  objectName: Play_Can
+  id: 2690797124
+  guid: 49A92052-2C59-4F01-8561-FCDB093A1BBF
