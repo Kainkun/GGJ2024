@@ -18,6 +18,10 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Spoopy Ambience" ID="{1FFA701B-9FD2-412D-B851-519B49F4AE18}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_PA_Man_Closingin10" ID="{BCE7B52C-FC54-46F1-A3BB-C53233AE95E5}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}"/>
 							<Position X="2" Y="0"/>
 						</Module>

@@ -29,6 +29,7 @@
 						<ObjectRef Name="Cashier_Sequence_Instructions" ID="{EFF9CC7D-CC9B-4424-B1BE-1909A423D375}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interactable" ID="{E9D4718D-39EC-4439-BD5B-534EC8B9C71D}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Spoopy_Ambience" ID="{E5579E5A-8D0D-4557-8DF3-710D4865C570}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Flourecent_Loop" ID="{579C8BC5-AA6C-4574-B7E5-53712CE3070C}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PA_Man_ClosingIn30" ID="{9EAB5BA7-89EF-4576-A151-C57D304311CD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Female_Voice_Goodbye" ID="{56A5ED8B-5A4E-45DF-972E-1935BBD26A6B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
@@ -44,6 +45,7 @@
 						<ObjectRef Name="Play_GAMESTART" ID="{4B5DD192-305C-47C8-895F-5132E5799717}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{E4205C52-16BD-47F4-9DB9-82E5BDFC8856}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wife_Soon" ID="{5A56E5C7-BC29-47F5-8923-616E9CC82058}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Solo_Whistling" ID="{C79F2B0D-72F7-480E-83BE-FFF68590E444}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_Coupon" ID="{939CCBED-5E15-487A-BF57-882826D89F24}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Vitimin_D" ID="{819F757D-AFB3-487B-A246-AAFF2E8FC2FB}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PA_Man_Closingin10" ID="{F5A85BA1-EABE-48A5-B1FD-D916E6F136D4}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
@@ -53,6 +55,8 @@
 						<ObjectRef Name="Play_Sequence_Welcome_WhatcanIDo" ID="{CC3F22CD-359F-49D7-AA16-171FFA237AEF}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Store Events" ID="{2EADACAA-DEE7-49E8-80F6-46A812CC3EFC}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Soda_Machine" ID="{E668756A-67C6-4A02-94BA-40ADEE3515BB}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GAMESTART_REPRISE" ID="{4DF7AB4C-370D-4A2F-A9E5-C7ABC4B4340B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Register_beep" ID="{74D0C6B3-A3A7-4ABF-B11D-9E875F7A9EC4}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Meat_Log" ID="{CE34B51F-F72C-4B27-BB56-9EFAE0484C60}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Random_GdMorning" ID="{91978FDB-62C5-4B32-A81E-DAA7C394F25B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Muzak_Guitar" ID="{EF0089CA-8321-4B71-9390-AE322C9EAEDE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
