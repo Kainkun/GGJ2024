@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 0dd286dc9f77a34bb8159fb91ae77aaf
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: 0dd286dc9f77a34bb8159fb91ae77aaf
     GuidInternal: 
-    m_lastTime: -8584952625735149637
+    m_lastTime: -8584952233960666860
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 013e3f2b28d00947acbc02708e299061
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 013e3f2b28d00947acbc02708e299061
     GuidInternal: 
-    m_lastTime: -8584952625735189642
+    m_lastTime: -8584952233960683938
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 51838cfc0252c7478d420cd2933c7d4e
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
-    m_lastTime: -8584951989564869104
+    m_lastTime: -8584951949364225419
     List:
     - name: SoundBank
       guid: 8cd371baccf74f438c2972fc329213cd
@@ -81,9 +81,9 @@ MonoBehaviour:
       - ElementName: SoundBank
         ObjectType: 7
         guid: 8cd371baccf74f438c2972fc329213cd
-      Path: SoundBanks\Default Work Unit\SoundBank
+      Path: SoundBanks/Default Work Unit/SoundBank
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,11 +91,328 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: e1320f094381294f9850a8ba563ff5f7
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
-    m_lastTime: -8584951989567811157
+    m_lastTime: -8584951949364408284
     List:
+    - name: Cashier Events
+      guid: 57928b10f69dfc4b8106617ad0357570
+      id: 3628151743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      Path: Events/Default Work Unit/Cashier Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Coupon
+      guid: 76487d64835da64695fb182a5b5d1342
+      id: 4243000246
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Coupon
+        ObjectType: 3
+        guid: 76487d64835da64695fb182a5b5d1342
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Coupon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_END
+      guid: cd85d5ab9dac1d4c8c776e0afbbf02d7
+      id: 4170577199
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_END
+        ObjectType: 3
+        guid: cd85d5ab9dac1d4c8c776e0afbbf02d7
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_END
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_END_RINGUP
+      guid: d177e1577ef6624ca14c9233882deb9c
+      id: 3143524091
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_END_RINGUP
+        ObjectType: 3
+        guid: d177e1577ef6624ca14c9233882deb9c
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_END_RINGUP
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Meat_Log
+      guid: 1fb534ce2cf7274bbb569efae0484c60
+      id: 582311066
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Meat_Log
+        ObjectType: 3
+        guid: 1fb534ce2cf7274bbb569efae0484c60
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Meat_Log
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_PlanningToPay
+      guid: 24b5dcbe99182a4da1db1da75ca5ec4f
+      id: 2045132466
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_PlanningToPay
+        ObjectType: 3
+        guid: 24b5dcbe99182a4da1db1da75ca5ec4f
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_PlanningToPay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_PleaseSet
+      guid: b1a780fa7f287c439d30b3f7f647b034
+      id: 159572298
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_PleaseSet
+        ObjectType: 3
+        guid: b1a780fa7f287c439d30b3f7f647b034
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_PleaseSet
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Random_Afternoon
+      guid: 8dc3b38bc154414fb0a3ed964ca01f0d
+      id: 2053453196
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Random_Afternoon
+        ObjectType: 3
+        guid: 8dc3b38bc154414fb0a3ed964ca01f0d
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Random_Afternoon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Random_Calling
+      guid: 46a1c9711e48e3419b08ea55c07a9ac0
+      id: 32387144
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Random_Calling
+        ObjectType: 3
+        guid: 46a1c9711e48e3419b08ea55c07a9ac0
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Random_Calling
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Random_GdMorning
+      guid: db8f9791c562324ba81edaa7c394f25b
+      id: 2873879151
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Random_GdMorning
+        ObjectType: 3
+        guid: db8f9791c562324ba81edaa7c394f25b
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Random_GdMorning
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Sequence_Instructions
+      guid: 7f5e435c8f1cf6429367156cda822930
+      id: 2258330001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Sequence_Instructions
+        ObjectType: 3
+        guid: 7f5e435c8f1cf6429367156cda822930
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Sequence_Instructions
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Sequence_JustTheMilk
+      guid: 97968405cc07ef4b9c73083bdb5b7256
+      id: 2848777120
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Sequence_JustTheMilk
+        ObjectType: 3
+        guid: 97968405cc07ef4b9c73083bdb5b7256
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Sequence_JustTheMilk
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Strong_Bones
+      guid: 17b101f3dbb1e24eadaa2b3286afb299
+      id: 3457820653
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Strong_Bones
+        ObjectType: 3
+        guid: 17b101f3dbb1e24eadaa2b3286afb299
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Strong_Bones
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Strong_Silent_Type
+      guid: 3651d7dbd413d84e93ce7fd2e49e32c3
+      id: 589123702
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Strong_Silent_Type
+        ObjectType: 3
+        guid: 3651d7dbd413d84e93ce7fd2e49e32c3
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Strong_Silent_Type
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_ThereYouAre
+      guid: a3cdab65a24c41469a58dd5e137555bc
+      id: 3298164935
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_ThereYouAre
+        ObjectType: 3
+        guid: a3cdab65a24c41469a58dd5e137555bc
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_ThereYouAre
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cashier_Vitimin_D
+      guid: 7d759f81b3af7b48a246aaff2e8fc2fb
+      id: 615435047
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Cashier Events
+        ObjectType: 4
+        guid: 57928b10f69dfc4b8106617ad0357570
+      - ElementName: Play_Cashier_Vitimin_D
+        ObjectType: 3
+        guid: 7d759f81b3af7b48a246aaff2e8fc2fb
+      Path: Events/Default Work Unit/Cashier Events/Play_Cashier_Vitimin_D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Female_Voice_Goodbye
       guid: 8beda5564e5adf45972e1935bbd26a6b
       id: 3876234301
@@ -109,10 +426,10 @@ MonoBehaviour:
       - ElementName: Play_Female_Voice_Goodbye
         ObjectType: 3
         guid: 8beda5564e5adf45972e1935bbd26a6b
-      Path: Events\Default Work Unit\Play_Female_Voice_Goodbye
+      Path: Events/Default Work Unit/Play_Female_Voice_Goodbye
       maxAttenuation: 0
-      maxDuration: 0.777875
-      minDuration: 0.777875
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Female_Voice_HaveANiceDay
       guid: 881c5843c88b344196146c98f833ba08
       id: 738920550
@@ -126,10 +443,10 @@ MonoBehaviour:
       - ElementName: Play_Female_Voice_HaveANiceDay
         ObjectType: 3
         guid: 881c5843c88b344196146c98f833ba08
-      Path: Events\Default Work Unit\Play_Female_Voice_HaveANiceDay
+      Path: Events/Default Work Unit/Play_Female_Voice_HaveANiceDay
       maxAttenuation: 0
-      maxDuration: 1.4164166
-      minDuration: 1.4164166
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Female_Voice_Hello
       guid: 708ed01372b88342a1becb4a36ef6b92
       id: 37077532
@@ -143,10 +460,10 @@ MonoBehaviour:
       - ElementName: Play_Female_Voice_Hello
         ObjectType: 3
         guid: 708ed01372b88342a1becb4a36ef6b92
-      Path: Events\Default Work Unit\Play_Female_Voice_Hello
+      Path: Events/Default Work Unit/Play_Female_Voice_Hello
       maxAttenuation: 0
-      maxDuration: 0.92877084
-      minDuration: 0.92877084
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Muzak_Guitar
       guid: 878de344def6a64e95e76aad9d69ef53
       id: 2931435471
@@ -160,8 +477,8 @@ MonoBehaviour:
       - ElementName: Play_Muzak_Guitar
         ObjectType: 3
         guid: 878de344def6a64e95e76aad9d69ef53
-      Path: Events\Default Work Unit\Play_Muzak_Guitar
-      maxAttenuation: 12
+      Path: Events/Default Work Unit/Play_Muzak_Guitar
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Sequence_Welcome_WhatcanIDo
@@ -177,12 +494,12 @@ MonoBehaviour:
       - ElementName: Play_Sequence_Welcome_WhatcanIDo
         ObjectType: 3
         guid: cd223fcc9f35d749aa16171ffa237aef
-      Path: Events\Default Work Unit\Play_Sequence_Welcome_WhatcanIDo
+      Path: Events/Default Work Unit/Play_Sequence_Welcome_WhatcanIDo
       maxAttenuation: 0
-      maxDuration: 1.5325209
-      minDuration: 1.068125
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -190,13 +507,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d54a140e1e3d5e4eb40465470c89b070
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: d54a140e1e3d5e4eb40465470c89b070
     GuidInternal: 
-    m_lastTime: -8584952625735199637
+    m_lastTime: -8584952233960687343
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -204,13 +521,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 43a2b741fff2d64daa4ef995c4bb84a5
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: 43a2b741fff2d64daa4ef995c4bb84a5
     GuidInternal: 
-    m_lastTime: -8584952625735159637
+    m_lastTime: -8584952233960670590
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -218,13 +535,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 6db6c00f92cfd94d99c93a94916aeaf7
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 6db6c00f92cfd94d99c93a94916aeaf7
     GuidInternal: 
-    m_lastTime: -8584952625735159637
+    m_lastTime: -8584952233960669356
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -232,14 +549,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c48bc04af46f884f983bca714ff3e3c0
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: c48bc04af46f884f983bca714ff3e3c0
     GuidInternal: 
-    m_lastTime: -8584952625735149637
+    m_lastTime: -8584952233960668060
     List: []
-  ExpandedFileSystemItemIds: 02000000030000000d0000000e000000
-  ExpandedWaapiItemIds: 0200000003000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

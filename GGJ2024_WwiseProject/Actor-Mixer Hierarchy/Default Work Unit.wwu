@@ -176,6 +176,11 @@
 										<Value>5</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -253,7 +258,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -979,9 +984,6 @@
 											</Reference>
 											<Reference>
 												<ObjectRef Name="Cashier_Instructions_01" ID="{924F0E57-D44F-48C1-86F2-B85533B43EEB}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
-											</Reference>
-											<Reference>
-												<ObjectRef Name="Cashier_Instructions_04" ID="{957592DA-4858-4E85-B54D-CE26AD17F892}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
 											</Reference>
 											<Reference>
 												<ObjectRef Name="Cashier_Instructions_03" ID="{53E195F3-4A9C-4A43-93F6-5B92B4405C51}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
