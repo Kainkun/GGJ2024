@@ -9043,6 +9043,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1199856180 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8379731025777547655, guid: df15fd474941dec4a9a869c48c766976, type: 3}
+  m_PrefabInstance: {fileID: 1405113489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1230369713
 Mesh:
   m_ObjectHideFlags: 0
@@ -10204,12 +10209,16 @@ PrefabInstance:
       objectReference: {fileID: 1355534131}
     - target: {fileID: 7200719186813620671, guid: df15fd474941dec4a9a869c48c766976, type: 3}
       propertyPath: teleportWith.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7200719186813620671, guid: df15fd474941dec4a9a869c48c766976, type: 3}
       propertyPath: teleportWith.Array.data[0]
       value: 
       objectReference: {fileID: 2005909078}
+    - target: {fileID: 7200719186813620671, guid: df15fd474941dec4a9a869c48c766976, type: 3}
+      propertyPath: teleportWith.Array.data[1]
+      value: 
+      objectReference: {fileID: 1199856180}
     - target: {fileID: 7261967693790864916, guid: df15fd474941dec4a9a869c48c766976, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -10296,7 +10305,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7801478199502223219, guid: df15fd474941dec4a9a869c48c766976, type: 3}
       insertIndex: 24
       addedObject: {fileID: 1902116888}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6275583036281674126, guid: df15fd474941dec4a9a869c48c766976, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: df15fd474941dec4a9a869c48c766976, type: 3}
 --- !u!4 &1405113490 stripped
 Transform:

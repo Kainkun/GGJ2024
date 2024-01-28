@@ -8,4 +8,9 @@ public class DisapearingMilk : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+    public void Poof()
+    {
+        GetComponentInChildren<ParticleSystem>().Play();
+    }
 }
