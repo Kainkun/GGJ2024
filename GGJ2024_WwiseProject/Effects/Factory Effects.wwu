@@ -1293,7 +1293,7 @@
 								</Effect>
 								<Effect Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+										<Property Name="DecayTime" Type="Real32" Value="1"/>
 										<Property Name="Density" Type="Real32" Value="72"/>
 										<Property Name="Diffusion" Type="Real32" Value="72"/>
 										<Property Name="ERLevel" Type="Real32" Value="-23"/>
@@ -1306,7 +1306,7 @@
 										<Property Name="Quality" Type="int32" Value="10"/>
 										<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
-										<Property Name="RoomSize" Type="Real32" Value="44"/>
+										<Property Name="RoomSize" Type="Real32" Value="2"/>
 										<Property Name="StereoWidth" Type="Real32" Value="135"/>
 									</PropertyList>
 								</Effect>
