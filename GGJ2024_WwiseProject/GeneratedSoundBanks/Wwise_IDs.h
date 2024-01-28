@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_2D_ROOMTONE = 4867526U;
         static const AkUniqueID PLAY_AC_AMBIENCE = 1705887329U;
+        static const AkUniqueID PLAY_CAN = 2690797124U;
         static const AkUniqueID PLAY_CASHIER_COUPON = 4243000246U;
         static const AkUniqueID PLAY_CASHIER_END = 4170577199U;
         static const AkUniqueID PLAY_CASHIER_END_RINGUP = 3143524091U;
@@ -30,19 +31,23 @@ namespace AK
         static const AkUniqueID PLAY_CASHIER_STRONG_SILENT_TYPE = 589123702U;
         static const AkUniqueID PLAY_CASHIER_THEREYOUARE = 3298164935U;
         static const AkUniqueID PLAY_CASHIER_VITIMIN_D = 615435047U;
-        static const AkUniqueID PLAY_FEMALE_VOICE_GOODBYE = 3876234301U;
-        static const AkUniqueID PLAY_FEMALE_VOICE_HAVEANICEDAY = 738920550U;
-        static const AkUniqueID PLAY_FEMALE_VOICE_HELLO = 37077532U;
+        static const AkUniqueID PLAY_CEREAL = 35188282U;
+        static const AkUniqueID PLAY_FLOURECENT_LOOP = 1756293666U;
         static const AkUniqueID PLAY_FREEZER_AMBIENCE = 2633745870U;
         static const AkUniqueID PLAY_GASSTATIONDINGDONG = 2809485985U;
+        static const AkUniqueID PLAY_MILK = 1782398807U;
         static const AkUniqueID PLAY_MUZAK_GUITAR = 2931435471U;
         static const AkUniqueID PLAY_PA_MAN_CLOSINGIN10 = 3619978204U;
         static const AkUniqueID PLAY_PA_MAN_CLOSINGIN30 = 3653533474U;
         static const AkUniqueID PLAY_PA_MAN_DAIRYINTHEBACK = 4052274365U;
         static const AkUniqueID PLAY_PA_MAN_HALFOFF = 2102180961U;
+        static const AkUniqueID PLAY_PAPER = 441377128U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
-        static const AkUniqueID PLAY_SEQUENCE_WELCOME_WHATCANIDO = 4123174421U;
         static const AkUniqueID PLAY_SHELF = 3126524178U;
+        static const AkUniqueID PLAY_WIFE_BACKSOSOON = 2225884798U;
+        static const AkUniqueID PLAY_WIFE_SOON = 18284977U;
+        static const AkUniqueID PLAY_WIFE_SOON_2 = 195073926U;
+        static const AkUniqueID PLAY_WIFE_TRIPPY = 2459103792U;
     } // namespace EVENTS
 
     namespace BANKS

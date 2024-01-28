@@ -23,7 +23,7 @@ public class PlayerFreeMovementState : PlayerState
         base.OnUpdate();
         Vector3 curPos = Controller.transform.position;
         Controller.MovementLogic.Update(Time.deltaTime, new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized);
-        Controller.RotationLogic.Update(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
+        Controller.RotationLogic.Update(Input.GetAxisRaw("Mouse X") + Input.GetAxisRaw("LookHack"), Input.GetAxisRaw("Mouse Y"));
         Controller.InteractionLogic.Update(Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Mouse0));
         Controller.FootstepLogic.Update();
         Controller.crossHair.alpha = Mathf.MoveTowards(Controller.crossHair.alpha, Controller.InteractionLogic.HasTarget ? 1 : 0, Time.deltaTime * 15);
