@@ -19,10 +19,13 @@ public class RotatingItem : MonoBehaviour
         float rotationTime = rotationCurve.keys[rotationCurve.length - 1].time;
         while (elapsedTime < rotationTime)
         {
-            transform.rotation = Quaternion.Slerp(startRotation, endRotation,
+            transform.rotation = Quaternion.SlerpUnclamped(startRotation, endRotation,
                 rotationCurve.Evaluate((elapsedTime / rotationTime)));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+
+        transform.rotation = Quaternion.SlerpUnclamped(startRotation, endRotation,
+            rotationCurve.Evaluate(rotationTime));
     }
 }
