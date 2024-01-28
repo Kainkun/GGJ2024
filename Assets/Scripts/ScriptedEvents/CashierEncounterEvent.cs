@@ -18,6 +18,7 @@ namespace ScriptedEvents
         [SerializeField] private CinemachineVirtualCamera encounterCamera;
         [SerializeField] private PlayableDirector timelineAnimation;
         [SerializeField] private Animator epilogueAnimator;
+        [SerializeField] private TeleportNext p1ToP2;
 
         public void PauseTimeline()
         {
@@ -35,6 +36,9 @@ namespace ScriptedEvents
         {
             // move camera to initial position
             encounterCamera.Priority = 5;
+
+            yield return new WaitForSeconds(FindAnyObjectByType<CinemachineBrain>().m_DefaultBlend.BlendTime + 0.5f);
+            p1ToP2.Teleport();
         
             // [dialogue] play cashier initial dialogue
             yield return DialogueSystem.Instance.RunDialogue("dread_where_are_you_going");

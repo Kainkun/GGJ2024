@@ -172,13 +172,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 952ef4e3db434ba8942cd29097140ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cashierEncounterState:
-    clicksToPutDownMilk: 5
-    maxMilkShakeIntensity: 2
-    milkShake: {fileID: 5397327019930286933}
-    encounterCamera: {fileID: 7682199573808798481}
-    timelineAnimation: {fileID: 8467800054581733389}
-    epilogueAnimator: {fileID: 0}
+  clicksToPutDownMilk: 3
+  maxMilkShakeIntensity: 2
+  milkShake: {fileID: 0}
+  encounterCamera: {fileID: 0}
+  timelineAnimation: {fileID: 0}
+  epilogueAnimator: {fileID: 0}
 --- !u!95 &5551523425351346677
 Animator:
   serializedVersion: 5
@@ -249,6 +248,8 @@ PlayableDirector:
     value: {fileID: 5551523425351346677}
   - key: {fileID: -5692886467230329599, guid: 6260e996d5660c74382ac4bb85b0b349, type: 2}
     value: {fileID: 4401764625358171231}
+  - key: {fileID: -3325707795116166778, guid: 6260e996d5660c74382ac4bb85b0b349, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &839307532475976598
