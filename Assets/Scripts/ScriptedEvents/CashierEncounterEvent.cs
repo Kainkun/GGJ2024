@@ -40,17 +40,13 @@ namespace ScriptedEvents
             yield return new WaitForSeconds(FindAnyObjectByType<CinemachineBrain>().m_DefaultBlend.BlendTime + 0.5f);
             p1ToP2.Teleport();
         
-            // [dialogue] play cashier initial dialogue
-            yield return DialogueSystem.Instance.RunDialogue("dread_where_are_you_going");
-        
+            // [dialogue] play cashier initial dialogue [now handled in timeline]
             // [timeline] slow, shaky turn to counter, mood change
+            
             yield return StartCoroutine(timelineAnimation.PlayCoroutine());
         
-            // [dialogue] ask to put down on counter
-            yield return DialogueSystem.Instance.RunDialogue("dread_put_down_on_counter");
-        
+            // [dialogue] ask to put down on counter [now handled in timeline]
             // [timeline] you go to put the milk down, but pause
-            yield return StartCoroutine(timelineAnimation.PlayCoroutine());
         
             // [interaction] waits for you to put click x times to put onto counter, occasional comments if u take long
             yield return StartCoroutine(PutDownMilkInteraction());
@@ -58,20 +54,15 @@ namespace ScriptedEvents
             // [timeline] clerk checks out the milk, making small talk
             yield return StartCoroutine(timelineAnimation.PlayCoroutine());
         
-            // [dialogue] asks for payment
-            yield return DialogueSystem.Instance.RunDialogue("dread_you_need_to_pay");
+            // [dialogue] asks for payment [now handled in timeline]
         
             // [interaction] needs to hold up coupon, occasional comments if take long
             while (!Input.anyKeyDown)
                 yield return null;
         
-            // [timeline] places coupon on counter, clerk inspects it and comments on it, you are finally good to go.
-            DialogueSystem.Instance.RunDialogue("dread_checking_out_coupon");
-            yield return StartCoroutine(timelineAnimation.PlayCoroutine());
-        
-            yield return DialogueSystem.Instance.RunDialogue("dread_goodbye");
-            yield return StartCoroutine(timelineAnimation.PlayCoroutine());
+            // [timeline] places coupon on counter, clerk inspects it and comments on it, you are finally good to go. [now handled in timeline]
             
+            yield return StartCoroutine(timelineAnimation.PlayCoroutine());
             epilogueAnimator.SetTrigger(FadeOut);
         }
 

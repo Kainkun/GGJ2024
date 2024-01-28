@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{E0A1D3B1-2B90-95F7-A8BA-0DA9B2E63E2B}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{A6BEF41A-990C-0C3D-32B0-33463E29B32A}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -133,7 +133,7 @@
 				</File>
 				<File Id="303218919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>118863-Retail_store_cash_register_scanner_beep_2.wav</ShortName>
-					<CachePath>SFX/118863-Retail_store_cash_register_scanner_beep_2_A2669B16.wem</CachePath>
+					<CachePath>SFX/118863-Retail_store_cash_register_scanner_beep_2_12FEB370.wem</CachePath>
 				</File>
 				<File Id="307164417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -173,7 +173,7 @@
 				</File>
 				<File Id="392228245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spoopy Ambience.wav</ShortName>
-					<CachePath>SFX/Spoopy Ambience_40B3FD5A.wem</CachePath>
+					<CachePath>SFX/Spoopy Ambience_E1CBA1F9.wem</CachePath>
 				</File>
 				<File Id="408982861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Meat_Log.wav</ShortName>
@@ -197,7 +197,7 @@
 				</File>
 				<File Id="549182951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Solo_Whistling.wav</ShortName>
-					<CachePath>SFX/Solo_Whistling_1F2191AB.wem</CachePath>
+					<CachePath>SFX/Solo_Whistling_297C6CFC.wem</CachePath>
 				</File>
 				<File Id="586637315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Series_Attention_Customers.wav</ShortName>
@@ -801,5 +801,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{231E52F6-B8DD-B20A-A227-6B895EFBA9E4}</FileHash>
+	<FileHash>{AB34BBDE-F33A-BBE7-33DD-F41BA8377536}</FileHash>
 </SoundBanksInfo>
