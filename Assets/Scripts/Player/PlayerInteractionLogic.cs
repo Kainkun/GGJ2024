@@ -50,7 +50,7 @@ public class PlayerInteractionLogic
         }
 
         // if we found an interactable, set it as our target
-        HasTarget = nearest.TryGetComponentFromRaycastHit(out Interactable target);
+        HasTarget = nearest.TryGetComponentFromRaycastHit(out Interactable target) && target.CanInteract(_references.interactSource);
         Target = HasTarget ? target : null;
 
         if (HasTarget && !_prevHasTarget)
