@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{85AD8219-E401-9CA1-EB5D-36E651311D48}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{FB370658-4297-E0E6-EAEB-EF1C1A5EDA0C}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -382,6 +382,7 @@
 			</Media>
 			<Plugins>
 				<Custom>
+					<Plugin Id="80734065" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="553994197" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
@@ -423,6 +424,11 @@
 					<MediaRefs>
 						<MediaRef Id="349635030"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -431,6 +437,11 @@
 					<MediaRefs>
 						<MediaRef Id="901044226"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -439,6 +450,11 @@
 					<MediaRefs>
 						<MediaRef Id="599990231"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -447,6 +463,11 @@
 					<MediaRefs>
 						<MediaRef Id="408982861"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -455,6 +476,11 @@
 					<MediaRefs>
 						<MediaRef Id="134277528"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -463,6 +489,11 @@
 					<MediaRefs>
 						<MediaRef Id="717609223"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -474,6 +505,11 @@
 						<MediaRef Id="787705611"/>
 						<MediaRef Id="912887833"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -488,6 +524,11 @@
 						<MediaRef Id="733388073"/>
 						<MediaRef Id="970742367"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -499,6 +540,11 @@
 						<MediaRef Id="624752260"/>
 						<MediaRef Id="725438702"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -511,6 +557,11 @@
 						<MediaRef Id="734227481"/>
 						<MediaRef Id="744120344"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -520,6 +571,11 @@
 						<MediaRef Id="682176323"/>
 						<MediaRef Id="823389448"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -530,6 +586,11 @@
 						<MediaRef Id="686673804"/>
 						<MediaRef Id="1007722943"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -538,6 +599,11 @@
 					<MediaRefs>
 						<MediaRef Id="1007722943"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -546,6 +612,11 @@
 					<MediaRefs>
 						<MediaRef Id="679843875"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -554,6 +625,11 @@
 					<MediaRefs>
 						<MediaRef Id="1002442733"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -562,6 +638,11 @@
 					<MediaRefs>
 						<MediaRef Id="686673804"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="80734065"/>
+						</Custom>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -647,8 +728,13 @@
 				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="359667351"/>
+						<MediaRef Id="392228245"/>
+						<MediaRef Id="549182951"/>
 					</MediaRefs>
 					<PluginRefs>
+						<Custom>
+							<PluginRef Id="553994197"/>
+						</Custom>
 						<ShareSets>
 							<PluginRef Id="2675251108"/>
 						</ShareSets>
@@ -782,13 +868,20 @@
 				</Event>
 				<Event Id="2022546367" Name="Play_Spoopy_Ambience" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="359667351"/>
 						<MediaRef Id="392228245"/>
 					</MediaRefs>
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="553994197"/>
 						</Custom>
+						<ShareSets>
+							<PluginRef Id="2675251108"/>
+						</ShareSets>
 					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2225884798" Name="Play_Wife_BackSoSoon" DurationType="OneShot" DurationMin="0.8078176" DurationMax="0.8078176">
 					<MediaRefs>
@@ -818,5 +911,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1925BAB5-5683-1F55-7CC6-5FD24C568C9E}</FileHash>
+	<FileHash>{1F0BB819-B54C-5FC0-916C-20115264A331}</FileHash>
 </SoundBanksInfo>

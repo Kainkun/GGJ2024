@@ -44,6 +44,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4243000246	Play_Cashier_Coupon			\Default Work Unit\Cashier Events\Play_Cashier_Coupon	
 
 Effect plug-ins	ID	Name	Type				Notes
+	80734065	Peak Limiter (Custom)	Wwise Peak Limiter			
 	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
 	425319014	Peak Limiter (Custom)	Wwise Peak Limiter			
 	553994197	Parametric EQ (Custom)	Wwise Parametric EQ			
