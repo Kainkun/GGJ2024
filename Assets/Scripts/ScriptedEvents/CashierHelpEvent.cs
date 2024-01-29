@@ -48,9 +48,9 @@ namespace ScriptedEvents
             player.StateMachine.TransitionTo(null);
             eventCamera.Priority = 5;
             yield return DialogueSystem.Instance.RunDialogue("explore_direct_to_milk");
+            teleportNext.Teleport();
             eventCamera.Priority = 0;
             yield return new WaitForSeconds(FindAnyObjectByType<CinemachineBrain>().m_DefaultBlend.BlendTime + 0.5f);
-            teleportNext.Teleport();
             player.StateMachine.TransitionTo(player.freeMovementState);
             _currentState = State.PostEvent;
         }
