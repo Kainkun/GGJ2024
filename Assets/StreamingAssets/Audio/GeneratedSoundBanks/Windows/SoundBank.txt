@@ -47,7 +47,9 @@ Effect plug-ins	ID	Name	Type				Notes
 	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
 	425319014	Peak Limiter (Custom)	Wwise Peak Limiter			
 	553994197	Parametric EQ (Custom)	Wwise Parametric EQ			
+	601803084	Compressor (Custom)	Wwise Compressor			
 	1074933567	Footstep_Limit	Wwise Peak Limiter			
+	2288007518	DeEsser	Wwise Parametric EQ			
 	2675251108	New_Peak_Limiter	Wwise Peak Limiter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
