@@ -13,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	589123702	Play_Cashier_Strong_Silent_Type			\Default Work Unit\Cashier Events\Play_Cashier_Strong_Silent_Type	
 	615435047	Play_Cashier_Vitimin_D			\Default Work Unit\Cashier Events\Play_Cashier_Vitimin_D	
 	675447719	Play_GAMESTART_REPRISE			\Default Work Unit\Play_GAMESTART_REPRISE	
+	819780191	Play_LFE_Rumble			\Default Work Unit\Play_LFE_Rumble	
 	1497459184	Play_GAMESTART			\Default Work Unit\Play_GAMESTART	
 	1705887329	Play_AC_Ambience			\Default Work Unit\Store Events\Play_AC_Ambience	
 	1756293666	Play_Flourecent_Loop			\Default Work Unit\Store Events\Play_Flourecent_Loop	
@@ -30,6 +31,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2684971554	Play_Milk_Acquired			\Default Work Unit\Play_Milk_Acquired	
 	2690797124	Play_Can			\Default Work Unit\Interactable\Play_Can	
 	2809485985	Play_GasStationDingDong			\Default Work Unit\Store Events\Play_GasStationDingDong	
+	2817589652	Play_Lightning			\Default Work Unit\Play_Lightning	
 	2848777120	Play_Cashier_Sequence_JustTheMilk			\Default Work Unit\Cashier Events\Play_Cashier_Sequence_JustTheMilk	
 	2873879151	Play_Cashier_Random_GdMorning			\Default Work Unit\Cashier Events\Play_Cashier_Random_GdMorning	
 	2931435471	Play_Muzak_Guitar			\Default Work Unit\Play_Muzak_Guitar	
@@ -66,6 +68,7 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	12546953	Milk_Acquired	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Milk_Acquired_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Milk_Acquired		816096
+	22606991	LFE_Rumble	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\LFE Rumble 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\LFE_Rumble		2656480
 	31538099	Cashier_Calling_02	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Cashier_Calling_80BA08B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_02		190208
 	55457130	Exterior_Ambience_Loop	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Park Residential, Birds, Wind, Crows _STEREO_B5125869.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exterior_Ambience_Loop		6167480
 	68607420	Milk Carton_04	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Milk Carton_3268101F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Milk\Milk Carton_04		93672
@@ -99,6 +102,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	380040983	Can_Interaction_01	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Can_Interaction_2E25CD0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Can\Can_Interaction_01		63252
 	392228245	Spoopy Ambience	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Spoopy Ambience_E1CBA1F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\Spoopy Ambience		3178556
 	408982861	Cashier_Meat_Log	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Cashier_Meat_Log_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Meat_Log		345572
+	428015294	Lightning	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\500507-Lightning_Strike_-Thunder_Storm_Zap_and_Rumble_Crack_Noise_-05_000034__70C8E465.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lightning		1459644
 	454053554	Can_Interaction_02	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Can_Interaction_BA94A470.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Can\Can_Interaction_02		56168
 	496928318	Freezer_Loop	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Freezer_Loop_AF2026C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\Freezer_Loop		3072144
 	531224561	Wife_Trippy_Sheet_02	Y:\Documents\GitHub\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Wife_Trippy_Sheet_3A117C00.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wife\Wife_Trippy\Wife_Trippy_Sheet_02		1413828

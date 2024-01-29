@@ -59,13 +59,17 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{93762E2B-8BBE-8881-E271-4B83638A4BC5}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{AF036404-4EF1-5AD5-882D-17A53426C0C6}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
 				<File Id="12546953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Milk_Acquired.wav</ShortName>
 					<CachePath>SFX/Milk_Acquired_818F3B66.wem</CachePath>
+				</File>
+				<File Id="22606991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LFE Rumble 3.wav</ShortName>
+					<CachePath>SFX/LFE Rumble 3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="31538099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -198,6 +202,10 @@
 				<File Id="408982861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Meat_Log.wav</ShortName>
 					<CachePath>SFX/Cashier_Meat_Log_818F3B66.wem</CachePath>
+				</File>
+				<File Id="428015294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>500507-Lightning_Strike_-Thunder_Storm_Zap_and_Rumble_Crack_Noise_-05_000034_.wav</ShortName>
+					<CachePath>SFX/500507-Lightning_Strike_-Thunder_Storm_Zap_and_Rumble_Crack_Noise_-05_000034__70C8E465.wem</CachePath>
 				</File>
 				<File Id="454053554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Can_Interaction.wav</ShortName>
@@ -786,6 +794,16 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="819780191" Name="Play_LFE_Rumble" DurationType="OneShot" DurationMin="13.835343" DurationMax="13.835343">
+					<MediaRefs>
+						<MediaRef Id="22606991"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2817589652" Name="Play_Lightning" DurationType="OneShot" DurationMin="8.274081" DurationMax="8.274081">
+					<MediaRefs>
+						<MediaRef Id="428015294"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1782398807" Name="Play_Milk" DurationType="OneShot" DurationMin="0.30781758" DurationMax="0.58143324">
 					<MediaRefs>
 						<MediaRef Id="68607420"/>
@@ -923,6 +941,9 @@
 							<PluginRef Id="553994197"/>
 						</Custom>
 					</PluginRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2817589652" Name="Play_Lightning"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="2225884798" Name="Play_Wife_BackSoSoon" DurationType="OneShot" DurationMin="0.8078176" DurationMax="0.8078176">
 					<MediaRefs>
@@ -955,5 +976,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E14EC88A-DBC9-826E-9DD1-9EBF261574EE}</FileHash>
+	<FileHash>{F55B331F-2D59-F2C7-5135-E031EC77D3BC}</FileHash>
 </SoundBanksInfo>
