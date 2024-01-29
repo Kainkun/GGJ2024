@@ -40,6 +40,7 @@ namespace AK
         static const AkUniqueID PLAY_GAMESTART = 1497459184U;
         static const AkUniqueID PLAY_GAMESTART_REPRISE = 675447719U;
         static const AkUniqueID PLAY_GASSTATIONDINGDONG = 2809485985U;
+        static const AkUniqueID PLAY_LFE_RUMBLE = 819780191U;
         static const AkUniqueID PLAY_LIGHTNING = 2817589652U;
         static const AkUniqueID PLAY_MILK = 1782398807U;
         static const AkUniqueID PLAY_MILK_ACQUIRED = 2684971554U;

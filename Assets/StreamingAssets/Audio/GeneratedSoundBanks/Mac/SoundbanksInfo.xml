@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{DD544AFD-E281-EE19-D0D3-D10DC9ECEACA}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{EDA28318-43FD-3119-E40E-E5DB3D094614}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -792,6 +792,11 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="819780191" Name="Play_LFE_Rumble" DurationType="OneShot" DurationMin="7.9698744" DurationMax="7.9698744">
+					<MediaRefs>
+						<MediaRef Id="22606991"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2817589652" Name="Play_Lightning" DurationType="OneShot" DurationMin="8.274081" DurationMax="8.274081">
 					<MediaRefs>
 						<MediaRef Id="428015294"/>
@@ -966,5 +971,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3EBF5A17-1686-4500-B9C9-DA66AA8B2C88}</FileHash>
+	<FileHash>{B98F22A9-A80A-389F-8E1F-D7FEE6D59B9E}</FileHash>
 </SoundBanksInfo>

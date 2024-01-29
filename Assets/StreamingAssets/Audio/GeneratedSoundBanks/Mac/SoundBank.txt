@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	589123702	Play_Cashier_Strong_Silent_Type			\Default Work Unit\Cashier Events\Play_Cashier_Strong_Silent_Type	
 	615435047	Play_Cashier_Vitimin_D			\Default Work Unit\Cashier Events\Play_Cashier_Vitimin_D	
 	675447719	Play_GAMESTART_REPRISE			\Default Work Unit\Play_GAMESTART_REPRISE	
+	819780191	Play_LFE_Rumble			\Default Work Unit\Play_LFE_Rumble	
 	1497459184	Play_GAMESTART			\Default Work Unit\Play_GAMESTART	
 	1705887329	Play_AC_Ambience			\Default Work Unit\Store Events\Play_AC_Ambience	
 	1756293666	Play_Flourecent_Loop			\Default Work Unit\Store Events\Play_Flourecent_Loop	
