@@ -58,6 +58,32 @@ namespace AK
         static const AkUniqueID PLAY_WIFE_TRIPPY = 2459103792U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace SCARINESS_LEVEL
+        {
+            static const AkUniqueID GROUP = 1195464897U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NORMAL = 1160234136U;
+                static const AkUniqueID SCARIER = 1332574518U;
+            } // namespace STATE
+        } // namespace SCARINESS_LEVEL
+
+    } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID SCARY = 2397348899U;
+    } // namespace GAME_PARAMETERS
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID MORE_SCARY = 2460490579U;
+    } // namespace TRIGGERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

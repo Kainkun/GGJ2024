@@ -43,6 +43,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	4170577199	Play_Cashier_END			\Default Work Unit\Cashier Events\Play_Cashier_END	
 	4243000246	Play_Cashier_Coupon			\Default Work Unit\Cashier Events\Play_Cashier_Coupon	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	1195464897	Scariness_Level			\Default Work Unit\Scariness_Level	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Scariness_Level			
+	1160234136	Normal	Scariness_Level			
+	1332574518	Scarier	Scariness_Level			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2397348899	Scary			\Default Work Unit\Scary	
+
 Effect plug-ins	ID	Name	Type				Notes
 	80734065	Peak Limiter (Custom)	Wwise Peak Limiter			
 	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			

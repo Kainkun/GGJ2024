@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BDA14EBE-57B6-0BCD-FD2F-65BD0BBF6EB8}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AE18D4B1-1EC6-94E9-4E45-5DE416A18933}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -46,8 +46,20 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="2397348899" Name="Scary"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1195464897" Name="Scariness_Level">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="1332574518" Name="Scarier"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{B0225496-8B40-1923-A22B-B41E0FBA01D0}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{93762E2B-8BBE-8881-E271-4B83638A4BC5}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -871,7 +883,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="1.3082244" DurationMax="1.3662335">
+				<Event Id="3126524178" Name="Play_Shelf" DurationType="OneShot" DurationMin="1.0082244" DurationMax="1.0662335">
 					<MediaRefs>
 						<MediaRef Id="93776339"/>
 						<MediaRef Id="534556017"/>
@@ -938,7 +950,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="2397348899" Name="Scary"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B524211F-983A-2D3D-EFA4-199C18C85901}</FileHash>
+	<FileHash>{FE64C6B8-3252-25B0-AE39-09848E5A0626}</FileHash>
 </SoundBanksInfo>
