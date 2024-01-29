@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{12D72877-44B3-188A-03A7-81F4D9B96C17}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{CDA52497-426C-2197-3F8C-62F662412982}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -398,10 +398,13 @@
 					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="553994197" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="601803084" Name="Compressor (Custom)" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="1064166627" Name="Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
 				</Custom>
 				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
 					<Plugin Id="1074933567" Name="Footstep_Limit" LibName="Wwise Peak Limiter" LibId="7208963"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="2288007518" Name="DeEsser" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
@@ -434,7 +437,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="4243000246" Name="Play_Cashier_Coupon" DurationType="OneShot" DurationMin="3" DurationMax="3">
+				<Event Id="4243000246" Name="Play_Cashier_Coupon" MaxAttenuation="15" DurationType="OneShot" DurationMin="3" DurationMax="3">
 					<MediaRefs>
 						<MediaRef Id="349635030"/>
 					</MediaRefs>
@@ -451,7 +454,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="4170577199" Name="Play_Cashier_END" DurationType="OneShot" DurationMin="1.0280417" DurationMax="1.0280417">
+				<Event Id="4170577199" Name="Play_Cashier_END" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.0280417" DurationMax="1.0280417">
 					<MediaRefs>
 						<MediaRef Id="901044226"/>
 					</MediaRefs>
@@ -468,7 +471,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3143524091" Name="Play_Cashier_END_RINGUP" DurationType="OneShot" DurationMin="12" DurationMax="12">
+				<Event Id="3143524091" Name="Play_Cashier_END_RINGUP" MaxAttenuation="15" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
 						<MediaRef Id="599990231"/>
 					</MediaRefs>
@@ -485,7 +488,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="582311066" Name="Play_Cashier_Meat_Log" DurationType="OneShot" DurationMin="1.7993542" DurationMax="1.7993542">
+				<Event Id="582311066" Name="Play_Cashier_Meat_Log" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.7993542" DurationMax="1.7993542">
 					<MediaRefs>
 						<MediaRef Id="408982861"/>
 					</MediaRefs>
@@ -502,7 +505,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2045132466" Name="Play_Cashier_PlanningToPay" DurationType="OneShot" DurationMin="1.7937132" DurationMax="1.7937132">
+				<Event Id="2045132466" Name="Play_Cashier_PlanningToPay" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.7937132" DurationMax="1.7937132">
 					<MediaRefs>
 						<MediaRef Id="134277528"/>
 					</MediaRefs>
@@ -519,7 +522,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="159572298" Name="Play_Cashier_PleaseSet" DurationType="OneShot" DurationMin="3.2868369" DurationMax="3.2868369">
+				<Event Id="159572298" Name="Play_Cashier_PleaseSet" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.2868369" DurationMax="3.2868369">
 					<MediaRefs>
 						<MediaRef Id="717609223"/>
 					</MediaRefs>
@@ -536,7 +539,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2053453196" Name="Play_Cashier_Random_Afternoon" DurationType="OneShot" DurationMin="0.86811024" DurationMax="1.3110236">
+				<Event Id="2053453196" Name="Play_Cashier_Random_Afternoon" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.86811024" DurationMax="1.3110236">
 					<MediaRefs>
 						<MediaRef Id="264521104"/>
 						<MediaRef Id="760783512"/>
@@ -556,7 +559,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="32387144" Name="Play_Cashier_Random_Calling" DurationType="OneShot" DurationMin="0.9901768" DurationMax="1.870334">
+				<Event Id="32387144" Name="Play_Cashier_Random_Calling" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.9901768" DurationMax="1.870334">
 					<MediaRefs>
 						<MediaRef Id="31538099"/>
 						<MediaRef Id="149286383"/>
@@ -579,7 +582,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2873879151" Name="Play_Cashier_Random_GdMorning" DurationType="OneShot" DurationMin="0.8629855" DurationMax="0.9671389">
+				<Event Id="2873879151" Name="Play_Cashier_Random_GdMorning" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.8629855" DurationMax="0.9671389">
 					<MediaRefs>
 						<MediaRef Id="72556111"/>
 						<MediaRef Id="170909130"/>
@@ -599,7 +602,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2258330001" Name="Play_Cashier_Sequence_Instructions" DurationType="OneShot" DurationMin="2.339569" DurationMax="3.4854805">
+				<Event Id="2258330001" Name="Play_Cashier_Sequence_Instructions" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.339569" DurationMax="3.4854805">
 					<MediaRefs>
 						<MediaRef Id="129614257"/>
 						<MediaRef Id="134163744"/>
@@ -620,7 +623,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2848777120" Name="Play_Cashier_Sequence_JustTheMilk" DurationType="OneShot" DurationMin="3.2680833" DurationMax="7">
+				<Event Id="2848777120" Name="Play_Cashier_Sequence_JustTheMilk" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.2680833" DurationMax="7">
 					<MediaRefs>
 						<MediaRef Id="682176323"/>
 						<MediaRef Id="823389448"/>
@@ -638,7 +641,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" DurationType="OneShot" DurationMin="2.6491153" DurationMax="3.9631827">
+				<Event Id="1931749359" Name="Play_Cashier_SmallTalk" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.6491153" DurationMax="3.9631827">
 					<MediaRefs>
 						<MediaRef Id="679843875"/>
 						<MediaRef Id="686673804"/>
@@ -657,7 +660,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3457820653" Name="Play_Cashier_Strong_Bones" DurationType="OneShot" DurationMin="3.3732917" DurationMax="3.3732917">
+				<Event Id="3457820653" Name="Play_Cashier_Strong_Bones" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.3732917" DurationMax="3.3732917">
 					<MediaRefs>
 						<MediaRef Id="1007722943"/>
 					</MediaRefs>
@@ -674,7 +677,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="589123702" Name="Play_Cashier_Strong_Silent_Type" DurationType="OneShot" DurationMin="3.9631827" DurationMax="3.9631827">
+				<Event Id="589123702" Name="Play_Cashier_Strong_Silent_Type" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.9631827" DurationMax="3.9631827">
 					<MediaRefs>
 						<MediaRef Id="679843875"/>
 					</MediaRefs>
@@ -691,7 +694,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3298164935" Name="Play_Cashier_ThereYouAre" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+				<Event Id="3298164935" Name="Play_Cashier_ThereYouAre" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
 					<MediaRefs>
 						<MediaRef Id="1002442733"/>
 					</MediaRefs>
@@ -708,7 +711,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="615435047" Name="Play_Cashier_Vitimin_D" DurationType="OneShot" DurationMin="2.6491153" DurationMax="2.6491153">
+				<Event Id="615435047" Name="Play_Cashier_Vitimin_D" MaxAttenuation="15" DurationType="OneShot" DurationMin="2.6491153" DurationMax="2.6491153">
 					<MediaRefs>
 						<MediaRef Id="686673804"/>
 					</MediaRefs>
@@ -969,7 +972,28 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1064166627"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="4012807925" Name="ReverbAux">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0855D0C6-ED79-D25D-C8A2-4F2B45722532}</FileHash>
+	<FileHash>{3D6E7E9E-CDF5-657B-6ECA-ABE08841A43C}</FileHash>
 </SoundBanksInfo>

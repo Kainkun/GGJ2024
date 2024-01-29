@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="SoundBank" ID="{BA71D38C-F7CC-434F-8C29-72FC329213CD}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Female_Voice_HaveANiceDay" ID="{43581C88-8BC8-4134-9614-6C98F833BA08}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shelf" ID="{C66E6932-FDD9-4146-A5B1-4932844BA443}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PA_Man_ClosingIn30" ID="{83FCD484-6CF7-4175-8E7A-A0E2C9C4EC30}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
@@ -39,6 +40,7 @@
 						<ObjectRef Name="Play_Sequence_Welcome_WhatcanIDo" ID="{CC3F22CD-359F-49D7-AA16-171FFA237AEF}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Store Events" ID="{2EADACAA-DEE7-49E8-80F6-46A812CC3EFC}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GAMESTART_REPRISE" ID="{4DF7AB4C-370D-4A2F-A9E5-C7ABC4B4340B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Register_beep" ID="{74D0C6B3-A3A7-4ABF-B11D-9E875F7A9EC4}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Meat_Log" ID="{CE34B51F-F72C-4B27-BB56-9EFAE0484C60}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Random_GdMorning" ID="{91978FDB-62C5-4B32-A81E-DAA7C394F25B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
