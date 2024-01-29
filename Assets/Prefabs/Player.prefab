@@ -1275,13 +1275,16 @@ MonoBehaviour:
     state: 0
   - messageOptions:
     - {fileID: 21300000, guid: aad41670fb94a614bac99533b0d210b3, type: 3}
-    - {fileID: 21300000, guid: fba8587f92f1ecf40a6605f99faff89c, type: 3}
+    - {fileID: 21300000, guid: 8dacb2b9c7fe3da4da6a2dc401ff19c9, type: 3}
     - {fileID: 21300000, guid: 74dee331296895e4e98b604136dc569e, type: 3}
+    - {fileID: 21300000, guid: fcf3877ac718f0043abc8693e7652fea, type: 3}
     defaultSprite: {fileID: 21300000, guid: fcf3877ac718f0043abc8693e7652fea, type: 3}
     state: 1
   - messageOptions:
     - {fileID: 21300000, guid: 3224a1090234cf343a825ccd4bcee919, type: 3}
     - {fileID: 21300000, guid: 0337819e3b55f944bb5fdfd9a7a7f8cc, type: 3}
+    - {fileID: 21300000, guid: fba8587f92f1ecf40a6605f99faff89c, type: 3}
+    - {fileID: 21300000, guid: dbe17ebb96ad7ca4584fd0b55bf481d8, type: 3}
     defaultSprite: {fileID: 21300000, guid: dbe17ebb96ad7ca4584fd0b55bf481d8, type: 3}
     state: 2
   - messageOptions:
@@ -1757,7 +1760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8250323103305938965
 Transform:
   m_ObjectHideFlags: 0
@@ -2043,6 +2046,8 @@ PlayableDirector:
   - key: {fileID: -5353807183042181776, guid: 1d282c9279ddf934c9b5f62e253b7b8e, type: 2}
     value: {fileID: 145391697186531187}
   - key: {fileID: 3806452510988760175, guid: 1d282c9279ddf934c9b5f62e253b7b8e, type: 2}
+    value: {fileID: 8157247850882082752}
+  - key: {fileID: -157592468427815941, guid: 1d282c9279ddf934c9b5f62e253b7b8e, type: 2}
     value: {fileID: 8157247850882082752}
   m_ExposedReferences:
     m_References: []

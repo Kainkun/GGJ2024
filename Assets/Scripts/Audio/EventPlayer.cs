@@ -2,6 +2,7 @@
 
 namespace ScriptedEvents
 {
+
     public class EventPlayer : MonoBehaviour
     {
         public bool autoPlay = false;

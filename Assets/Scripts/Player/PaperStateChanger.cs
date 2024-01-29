@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Player
 {
@@ -11,4 +12,5 @@ namespace Player
             FindAnyObjectByType<PaperRandomizer>().CurrentState = state;
         }
     }
+
 }
