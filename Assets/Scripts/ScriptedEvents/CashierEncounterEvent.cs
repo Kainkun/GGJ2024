@@ -2,6 +2,7 @@
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.Playables;
+using Event = AK.Wwise.Event;
 
 namespace ScriptedEvents
 {
@@ -12,6 +13,7 @@ namespace ScriptedEvents
         [Header("Settings")]
         [SerializeField] private int clicksToPutDownMilk = 3;
         [SerializeField] private float maxMilkShakeIntensity = 2;
+        [SerializeField] private Event milkShakeEvent;
     
         [Header("References")]
         [SerializeField] private ShakeApplier milkShake;
@@ -74,6 +76,7 @@ namespace ScriptedEvents
             {
                 if (Input.anyKeyDown)
                 {
+                    milkShakeEvent.Post(gameObject);
                     remainingAttempts--;
                     // todo: this shake really isnt that well done
                     milkShake.Strength = (clicksToPutDownMilk + 1.0f - remainingAttempts) / clicksToPutDownMilk * maxMilkShakeIntensity;
