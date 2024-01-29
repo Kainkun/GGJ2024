@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{3CED9E53-63A7-525B-38B1-EF668E510A07}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{12D72877-44B3-188A-03A7-81F4D9B96C17}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -398,13 +398,10 @@
 					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="553994197" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="601803084" Name="Compressor (Custom)" LibName="Wwise Compressor" LibId="7077891"/>
-					<Plugin Id="1064166627" Name="Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
 				</Custom>
 				<ShareSets>
-					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
 					<Plugin Id="1074933567" Name="Footstep_Limit" LibName="Wwise Peak Limiter" LibId="7208963"/>
-					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="2288007518" Name="DeEsser" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
@@ -972,28 +969,7 @@
 					</MediaRefs>
 				</Event>
 			</Events>
-			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="1064166627"/>
-						</Custom>
-						<ShareSets>
-							<PluginRef Id="1459522457"/>
-						</ShareSets>
-					</PluginRefs>
-				</Bus>
-			</Busses>
-			<AuxBusses>
-				<AuxBus Id="4012807925" Name="ReverbAux">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="48620415"/>
-						</ShareSets>
-					</PluginRefs>
-				</AuxBus>
-			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DE10E3D1-2B40-767B-D606-20A7B3B6F819}</FileHash>
+	<FileHash>{0855D0C6-ED79-D25D-C8A2-4F2B45722532}</FileHash>
 </SoundBanksInfo>

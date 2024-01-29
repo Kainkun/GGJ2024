@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sharp Corner Chip
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: ea1cf4b915b679946bcd5ade033cd021, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 385909abf55642642b5253aed986c4ff, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: ea1cf4b915b679946bcd5ade033cd021, type: 3}
