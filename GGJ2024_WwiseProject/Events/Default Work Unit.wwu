@@ -184,6 +184,17 @@
 						</Event>
 						<Event Name="Play_Cashier_Random_GdMorning" ID="{91978FDB-62C5-4B32-A81E-DAA7C394F25B}">
 							<ChildrenList>
+								<Action Name="" ID="{58C87FCD-B5F1-435A-AD78-20C50DEA44E0}" ShortID="438786566">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_SmallTalk" ID="{F8D3B34A-8875-4E37-8AE2-49291F4EECC0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{EEFFE2B3-53EE-4E28-9CB1-1F1F5E65EAD5}" ShortID="354929331">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -206,6 +217,17 @@
 						</Event>
 						<Event Name="Play_Cashier_Sequence_Instructions" ID="{5C435E7F-1C8F-42F6-9367-156CDA822930}">
 							<ChildrenList>
+								<Action Name="" ID="{E74C2E60-4992-4398-9E69-BC22D4C37E4B}" ShortID="58649662">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cashier_SmallTalk" ID="{F8D3B34A-8875-4E37-8AE2-49291F4EECC0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{3FE6A974-54B0-482B-99F0-7CD3FB5AE551}" ShortID="687247888">
 									<ReferenceList>
 										<Reference Name="Target">
