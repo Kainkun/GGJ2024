@@ -1953,10 +1953,12 @@
 															<Effect Name="Parametric EQ (Custom)" ID="{4C0D2E22-BCF1-4B66-8E30-451F57A660E4}" ShortID="553994197" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 																<PropertyList>
 																	<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+																	<Property Name="FilterTypeBand2" Type="int32" Value="4"/>
 																	<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
 																	<Property Name="FrequencyBand1" Type="Real32" Value="82"/>
 																	<Property Name="FrequencyBand3" Type="Real32" Value="7784"/>
 																	<Property Name="GainBand1" Type="Real32" Value="22"/>
+																	<Property Name="GainBand2" Type="Real32" Value="1"/>
 																</PropertyList>
 															</Effect>
 														</Custom>
@@ -3158,7 +3160,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-2.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

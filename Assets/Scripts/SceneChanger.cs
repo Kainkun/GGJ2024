@@ -23,9 +23,9 @@ public class SceneChanger : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            GetComponent<Animator>().SetTrigger("FadeOut");
-        }
+        // if (Input.GetKeyDown(KeyCode.P))
+        // {
+        //     GetComponent<Animator>().SetTrigger("FadeOut");
+        // }
     }
 }

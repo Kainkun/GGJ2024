@@ -24,7 +24,11 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 0dd286dc9f77a34bb8159fb91ae77aaf
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584952690497946875
+=======
+    m_lastTime: -8584952625735149637
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +42,11 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 013e3f2b28d00947acbc02708e299061
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584951256575259608
+=======
+    m_lastTime: -8584951140478048594
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -83,7 +91,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584951156977714889
+=======
+    m_lastTime: -8584951156981426231
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
     List:
     - name: SoundBank
       guid: 8cd371baccf74f438c2972fc329213cd
@@ -111,7 +123,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584951156977745050
+=======
+    m_lastTime: -8584951156981466244
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
     List:
     - name: Cashier Events
       guid: 57928b10f69dfc4b8106617ad0357570
@@ -1159,7 +1175,11 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: d54a140e1e3d5e4eb40465470c89b070
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584952690499301693
+=======
+    m_lastTime: -8584952625735199637
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1173,7 +1193,11 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 43a2b741fff2d64daa4ef995c4bb84a5
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584952690499572146
+=======
+    m_lastTime: -8584952625735159637
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1187,7 +1211,11 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 6db6c00f92cfd94d99c93a94916aeaf7
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584952690499982177
+=======
+    m_lastTime: -8584952625735159637
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1201,10 +1229,17 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c48bc04af46f884f983bca714ff3e3c0
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8584952690498219148
     List: []
   ExpandedFileSystemItemIds: 0200000003000000040000000500000006000000070000000e0000000f00000019000000
   ExpandedWaapiItemIds: 06000000070000000e0000000f00000019000000
+=======
+    m_lastTime: -8584952625735149637
+    List: []
+  ExpandedFileSystemItemIds: 02000000030000000600000007000000330000003500000036000000
+  ExpandedWaapiItemIds: 
+>>>>>>> 31e4ca58388778fd497902880f6d86e7f647b578
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 1

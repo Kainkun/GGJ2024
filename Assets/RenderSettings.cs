@@ -14,7 +14,6 @@ public class RenderSettings : MonoBehaviour
 
     private void Awake()
     {
-        SetSunDistance(27f);
     }
 
     public void SetSunDistance(float distance)
