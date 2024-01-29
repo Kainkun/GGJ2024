@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{5AF8055F-501B-1D49-5F18-ED57FB762008}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{60BAF429-7493-4D00-F9FB-7C65A41B8E06}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -403,7 +403,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1705887329" Name="Play_AC_Ambience" MaxAttenuation="13" DurationType="Infinite">
+				<Event Id="1705887329" Name="Play_AC_Ambience" MaxAttenuation="9" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="788903558"/>
 					</MediaRefs>
@@ -728,7 +728,7 @@
 						<MediaRef Id="55457130"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1756293666" Name="Play_Flourecent_Loop" MaxAttenuation="13" DurationType="Infinite">
+				<Event Id="1756293666" Name="Play_Flourecent_Loop" MaxAttenuation="9" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1043483779"/>
 					</MediaRefs>
@@ -736,7 +736,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2633745870" Name="Play_Freezer_Ambience" MaxAttenuation="13" DurationType="Infinite">
+				<Event Id="2633745870" Name="Play_Freezer_Ambience" MaxAttenuation="9" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="496928318"/>
 					</MediaRefs>
@@ -766,7 +766,7 @@
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2809485985" Name="Play_GasStationDingDong" MaxAttenuation="13" DurationType="OneShot" DurationMin="1.7517849" DurationMax="1.7517849">
+				<Event Id="2809485985" Name="Play_GasStationDingDong" MaxAttenuation="9" DurationType="OneShot" DurationMin="1.7517849" DurationMax="1.7517849">
 					<MediaRefs>
 						<MediaRef Id="126492990"/>
 					</MediaRefs>
@@ -940,5 +940,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{303AC2BD-A73A-C686-8FF6-690BCB8515C7}</FileHash>
+	<FileHash>{DCDB0E12-982E-DA13-973B-82ABE1B48FB7}</FileHash>
 </SoundBanksInfo>
