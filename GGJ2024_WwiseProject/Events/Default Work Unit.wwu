@@ -693,6 +693,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Exterior_Ambience_Loop" ID="{DDBCC3D2-4358-4BA8-8B06-FF9CE7841549}">
+					<ChildrenList>
+						<Action Name="" ID="{92E4B470-3C24-4151-8034-A352BCAC785B}" ShortID="901569425">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exterior_Ambience_Loop" ID="{9EE52A88-22B0-4AB6-A975-0826E96F9C46}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Milk_Acquired" ID="{C11D7A3C-C5AE-4323-9D08-298A0BCAE95B}">
+					<ChildrenList>
+						<Action Name="" ID="{D7E0343B-890B-4054-A47E-BCC36ACEE050}" ShortID="218213009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Milk_Acquired" ID="{4EB69D32-1794-4A15-B5E9-673F4968C3B3}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

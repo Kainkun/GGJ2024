@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Female_Voice_HaveANiceDay" ID="{43581C88-8BC8-4134-9614-6C98F833BA08}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shelf" ID="{C66E6932-FDD9-4146-A5B1-4932844BA443}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_GoGetMilk" ID="{4EFDD8C1-CC60-4151-8F23-4669FD2A6BDD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PA_Man" ID="{B38A0064-8348-4152-A7C6-F425CC7759D6}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PA_Man_ClosingIn30" ID="{83FCD484-6CF7-4175-8E7A-A0E2C9C4EC30}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_PlanningToPay" ID="{F99C4E82-D0DF-41E2-87DC-B2AD0F546369}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
@@ -26,6 +27,7 @@
 						<ObjectRef Name="Play_2D_Roomtone" ID="{4D0B3E14-B960-4380-A308-CA9AA6A238B2}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PA_Man_DairyInTheBack" ID="{81EADA86-F791-4396-9ECE-EFBA90425DAD}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_Random_Calling" ID="{62478F27-A7E9-43CD-BD21-73F81555E19A}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Register_beep" ID="{525072CD-B03D-43E3-9BB3-B0AD5AAEA2AA}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_Sequence_Instructions" ID="{EFF9CC7D-CC9B-4424-B1BE-1909A423D375}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Muzak_Guitar_1" ID="{74273338-FF72-442F-AFC4-3A8086E4BAAE}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interactable" ID="{E9D4718D-39EC-4439-BD5B-534EC8B9C71D}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
@@ -42,6 +44,7 @@
 						<ObjectRef Name="Play_Paper" ID="{E3DB92CF-A668-46F7-A5A7-6D6E66A6EBF0}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_Strong_Silent_Type" ID="{50B17929-3BEA-471E-A85B-416605F32691}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PA_Man_HalfOff" ID="{D828E321-851D-472B-BEDB-6CC869EF8FA5}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flourecent_Loop" ID="{1EDE6000-175B-4784-86BF-CAD1DABF1473}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GAMESTART" ID="{4B5DD192-305C-47C8-895F-5132E5799717}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{E4205C52-16BD-47F4-9DB9-82E5BDFC8856}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wife_Soon" ID="{5A56E5C7-BC29-47F5-8923-616E9CC82058}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
@@ -55,7 +58,9 @@
 						<ObjectRef Name="Play_Sequence_Welcome_WhatcanIDo" ID="{CC3F22CD-359F-49D7-AA16-171FFA237AEF}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Store Events" ID="{2EADACAA-DEE7-49E8-80F6-46A812CC3EFC}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Soda_Machine" ID="{E668756A-67C6-4A02-94BA-40ADEE3515BB}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Milk_Acquired" ID="{4EB69D32-1794-4A15-B5E9-673F4968C3B3}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GAMESTART_REPRISE" ID="{4DF7AB4C-370D-4A2F-A9E5-C7ABC4B4340B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Exterior_Ambience_Loop" ID="{9EE52A88-22B0-4AB6-A975-0826E96F9C46}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Register_beep" ID="{74D0C6B3-A3A7-4ABF-B11D-9E875F7A9EC4}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Meat_Log" ID="{CE34B51F-F72C-4B27-BB56-9EFAE0484C60}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Random_GdMorning" ID="{91978FDB-62C5-4B32-A81E-DAA7C394F25B}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
@@ -78,6 +83,7 @@
 						<ObjectRef Name="Cashier_SmallTalk" ID="{F8D3B34A-8875-4E37-8AE2-49291F4EECC0}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wife_BackSoSoon" ID="{94F34BCD-2E14-4E42-8398-E8F4DEB2F6B7}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AC_Ambience" ID="{42CB66B5-10F6-4E57-9DA5-BB5C9B9DCC64}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_GoGetMilk_Reprise" ID="{D39C076B-2236-4E62-A30F-49AB3577C8A2}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cashier_Sequence_JustTheMilk" ID="{16278448-CE37-4E6F-BCE4-3905D354F237}" WorkUnitID="{110EA830-C59F-4B3C-8035-A55C98549B65}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Muzak_Guitar" ID="{44E38D87-F6DE-4EA6-95E7-6AAD9D69EF53}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Strong_Silent_Type" ID="{DBD75136-13D4-4ED8-93CE-7FD2E49E32C3}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>

@@ -8,6 +8,9 @@ using UnityEngine.Rendering.Universal;
 public class RenderSettings : MonoBehaviour
 {
     public UniversalRenderPipelineAsset urp;
+    
+    public float fogDensity = 0.01f;
+    public Color fogColor = Color.grey;
 
     private void Awake()
     {
@@ -19,5 +22,11 @@ public class RenderSettings : MonoBehaviour
         QualitySettings.shadowDistance = distance;
         urp = (UniversalRenderPipelineAsset)GraphicsSettings.currentRenderPipeline;
         urp.shadowDistance = distance;
+    }
+
+    public void SetFog()
+    {
+        UnityEngine.RenderSettings.fogDensity = fogDensity;
+        UnityEngine.RenderSettings.fogColor = fogColor;
     }
 }

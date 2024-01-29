@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51838cfc0252c7478d420cd2933c7d4e
     GuidInternal: 
-    m_lastTime: -8584951231710447800
+    m_lastTime: -8584951210556789870
     List:
     - name: SoundBank
       guid: 8cd371baccf74f438c2972fc329213cd
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: e1320f094381294f9850a8ba563ff5f7
     GuidInternal: 
-    m_lastTime: -8584951256575279750
+    m_lastTime: -8584951210557751125
     List:
     - name: Cashier Events
       guid: 57928b10f69dfc4b8106617ad0357570
@@ -564,6 +564,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.7737819
       minDuration: 0.32610834
+    - name: Play_Exterior_Ambience_Loop
+      guid: d2c3bcdd5843a84b8b06ff9ce7841549
+      id: 1906367112
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Exterior_Ambience_Loop
+        ObjectType: 3
+        guid: d2c3bcdd5843a84b8b06ff9ce7841549
+      Path: Events\Default Work Unit\Play_Exterior_Ambience_Loop
+      maxAttenuation: 8
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Female_Voice_Goodbye
       guid: 8beda5564e5adf45972e1935bbd26a6b
       id: 3876234301
@@ -729,6 +746,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.58143324
       minDuration: 0.30781758
+    - name: Play_Milk_Acquired
+      guid: 3c7a1dc1aec523439d08298a0bcae95b
+      id: 2684971554
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e1320f094381294f9850a8ba563ff5f7
+      - ElementName: Play_Milk_Acquired
+        ObjectType: 3
+        guid: 3c7a1dc1aec523439d08298a0bcae95b
+      Path: Events\Default Work Unit\Play_Milk_Acquired
+      maxAttenuation: 0
+      maxDuration: 4.25
+      minDuration: 4.25
     - name: Play_Muzak_Guitar
       guid: 878de344def6a64e95e76aad9d69ef53
       id: 2931435471
@@ -1119,7 +1153,7 @@ MonoBehaviour:
     m_lastTime: -8584952690498219148
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000800000011000000120000001b0000001c0000001e000000
+  ExpandedWaapiItemIds: 060000000700000019000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

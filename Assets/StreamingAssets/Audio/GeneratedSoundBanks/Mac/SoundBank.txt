@@ -17,6 +17,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1705887329	Play_AC_Ambience			\Default Work Unit\Store Events\Play_AC_Ambience	
 	1756293666	Play_Flourecent_Loop			\Default Work Unit\Store Events\Play_Flourecent_Loop	
 	1782398807	Play_Milk			\Default Work Unit\Interactable\Play_Milk	
+	1906367112	Play_Exterior_Ambience_Loop			\Default Work Unit\Play_Exterior_Ambience_Loop	
 	1931749359	Play_Cashier_SmallTalk			\Default Work Unit\Cashier Events\Play_Cashier_SmallTalk	
 	2022546367	Play_Spoopy_Ambience			\Default Work Unit\Play_Spoopy_Ambience	
 	2045132466	Play_Cashier_PlanningToPay			\Default Work Unit\Cashier Events\Play_Cashier_PlanningToPay	
@@ -26,6 +27,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2258330001	Play_Cashier_Sequence_Instructions			\Default Work Unit\Cashier Events\Play_Cashier_Sequence_Instructions	
 	2459103792	Play_Wife_Trippy			\Default Work Unit\Wife\Play_Wife_Trippy	
 	2633745870	Play_Freezer_Ambience			\Default Work Unit\Store Events\Play_Freezer_Ambience	
+	2684971554	Play_Milk_Acquired			\Default Work Unit\Play_Milk_Acquired	
 	2690797124	Play_Can			\Default Work Unit\Interactable\Play_Can	
 	2809485985	Play_GasStationDingDong			\Default Work Unit\Store Events\Play_GasStationDingDong	
 	2848777120	Play_Cashier_Sequence_JustTheMilk			\Default Work Unit\Cashier Events\Play_Cashier_Sequence_JustTheMilk	
@@ -49,7 +51,9 @@ Effect plug-ins	ID	Name	Type				Notes
 	2675251108	New_Peak_Limiter	Wwise Peak Limiter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12546953	Milk_Acquired	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Milk_Acquired_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Milk_Acquired		816096
 	31538099	Cashier_Calling_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Cashier_Calling_80BA08B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_Calling\Cashier_Calling_02		190208
+	55457130	Exterior_Ambience_Loop	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Park Residential, Birds, Wind, Crows _STEREO_A120DF82.wem		\Actor-Mixer Hierarchy\Default Work Unit\Exterior_Ambience_Loop		6167480
 	68607420	Milk Carton_04	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Milk Carton_3268101F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Milk\Milk Carton_04		93672
 	70393620	Can_Interaction	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Can_Interaction_4AAA7132.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Can\Can_Interaction		52300
 	72556111	Cashier_Good_Morning_03	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Cashier_Good_Morning_A78196E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Random_GdMorning\Cashier_Good_Morning_03		185788
@@ -80,7 +84,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	375619510	Cashier_Instructions_03	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Cashier_Instructions_0778BED6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Sequence_Instructions\Cashier_Instructions_03		669308
 	380040983	Can_Interaction_01	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Can_Interaction_2E25CD0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Can\Can_Interaction_01		63252
 	392228245	Spoopy Ambience	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Spoopy Ambience_E1CBA1F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\Spoopy Ambience		3178556
-	408982861	Cashier_Meat_Log	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Cashier_Meat_Log_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_SmallTalk\Cashier_Meat_Log		345572
+	408982861	Cashier_Meat_Log	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Cashier_Meat_Log_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cashier\Cashier_Mixer\Cashier_Meat_Log		345572
 	454053554	Can_Interaction_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Can_Interaction_BA94A470.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Can\Can_Interaction_02		56168
 	496928318	Freezer_Loop	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Freezer_Loop_AF2026C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\7_11_Ambient Sounds\Freezer_Loop		3072144
 	531224561	Wife_Trippy_Sheet_02	C:\home\code\GGJ2024\GGJ2024_WwiseProject\.cache\Mac\SFX\Wife_Trippy_Sheet_3A117C00.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wife\Wife_Trippy\Wife_Trippy_Sheet_02		1413828
