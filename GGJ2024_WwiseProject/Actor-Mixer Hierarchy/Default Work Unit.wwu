@@ -1942,28 +1942,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Scariness_Level" ID="{35F8770D-2B46-4F4F-929E-0B9D7528E4DE}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Scarier" ID="{28C8683B-96F0-4B6F-9B59-3F342C2EEF66}"/>
-										<CustomState Name="" ID="{83622E42-330B-4CDE-8523-0C6E4AA32771}" ShortID="672439117">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32" Value="-4"/>
-												<Property Name="Volume" Type="Real64" Value="3"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Normal" ID="{DC2A7D2B-FE71-4EAD-86E2-4FD40B480ADC}"/>
-										<CustomState Name="" ID="{AC219F64-CB3D-4176-A721-750C1750F9F6}" ShortID="375860815"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -1984,92 +1962,7 @@
 														</Custom>
 													</Reference>
 												</ReferenceList>
-												<StateInfo>
-													<CustomStateList>
-														<CustomState>
-															<StateRef Name="Scarier" ID="{28C8683B-96F0-4B6F-9B59-3F342C2EEF66}"/>
-															<CustomState Name="" ID="{F66AF194-EB46-43CD-A6E6-B0A52124123D}" ShortID="200516244"/>
-														</CustomState>
-														<CustomState>
-															<StateRef Name="Normal" ID="{DC2A7D2B-FE71-4EAD-86E2-4FD40B480ADC}"/>
-															<CustomState Name="" ID="{3B7A67C6-2BE1-47EC-A6CF-092D32612225}" ShortID="242789933"/>
-														</CustomState>
-													</CustomStateList>
-												</StateInfo>
 											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{31FB2B49-E554-48C0-8928-F6CE0943056F}" ShortID="859558707">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Scary" ID="{137ECAB7-B306-4666-AA3C-8A29FD8789EE}" WorkUnitID="{0E144AD5-3D1E-4E5E-B404-65470C89B070}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{B176A058-5740-4D57-B2FA-32A4F942458B}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-0.43079</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>2</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{26A5319B-F162-4A18-A43C-5203F47F4985}" ShortID="476677987">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Pitch"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Scary" ID="{137ECAB7-B306-4666-AA3C-8A29FD8789EE}" WorkUnitID="{0E144AD5-3D1E-4E5E-B404-65470C89B070}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{19B2BF95-2A5F-4819-85A7-31326CAF84B0}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>2</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
 										</Local>
 									</Reference>
 								</ObjectList>
@@ -3573,11 +3466,11 @@
 							<ChildrenList>
 								<AudioFileSource Name="Wife_Super_Trippy_Sheet" ID="{5DC3FA14-64D5-42C9-87A7-911BE81459F2}">
 									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="1.55088852988691"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="7.95865552017817"/>
 										<Property Name="LoopBegin" Type="Real64" Value="38.7722132471729"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="18.2229402261712"/>
-										<Property Name="TrimEnd" Type="Real64" Value="26.7528271405493"/>
+										<Property Name="TrimEnd" Type="Real64" Value="31.8013708298697"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Wife_Super_Trippy_Sheet.wav</AudioFile>
@@ -3792,7 +3685,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>6</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -3808,7 +3701,9 @@
 						<AudioFileSource Name="LFE Rumble 3" ID="{2E3A6F9E-BA3F-4167-9CDA-C570B4851CC7}">
 							<PropertyList>
 								<Property Name="FadeInDuration" Type="Real64" Value="2.61508112883683"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="4.43268294902913"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.96987439320388"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>LFE Rumble 3.wav</AudioFile>
