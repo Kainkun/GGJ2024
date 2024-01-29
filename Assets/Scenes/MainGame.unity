@@ -19331,6 +19331,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3262021808784048283, guid: 6ff7d230c15eeaa468495e3d5d9e4037, type: 3}
+      propertyPath: paperMessages.Array.data[2].messageOptions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3262021808784048283, guid: 6ff7d230c15eeaa468495e3d5d9e4037, type: 3}
+      propertyPath: paperMessages.Array.data[2].messageOptions.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 15a57bf804566fc40aa8aecb9102185b, type: 3}
     - target: {fileID: 5274469345456061421, guid: 6ff7d230c15eeaa468495e3d5d9e4037, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.883
@@ -25600,7 +25608,7 @@ PrefabInstance:
       objectReference: {fileID: 1998786817}
     - target: {fileID: 8177956951904319811, guid: df15fd474941dec4a9a869c48c766976, type: 3}
       propertyPath: triggered.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8177956951904319811, guid: df15fd474941dec4a9a869c48c766976, type: 3}
       propertyPath: triggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -27000,6 +27008,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 380250137}
+    - target: {fileID: 416628824586855676, guid: b16790266fd0675469a1cc7f20701d1a, type: 3}
+      propertyPath: passcode.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 416628824586855676, guid: b16790266fd0675469a1cc7f20701d1a, type: 3}
+      propertyPath: passcode.Array.data[1]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 416628824586855676, guid: b16790266fd0675469a1cc7f20701d1a, type: 3}
+      propertyPath: passcode.Array.data[3]
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 416628824586855676, guid: b16790266fd0675469a1cc7f20701d1a, type: 3}
       propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.size
       value: 2
