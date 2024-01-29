@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public struct InteractEventData
@@ -14,18 +15,34 @@ public class Interactable : MonoBehaviour
     private float maxInteractDistance = 1;
 
     [SerializeField] 
+    private float cooldown = 0;
+
+    [SerializeField] 
     public UnityEvent<InteractEventData> onInteract;
+
+    private float _cooldown;
     
     public bool CanInteract(GameObject source)
     {
         float distanceSqr = (source.transform.position - transform.position).sqrMagnitude;
         bool isInRange = distanceSqr < maxInteractDistance * maxInteractDistance;
-        return isInRange && enabled && gameObject.activeInHierarchy;
+        bool offCooldown = _cooldown <= 0;
+        return isInRange && offCooldown && enabled && gameObject.activeInHierarchy;
+    }
+
+    private void Update()
+    {
+        _cooldown -= Time.deltaTime;
+        _cooldown = Mathf.Max(0, _cooldown);
     }
 
     public void Interact(GameObject source)
     {
+        if (_cooldown > 0)
+            return;
+            
         print($"Interacted with {name}");
+        _cooldown = cooldown;
         
         onInteract.Invoke(new InteractEventData
         {

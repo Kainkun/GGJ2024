@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxInteractDistance: 3
+  cooldown: 1
   onInteract:
     m_PersistentCalls:
       m_Calls:
@@ -246,6 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9f7c1e02284a3aacc4305a788b4298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  autoPlay: 0
   eventToPlay:
     idInternal: 0
     valueGuidInternal: 
