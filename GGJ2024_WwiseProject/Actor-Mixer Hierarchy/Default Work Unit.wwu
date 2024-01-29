@@ -1496,15 +1496,74 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{0229C1E0-AA8A-461F-A911-0F2162D03D68}" ShortID="734658171">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="DeEsser" ID="{D4DC22D2-0CC7-41BB-A09C-05B30FD1C142}" WorkUnitID="{565CAC7B-0992-4304-81AE-805238CE179A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{D52AE6D4-E190-4C72-8BB2-DD687FE1FACE}" ShortID="634006297">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Compressor (Custom)" ID="{D5088C5D-9A13-44D1-B762-B048DF3DB6F1}" ShortID="601803084" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+																<PropertyList>
+																	<Property Name="AttackTime" Type="Real32" Value="0.7"/>
+																	<Property Name="OutputGain" Type="Real32" Value="1"/>
+																	<Property Name="Ratio" Type="Real32" Value="1.4"/>
+																	<Property Name="ReleaseTime" Type="Real32" Value="0.4"/>
+																	<Property Name="Threshold" Type="Real32" Value="-25"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4A96461D-5C33-43A2-B008-AAB5F2C11135}" ShortID="498818515">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Peak Limiter (Custom)" ID="{960F47DA-34EC-488B-9DA6-2E2F078AF2E9}" ShortID="80734065" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+																<PropertyList>
+																	<Property Name="Ratio" Type="Real32" Value="50"/>
+																	<Property Name="Threshold" Type="Real32" Value="-14"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 				<ActorMixer Name="PA_Man" ID="{B38A0064-8348-4152-A7C6-F425CC7759D6}" ShortID="382854801">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
 								<Value>33</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
@@ -1522,6 +1581,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="ReverbAux" ID="{CB433BE7-E5E0-4A5F-B0CC-834AAD77E668}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2838,10 +2900,20 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Paper" ID="{FA25DB5B-4EC5-46D2-A103-BC2408F2E4BA}" ShortID="943660788">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
 										<Value>-20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

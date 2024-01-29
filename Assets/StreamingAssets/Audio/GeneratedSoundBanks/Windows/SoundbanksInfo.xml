@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{49F40A36-F997-0DD2-09E0-F9F4E685493B}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{5AF8055F-501B-1D49-5F18-ED57FB762008}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -794,13 +794,8 @@
 				<Event Id="2931435471" Name="Play_Muzak_Guitar" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="359667351"/>
-						<MediaRef Id="392228245"/>
-						<MediaRef Id="549182951"/>
 					</MediaRefs>
 					<PluginRefs>
-						<Custom>
-							<PluginRef Id="553994197"/>
-						</Custom>
 						<ShareSets>
 							<PluginRef Id="2675251108"/>
 						</ShareSets>
@@ -812,55 +807,31 @@
 				<Event Id="3619978204" Name="Play_PA_Man_Closingin10" MaxAttenuation="15" DurationType="OneShot" DurationMin="3.4269164" DurationMax="3.4269164">
 					<MediaRefs>
 						<MediaRef Id="107684846"/>
-						<MediaRef Id="359667351"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="2675251108"/>
-						</ShareSets>
-					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
 				<Event Id="3653533474" Name="Play_PA_Man_ClosingIn30" MaxAttenuation="15" DurationType="OneShot" DurationMin="9.511466" DurationMax="9.511466">
 					<MediaRefs>
-						<MediaRef Id="359667351"/>
 						<MediaRef Id="943646738"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="2675251108"/>
-						</ShareSets>
-					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
 				<Event Id="4052274365" Name="Play_PA_Man_DairyInTheBack" MaxAttenuation="15" DurationType="OneShot" DurationMin="17.282362" DurationMax="17.282362">
 					<MediaRefs>
-						<MediaRef Id="359667351"/>
 						<MediaRef Id="586637315"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="2675251108"/>
-						</ShareSets>
-					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
 				</Event>
 				<Event Id="2102180961" Name="Play_PA_Man_HalfOff" MaxAttenuation="15" DurationType="OneShot" DurationMin="10.42972" DurationMax="10.42972">
 					<MediaRefs>
-						<MediaRef Id="359667351"/>
 						<MediaRef Id="620687934"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="2675251108"/>
-						</ShareSets>
-					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
 					</AuxBusRefs>
@@ -920,7 +891,6 @@
 				</Event>
 				<Event Id="145970281" Name="Play_Solo_Whistling" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="359667351"/>
 						<MediaRef Id="549182951"/>
 					</MediaRefs>
 					<PluginRefs>
@@ -934,20 +904,13 @@
 				</Event>
 				<Event Id="2022546367" Name="Play_Spoopy_Ambience" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="359667351"/>
 						<MediaRef Id="392228245"/>
 					</MediaRefs>
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="553994197"/>
 						</Custom>
-						<ShareSets>
-							<PluginRef Id="2675251108"/>
-						</ShareSets>
 					</PluginRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="4012807925" Name="ReverbAux"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="2225884798" Name="Play_Wife_BackSoSoon" DurationType="OneShot" DurationMin="0.8078176" DurationMax="0.8078176">
 					<MediaRefs>
@@ -977,5 +940,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0A1A1A1F-B5B2-20B5-A46E-05E8A072870F}</FileHash>
+	<FileHash>{303AC2BD-A73A-C686-8FF6-690BCB8515C7}</FileHash>
 </SoundBanksInfo>
