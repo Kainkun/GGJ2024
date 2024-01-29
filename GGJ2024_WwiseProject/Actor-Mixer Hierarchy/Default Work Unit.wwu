@@ -421,23 +421,33 @@
 					<ChildrenList>
 						<ActorMixer Name="Cashier_Mixer" ID="{FBC871BD-F6C4-4D09-9C4E-0156F78CBF65}" ShortID="814831996">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>15</Value>
+									</ValueList>
+								</Property>
 								<Property Name="ReflectionsVolume" Type="Real64">
 									<ValueList>
 										<Value>12</Value>
 									</ValueList>
 								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-9.5</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>3.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Music_Atten" ID="{F92BDAF1-ED87-482E-B0C3-0CFBB78B69D5}" WorkUnitID="{FE91155A-F276-49B4-8799-B817E46D2EC0}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
 								</Reference>
@@ -461,7 +471,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
