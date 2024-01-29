@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{0FE72543-F767-5C74-518A-376D30B6019B}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{3CED9E53-63A7-525B-38B1-EF668E510A07}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -57,7 +57,7 @@
 				</File>
 				<File Id="22606991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LFE Rumble 3.wav</ShortName>
-					<CachePath>SFX/LFE Rumble 3_8F066EFE.wem</CachePath>
+					<CachePath>SFX/LFE Rumble 3_CAA76C31.wem</CachePath>
 				</File>
 				<File Id="31538099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cashier_Calling.wav</ShortName>
@@ -197,7 +197,7 @@
 				</File>
 				<File Id="432410495" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wife_Super_Trippy_Sheet.wav</ShortName>
-					<CachePath>SFX/Wife_Super_Trippy_Sheet_BE84A031.wem</CachePath>
+					<CachePath>SFX/Wife_Super_Trippy_Sheet_9C3CC9F1.wem</CachePath>
 				</File>
 				<File Id="454053554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Can_Interaction.wav</ShortName>
@@ -398,10 +398,13 @@
 					<Plugin Id="425319014" Name="Peak Limiter (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="553994197" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="601803084" Name="Compressor (Custom)" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="1064166627" Name="Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
 				</Custom>
 				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="418265525" Name="Gentle_Program_Compressor_Minus_14dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
 					<Plugin Id="1074933567" Name="Footstep_Limit" LibName="Wwise Peak Limiter" LibId="7208963"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
 					<Plugin Id="2288007518" Name="DeEsser" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="2675251108" Name="New_Peak_Limiter" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
@@ -969,7 +972,28 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1064166627"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="1459522457"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="4012807925" Name="ReverbAux">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ABC9BC4A-09D5-74FB-2E24-A639001E3FAE}</FileHash>
+	<FileHash>{A08F1717-A54A-3B51-4C0D-9D5B50A57114}</FileHash>
 </SoundBanksInfo>
