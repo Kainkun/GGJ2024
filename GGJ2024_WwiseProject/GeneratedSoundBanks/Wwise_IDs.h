@@ -33,6 +33,7 @@ namespace AK
         static const AkUniqueID PLAY_CASHIER_THEREYOUARE = 3298164935U;
         static const AkUniqueID PLAY_CASHIER_VITIMIN_D = 615435047U;
         static const AkUniqueID PLAY_CEREAL = 35188282U;
+        static const AkUniqueID PLAY_COULDYOUGETSOMEMORE = 5477193U;
         static const AkUniqueID PLAY_EXTERIOR_AMBIENCE_LOOP = 1906367112U;
         static const AkUniqueID PLAY_FLOURECENT_LOOP = 1756293666U;
         static const AkUniqueID PLAY_FREEZER_AMBIENCE = 2633745870U;
@@ -59,32 +60,6 @@ namespace AK
         static const AkUniqueID PLAY_WIFE_SOON_2 = 195073926U;
         static const AkUniqueID PLAY_WIFE_TRIPPY = 2459103792U;
     } // namespace EVENTS
-
-    namespace STATES
-    {
-        namespace SCARINESS_LEVEL
-        {
-            static const AkUniqueID GROUP = 1195464897U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID NORMAL = 1160234136U;
-                static const AkUniqueID SCARIER = 1332574518U;
-            } // namespace STATE
-        } // namespace SCARINESS_LEVEL
-
-    } // namespace STATES
-
-    namespace GAME_PARAMETERS
-    {
-        static const AkUniqueID SCARY = 2397348899U;
-    } // namespace GAME_PARAMETERS
-
-    namespace TRIGGERS
-    {
-        static const AkUniqueID MORE_SCARY = 2460490579U;
-    } // namespace TRIGGERS
 
     namespace BANKS
     {

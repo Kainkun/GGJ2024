@@ -1556,11 +1556,17 @@
 				<ActorMixer Name="PA_Man" ID="{B38A0064-8348-4152-A7C6-F425CC7759D6}" ShortID="382854801">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
 								<Value>33</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>-20</Value>
@@ -1753,6 +1759,11 @@
 						<Sound Name="Freezer_Loop" ID="{F4D371F4-5B08-48A7-A4E1-2FAFEDD199F0}" ShortID="151328908">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
@@ -1762,7 +1773,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1.5</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1897,9 +1908,14 @@
 						<Sound Name="Spoopy Ambience" ID="{1FFA701B-9FD2-412D-B851-519B49F4AE18}" ShortID="354939314">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3128,11 +3144,21 @@
 						</Sound>
 						<RandomSequenceContainer Name="Wife_Trippy" ID="{000CB772-1782-47A7-9E31-F2AADE103EA7}" ShortID="619180809">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3146,6 +3172,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Wife_Trippy_Sheet" ID="{E0218805-9BDB-40FA-8B94-140F17EA45A1}" ShortID="614313673">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
@@ -3168,11 +3198,23 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{9E798CBF-DBD1-44E3-9149-5AB3EDAE8A54}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="63.8146167557932"/>
+												<Property Name="PanY" Type="Real64" Value="24.5681381957773"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Wife_Trippy_Sheet" ID="{AEFEE044-FA79-46F0-BA3C-F1BF1B749F67}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wife_Trippy_Sheet_01" ID="{17DAD2A6-C143-4580-AEBC-6A3B018395BD}" ShortID="793441707">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
@@ -3197,12 +3239,22 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{1FEED522-27C1-4809-A9DF-93A27A4085E0}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-66.3101604278075"/>
+												<Property Name="PanY" Type="Real64" Value="39.9232245681382"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Wife_Trippy_Sheet" ID="{A61EC6DC-6445-4506-B292-60A13B4118F1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wife_Trippy_Sheet_02" ID="{BFF14D16-474F-42A7-B6E8-4B18AFF88CD2}" ShortID="762083624">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6</Value>
@@ -3238,11 +3290,23 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{41FF1EAC-00DC-42BE-9C3A-B7E553055272}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="51.3368983957219"/>
+												<Property Name="PanY" Type="Real64" Value="-54.510556621881"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Wife_Trippy_Sheet" ID="{F8B80F1A-28A2-4DA9-85FD-0AD200958DAB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wife_Trippy_Sheet_03" ID="{ED55CFC8-6198-47D1-91A0-E2A1F829D654}" ShortID="468481065">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
@@ -3267,12 +3331,22 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{DA27EDCE-D307-407B-A493-A885EF214E46}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-87.3440285204991"/>
+												<Property Name="PanY" Type="Real64" Value="45.2975047984645"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Wife_Trippy_Sheet" ID="{B12B74DA-3DF7-48B6-9E08-4E8184E78A61}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wife_Trippy_Sheet_04" ID="{2CC46D40-2D78-434A-AF33-03A5ECDF43BD}" ShortID="294188469">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>60</Value>
@@ -3303,11 +3377,23 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{40B7D393-3E1C-40E4-AB21-F2D2F40940A6}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="4.27807486631016"/>
+												<Property Name="PanY" Type="Real64" Value="84.0690978886756"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Wife_Trippy_Sheet" ID="{FC7E06B0-C914-4440-8754-41CE1393CB7F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Wife_Trippy_Sheet_05" ID="{538BBE84-4ACF-45FB-A51A-5F1BA9513B50}" ShortID="602197679">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
@@ -3332,12 +3418,71 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{7A77F2C4-1D78-40E5-A76B-B3EB9D2CDEEC}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-1.06951871657754"/>
+												<Property Name="PanY" Type="Real64" Value="-62.9558541266795"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Wife_Trippy_Sheet" ID="{5C0DCA69-515C-4388-9FB4-74B1487EA463}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Wife_Super_Trippy_Sheet_01" ID="{CA674F4B-15F4-4D46-9701-F96D9F4E5BCA}" ShortID="90121479">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wife_Super_Trippy_Sheet" ID="{8198CDF5-7306-45B7-B05B-B580FE5F8B6E}">
+									<Language>SFX</Language>
+									<AudioFile>Wife_Super_Trippy_Sheet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="367859804"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wife_Super_Trippy_Sheet" ID="{8198CDF5-7306-45B7-B05B-B580FE5F8B6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wife_Super_Trippy_Sheet_02" ID="{2BB8205D-1182-44BC-BA55-D7A4B209EBB0}" ShortID="467042991">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wife_Super_Trippy_Sheet" ID="{5DC3FA14-64D5-42C9-87A7-911BE81459F2}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="7.95865552017817"/>
+										<Property Name="LoopBegin" Type="Real64" Value="38.7722132471729"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="18.2229402261712"/>
+										<Property Name="TrimEnd" Type="Real64" Value="31.8013708298697"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Wife_Super_Trippy_Sheet.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="432410495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wife_Super_Trippy_Sheet" ID="{5DC3FA14-64D5-42C9-87A7-911BE81459F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Car Drive" ID="{00EA2705-CD7B-4E3D-823D-724EB687097A}" ShortID="1066994541">
@@ -3534,6 +3679,68 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Milk_Acquired" ID="{19E805D1-40FF-4501-BFFC-5DC8CF64BF40}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LFE_Rumble" ID="{B3D7266F-7F39-4D21-A94E-31C402BFF295}" ShortID="213907212">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LFE Rumble 3" ID="{2E3A6F9E-BA3F-4167-9CDA-C570B4851CC7}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2.61508112883683"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="4.43268294902913"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.96987439320388"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>LFE Rumble 3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="22606991"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LFE Rumble 3" ID="{2E3A6F9E-BA3F-4167-9CDA-C570B4851CC7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lightning" ID="{866A1846-9BC2-4313-91B2-3D92462B69A7}" ShortID="949491611">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EDA14997-8E64-47C0-A0F9-7896BEF84D2B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B3F3E01-D028-4709-ACBC-02708E299061}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="500507-Lightning_Strike_-Thunder_Storm_Zap_and_Rumble_Crack_Noise_-05_000034_" ID="{342B4FBE-5EA7-4C97-8847-4F10C4EB97CD}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.80294622083361"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>500507-Lightning_Strike_-Thunder_Storm_Zap_and_Rumble_Crack_Noise_-05_000034_.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="428015294"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="500507-Lightning_Strike_-Thunder_Storm_Zap_and_Rumble_Crack_Noise_-05_000034_" ID="{342B4FBE-5EA7-4C97-8847-4F10C4EB97CD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

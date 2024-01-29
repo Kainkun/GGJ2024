@@ -32,7 +32,9 @@
 						<ObjectRef Name="Play_GAMESTART" ID="{4B5DD192-305C-47C8-895F-5132E5799717}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wife_Soon" ID="{5A56E5C7-BC29-47F5-8923-616E9CC82058}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Solo_Whistling" ID="{C79F2B0D-72F7-480E-83BE-FFF68590E444}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lightning" ID="{0FDC03E0-8EC4-4827-96A6-BA5CB503D5E1}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Vitimin_D" ID="{819F757D-AFB3-487B-A246-AAFF2E8FC2FB}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CouldYouGetSomeMore" ID="{03261840-442E-48DD-BF7F-8519FA65D332}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PA Man Events" ID="{B88F71A0-D504-4986-B1DB-4459BC51BCD8}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sequence_Welcome_WhatcanIDo" ID="{CC3F22CD-359F-49D7-AA16-171FFA237AEF}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Store Events" ID="{2EADACAA-DEE7-49E8-80F6-46A812CC3EFC}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
@@ -56,7 +58,7 @@
 						<ObjectRef Name="Play_Cashier_Strong_Bones" ID="{F301B117-B1DB-4EE2-ADAA-2B3286AFB299}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Can" ID="{49A92052-2C59-4F01-8561-FCDB093A1BBF}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cashier_Random_Afternoon" ID="{8BB3C38D-54C1-4F41-B0A3-ED964CA01F0D}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Wife_Trippy" ID="{95E5C9BF-0059-4F59-A494-BA0E0FC5847E}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LFE_Rumble" ID="{CE719E26-533A-4FF0-A3B1-9F016AD3E9D4}" WorkUnitID="{090F32E1-8143-4F29-9850-A8BA563FF5F7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
