@@ -1300,6 +1300,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &90629184 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 264610671871427996, guid: f4ae50468f9aeb7418ee301ab3e2d0e0, type: 3}
+  m_PrefabInstance: {fileID: 5351299633594408061}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622892d5bd0b3f441a8a4a1f7c4dd1f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &99936252
 GameObject:
   m_ObjectHideFlags: 0
@@ -15087,6 +15098,7 @@ GameObject:
   - component: {fileID: 1022066574}
   - component: {fileID: 1022066573}
   - component: {fileID: 1022066572}
+  - component: {fileID: 1022066575}
   m_Layer: 0
   m_Name: Trigger (4)
   m_TagString: Untagged
@@ -15175,6 +15187,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.31917614, y: 1, z: 1}
   m_Center: {x: 0.26720113, y: 0, z: 0}
+--- !u!65 &1022066575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022066570}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.44, y: -0.09, z: -1.43}
 --- !u!43 &1022502417
 Mesh:
   m_ObjectHideFlags: 0
@@ -18919,6 +18952,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &1298533430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2226564593610068257, guid: f4ae50468f9aeb7418ee301ab3e2d0e0, type: 3}
+  m_PrefabInstance: {fileID: 5351299633594408061}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622892d5bd0b3f441a8a4a1f7c4dd1f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1308720276
 Mesh:
   m_ObjectHideFlags: 0
@@ -25708,6 +25752,18 @@ MonoBehaviour:
       - m_Target: {fileID: 344434966}
         m_TargetAssemblyTypeName: ScriptedEvents.CashierHelpEvent, Assembly-CSharp
         m_MethodName: StartEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1855570870}
+        m_TargetAssemblyTypeName: RepeatedEventPlayer, Assembly-CSharp
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -37132,6 +37188,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1338327184}
+    - target: {fileID: 3156715206360925821, guid: f4ae50468f9aeb7418ee301ab3e2d0e0, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1298533430}
     - target: {fileID: 3273417711741592326, guid: f4ae50468f9aeb7418ee301ab3e2d0e0, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -37140,6 +37200,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1338327184}
+    - target: {fileID: 3928451087149568704, guid: f4ae50468f9aeb7418ee301ab3e2d0e0, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 90629184}
     - target: {fileID: 3936028368593560928, guid: f4ae50468f9aeb7418ee301ab3e2d0e0, type: 3}
       propertyPath: m_Mesh
       value: 

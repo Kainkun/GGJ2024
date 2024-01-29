@@ -6434,10 +6434,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6492378693527719860}
     m_Modifications:
-    - target: {fileID: 7198053450267073736, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8342291324220746358, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
       propertyPath: m_Name
       value: pebble path (5)
@@ -6543,10 +6539,6 @@ PrefabInstance:
     - target: {fileID: 5299373205491873105, guid: 29c6f39d205b3b04d8c464064361c217, type: 3}
       propertyPath: m_Name
       value: Leaf Chili Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 5303040050474149893, guid: 29c6f39d205b3b04d8c464064361c217, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10227,10 +10219,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaf Chili Variant (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 5303040050474149893, guid: 29c6f39d205b3b04d8c464064361c217, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10311,10 +10299,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6492378693527719860}
     m_Modifications:
-    - target: {fileID: 7198053450267073736, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8342291324220746358, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
       propertyPath: m_Name
       value: pebble path (2)
@@ -10619,10 +10603,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaf Chili Variant (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5303040050474149893, guid: 29c6f39d205b3b04d8c464064361c217, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10917,10 +10897,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6492378693527719860}
     m_Modifications:
-    - target: {fileID: 7198053450267073736, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8342291324220746358, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
       propertyPath: m_Name
       value: pebble path (3)
@@ -10983,10 +10959,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6492378693527719860}
     m_Modifications:
-    - target: {fileID: 7198053450267073736, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8342291324220746358, guid: 80d3bc5da9e7a7c409c51b9b50e99301, type: 3}
       propertyPath: m_Name
       value: pebble path (4)
@@ -11154,10 +11126,6 @@ PrefabInstance:
     - target: {fileID: 4364329878429005085, guid: 8f19af1084dc5414eb769d69a78976d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7350667265908725817, guid: 8f19af1084dc5414eb769d69a78976d0, type: 3}
-      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
