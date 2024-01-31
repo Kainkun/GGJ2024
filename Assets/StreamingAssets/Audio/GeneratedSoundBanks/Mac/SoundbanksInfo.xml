@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{CDA52497-426C-2197-3F8C-62F662412982}">
+		<SoundBank Id="1661994096" Type="User" Language="SFX" Hash="{7B7D5377-DBFE-3DC7-401B-51C801C92834}">
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<Media>
@@ -389,7 +389,7 @@
 				</File>
 				<File Id="1043483779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flourecent_Loop.wav</ShortName>
-					<CachePath>SFX/Flourecent_Loop_C18F37DC.wem</CachePath>
+					<CachePath>SFX/Flourecent_Loop_46024103.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -995,5 +995,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FCBBA7AF-CB38-A60F-6E93-BBCE9D4537CE}</FileHash>
+	<FileHash>{D86EF759-EF1A-18A7-81ED-EC81D8E2460C}</FileHash>
 </SoundBanksInfo>
